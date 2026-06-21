@@ -1,5 +1,8 @@
 # Product Backlog: Hyrox Team Performance Optimizer
 
+> [!TIP]
+> **Jira Link:** La gestione dinamica del backlog, degli sprint e del tracciamento delle User Story è disponibile sulla board di progetto: **[Jira Project Board & Backlog](https://hyrox-training.atlassian.net/jira/software/projects/HTPO/boards/1/backlog)**.
+
 Il Product Backlog è lo strumento dinamico che raccoglie tutti i requisiti, le funzionalità e i miglioramenti del sistema. In linea con i principi Scrum, le stime definitive in Story Points (scala di Fibonacci) sono di **competenza esclusiva del Team di Sviluppo** e verranno assegnate durante le sessioni periodiche di Backlog Refinement.
 
 Ai fini della pianificazione della release e dell'allineamento con la baseline della WBS, in questa sede vengono presentate delle **Stime Preliminari di Baseline**. Per gli elementi di forte innovazione o R&D (come l'algoritmo di riconoscimento sensori), è pianificato uno *Spike Tecnologico* preliminare (US-TEC-03) per ridurre l'incertezza e consentire una stima più accurata dell'implementazione core (US-W-04).

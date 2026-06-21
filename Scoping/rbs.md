@@ -1,5 +1,8 @@
 **RBS: Hyrox Team Performance Optimizer** 
 
+> [!TIP]
+> **Miro Link:** La scomposizione visuale di questi requisiti (Requirements Breakdown Structure) è consultabile sulla board: **[Miro Board - CoS & RBS](https://miro.com/app/board/uXjVHGXupJA=/)**.
+
 **Livello 0: Soluzione Integrata per l'Ottimizzazione delle Performance Hyrox Team**
 
 **1\. Requisito: Sistema di Riconoscimento ed Analisi Automatica Esercizi (Smartwatch Atleta)** 

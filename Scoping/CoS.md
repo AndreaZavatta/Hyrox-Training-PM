@@ -1,5 +1,8 @@
 **Conditions of satisfactions**
 
+> [!TIP]
+> **Miro Link:** La mappatura visuale collaborativa di questa analisi (Wants vs Needs e CoS) è consultabile sulla board: **[Miro Board - CoS & RBS](https://miro.com/app/board/uXjVHFNQqIY=/)**.
+
 **WANTS vs NEEDS**
 
 L'identificazione dei desiderata (Wants) è stata condotta attraverso interviste strutturate ai coach, osservazione diretta sul campo durante le sessioni di allenamento e somministrazione di sondaggi mirati agli atleti. 
