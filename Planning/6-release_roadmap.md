@@ -1,4 +1,4 @@
-# Release Roadmap: Hyrox Team Performance Optimizer
+# Release Roadmap
 
 La Release Roadmap definisce la schedulazione temporale dei rilasci e la suddivisione del Product Backlog in cicli iterativi di sviluppo (Sprint). Il progetto si articola su un orizzonte temporale di **8 mesi** suddiviso in **16 Sprint di 2 settimane ciascuno**, raggruppati in 4 fasi principali di rilascio coerenti con le dipendenze logiche e architetturali.
 
@@ -17,34 +17,21 @@ La pianificazione segue una logica di **disaccoppiamento architetturale** e **mi
 ## 2. Schedulazione dei 16 Sprint
 
 ```mermaid
-gantt
-    title Roadmap di Rilascio (8 Mesi)
-    dateFormat  X
-    axisFormat Sprint %H
-    
-    section Fase 1: Foundation
-    Sprint 1: Setup & API          :active, s1, 0, 2
-    Sprint 2: Auth & Profilo       :active, s2, 2, 4
-    Sprint 3: Builder Workout      :active, s3, 4, 6
-    
-    section Fase 2: Core Wearable
-    Sprint 4: Watch UI & Spike     :s4, 6, 8
-    Sprint 5: Push & Fallback      :s5, 8, 10
-    Sprint 6: Algo Core            :s6, 10, 12
-    Sprint 7: Cache & Reports      :s7, 12, 14
-    Sprint 8: Sync Pipeline        :s8, 14, 16
-    
-    section Fase 3: Advanced
-    Sprint 9: Team View & Sanctions:s9, 16, 18
-    Sprint 10: Pacing & Flexibility:s10, 18, 20
-    Sprint 11: Offline Dashboard   :s11, 20, 22
-    
-    section Fase 4: QA & Release
-    Sprint 12: Lab Testing & Gate  :critical, s12, 22, 24
-    Sprint 13: Usability & SUS     :s13, 24, 26
-    Sprint 14: System E2E Testing  :s14, 26, 28
-    Sprint 15: Infra & Store Prep  :s15, 28, 30
-    Sprint 16: Deploy & Handover   :s16, 30, 32
+graph TD
+    subgraph Release 1: Foundation (Sprint 1-3)
+        S1[Sprint 1: Setup & API] --> S2[Sprint 2: Auth & Profilo] --> S3[Sprint 3: Builder Workout]
+    end
+    subgraph Release 2: Core Wearable (Sprint 4-8)
+        S3 --> S4[Sprint 4: Watch UI & Spike] --> S5[Sprint 5: Push & Fallback] --> S6[Sprint 6: Algo Core] --> S7[Sprint 7: Cache & Reports] --> S8[Sprint 8: Sync Pipeline]
+    end
+    subgraph Release 3: Advanced Dashboard (Sprint 9-11)
+        S8 --> S9[Sprint 9: Team View & Sanctions] --> S10[Sprint 10: Pacing & Flexibility] --> S11[Sprint 11: Offline Dashboard]
+    end
+    subgraph Release 4: QA & Launch (Sprint 12-16)
+        S11 --> S12{Sprint 12: Lab Testing & Gate} --> S13[Sprint 13: Usability & SUS] --> S14[Sprint 14: System E2E] --> S15[Sprint 15: Infra & Store Prep] --> S16[Sprint 16: Deploy & Handover]
+    end
+
+    style S12 fill:#ffeb3b,stroke:#f57f17,stroke-width:2px
 ```
 
 ### Fase 1: Inizializzazione e Architettura (Sprint 1 - 3) — *Mesi 1-2*

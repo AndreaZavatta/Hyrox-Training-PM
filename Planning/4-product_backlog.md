@@ -1,9 +1,9 @@
-# Product Backlog: Hyrox Team Performance Optimizer
+# Product Backlog
 
 > [!TIP]
 > **Jira Link:** La gestione dinamica del backlog, degli sprint e del tracciamento delle User Story è disponibile sulla board di progetto: **[Jira Project Board & Backlog](https://hyrox-training.atlassian.net/jira/software/projects/HTPO/boards/1/backlog)**.
 
-Il Product Backlog è lo strumento dinamico che raccoglie tutti i requisiti, le funzionalità e i miglioramenti del sistema. In linea con i principi Scrum, le stime definitive in Story Points (scala di Fibonacci) sono di **competenza esclusiva del Team di Sviluppo** e verranno assegnate durante le sessioni periodiche di Backlog Refinement.
+Il Product Backlog è lo strumento dinamico che raccoglie tutti i requisiti, le funzionalità e i miglioramenti del sistema. Le stime definitive in Story Points (scala di Fibonacci) sono di **competenza esclusiva del Team di Sviluppo** e verranno assegnate durante le sessioni periodiche di Backlog Refinement.
 
 Ai fini della pianificazione della release e dell'allineamento con la baseline della WBS, in questa sede vengono presentate delle **Stime Preliminari di Baseline**. Per gli elementi di forte innovazione o R&D (come l'algoritmo di riconoscimento sensori), è pianificato uno *Spike Tecnologico* preliminare (US-TEC-03) per ridurre l'incertezza e consentire una stima più accurata dell'implementazione core (US-W-04).
 
@@ -11,28 +11,10 @@ Ai fini della pianificazione della release e dell'allineamento con la baseline d
 
 ## 1. Governance e Standard di Qualità
 
-Per garantire la massima qualità e coerenza del flusso Scrum, il team adotta i seguenti pilastri metodologici:
+Per garantire la massima qualità e coerenza del flusso Scrum, lo sviluppo del backlog e il completamento delle User Story seguono i criteri di qualità stabiliti.
 
-### Definition of Ready (DoR)
-Un elemento del Backlog (User Story o Technical Story) è considerato **Ready** (Pronto per essere inserito in uno Sprint) quando soddisfa i seguenti criteri:
-1. **Formato Standard:** È descritto nel formato *"Come [Ruolo] voglio [Azione] affinché [Valore]"*.
-2. **Criteri di Accettazione:** I criteri di accettazione sono definiti in modo chiaro, non ambiguo e testabile.
-3. **Dipendenze Risolte:** Tutte le dipendenze esterne (es. asset grafici, specifiche API, autorizzazioni hardware) sono state identificate e risolte.
-4. **Dimensionamento Corretto:** La User Story è sufficientemente piccola da poter essere completata entro i limiti di un singolo Sprint.
-5. **Stima del Team:** Il team di sviluppo ha analizzato la storia ed espresso una stima in Story Points (non è più `TBD`).
-6. **Comprensione Condivisa:** C'è stato un confronto diretto tra Product Owner e Team per chiarire ogni dubbio sul business value.
-
-### Definition of Done (DoD)
-Una User Story è considerata **Done** (Completata e incrementabile nel prodotto rilasciabile) solo quando soddisfa tutti i seguenti criteri:
-1. **Codice Scritto e Standardizzato:** Il codice è completato, segue le linee guida di stile del progetto ed è privo di warning significativi.
-2. **Peer Review:** Il codice è stato sottoposto a Code Review tramite Pull Request e approvato da almeno un altro membro del team (es. Tech Lead o Senior Dev).
-3. **Unit & Integration Testing:** 
-   - I test unitari sulle componenti core e le API sono stati scritti e superati con successo (target di copertura ≥ 80% della logica di business).
-   - I test di integrazione per i flussi di sincronizzazione dati sono superati.
-4. **Deploy in Staging:** La funzionalità è stata rilasciata nell'ambiente di Staging/Testing per la validazione.
-5. **Verifica dei Criteri di Accettazione:** Tutti i criteri di accettazione definiti nella User Story sono stati verificati e superati tramite test manuali o automatici.
-6. **Approvazione del Product Owner:** Il Product Owner ha visionato la funzionalità demo ed ha formalmente accettato la storia nel sistema di tracciamento.
-7. **Nessun Bug Aperto:** Non vi sono anomalie note aperte (con priorità Major, Critical o Blocker) introdotte dal nuovo codice.
+> [!NOTE]
+> La **Definition of Ready (DoR)** e la **Definition of Done (DoD)** dettagliate, che regolano l'ammissione e il rilascio delle storie all'interno degli Sprint, sono centralizzate per evitare ridondanze in [Agile Quality & Change Governance](file:///home/zava/Projects/PM-project/Planning/8-quality_and_change_governance.md#2-governance-della-qualità-quality-control).
 
 ---
 

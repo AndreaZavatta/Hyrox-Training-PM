@@ -1,6 +1,6 @@
-# Working Agreements: Hyrox Team Performance Optimizer
+# Working Agreements
 
-Il presente documento definisce gli **Accordi di Lavoro (Working Agreements)** adottati dallo Scrum Team per la gestione del progetto "Hyrox Team Performance Optimizer". In linea con i principi dell'auto-organizzazione agile, questo accordo stabilisce le regole di comportamento, i protocolli di comunicazione, le cerimonie e gli standard tecnici per garantire l'efficienza del team, preservare la *Conceptual Integrity* del prodotto e facilitare il miglioramento continuo (*Kaizen*).
+Il presente documento definisce gli **Accordi di Lavoro (Working Agreements)** adottati dallo Scrum Team per la gestione del progetto "Hyrox Team Performance Optimizer". Questo accordo stabilisce le regole di comportamento, i protocolli di comunicazione, le cerimonie e gli standard tecnici per garantire l'efficienza del team, preservare la *Conceptual Integrity* del prodotto e facilitare il miglioramento continuo (*Kaizen*).
 
 ---
 
@@ -61,25 +61,25 @@ Il progetto si sviluppa in cicli iterativi (**Sprint**) della durata fissa di **
 
 Per mitigare i rischi tecnici e garantire la qualità del codice, il team si impegna a rispettare le seguenti regole:
 
-### 3.1 Gestione dei Repository e Branching Strategy (GitFlow)
-*   **Branch `main`:** Contiene solo codice stabile e rilasciabile in produzione. Ogni merge su `main` corrisponde ad una release ufficiale di Sprint.
+### 3.1 Gestione dei Repository e Branching Strategy (GitFlow Modificato)
+*   **Branch `main`:** Contiene solo codice stabile e rilasciabile in produzione. Il branch `review` viene integrato (merged) in `main` **esclusivamente il lunedì** per formalizzare i rilasci stabili.
+*   **Branch `review`:** Branch intermedio di staging e validazione. Riceve gli avanzamenti da `develop` tramite Pull Request formale ed è l'ambiente in cui viene testato il codice prima del rilascio settimanale in `main`.
 *   **Branch `develop`:** Branch di integrazione principale per lo sviluppo corrente.
-*   **Branch `feature/`:** Utilizzato per lo sviluppo di nuove User Story (es. `feature/US-W-01-watch-ui`) creato a partire da `develop`. Questi branch vengono integrati (merged) in `develop` **esclusivamente il lunedì**.
-*   **Branch `bugfix/`:** Utilizzato per la correzione di bug ordinari identificati durante il ciclo di sviluppo. Ha la stessa funzione e ciclo di vita dei feature branch, servendo esclusivamente per categorizzare i commit. Questi branch vengono integrati in `develop` **esclusivamente il lunedì**.
-*   **Branch `hotfix/`:** Utilizzato per la risoluzione urgente di anomalie critiche e bloccanti. Viene sviluppato a partire da `develop` ma, a differenza di feature e bugfix, può essere integrato (merged) in **qualsiasi giorno della settimana** per garantire la massima tempestività nel ripristino.
-*   **Convenzione Commit:** I messaggi di commit devono includere l'ID della User Story o del bug di riferimento (es. `US-W-01: implementato design ad alto contrasto per la griglia esercizi`).
+*   **Branch `feature/`:** Utilizzato per lo sviluppo di nuove User Story (es. `feature/US-W-01-watch-ui`) creato a partire da `develop`. Questi branch vengono integrati (merged) in `develop` al completamento delle attività di sviluppo.
+*   **Branch `bugfix/`:** Utilizzato per la correzione di bug ordinari identificati durante il ciclo di sviluppo. Ha la stessa funzione e ciclo di vita dei feature branch.
+*   **Branch `hotfix/`:** Utilizzato per la risoluzione urgente di anomalie critiche e bloccanti. Viene sviluppato a partire da `develop` ma, a differenza di feature e bugfix, può essere integrato in qualsiasi giorno della settimana per garantire la massima tempestività.
+*   **Convenzione Commit:** I messaggi di commit devono includere l'ID del task o del bug di riferimento (es. `HTPO-30: implementato design ad alto contrasto per la griglia esercizi`).
 
 ### 3.2 Pull Request e Peer Review
-*   Nessun codice può essere unito (merged) a `develop` o `main` senza una **Pull Request (PR)**.
-*   Ogni PR richiede l'approvazione di almeno **1 reviewer qualificato** (il Tech Lead o un altro sviluppatore esperto del sottosistema).
-*   Il linter automatico e la suite di unit test configurati nella pipeline CI/CD devono superarsi con successo prima che la PR possa essere fusa.
+*   Nessun codice può essere integrato in `develop`, `review` o `main` senza una **Pull Request (PR)**.
+*   Il flusso di integrazione prevede lo sviluppo in `develop` (tramite branch feature o bugfix), l'apertura di una PR verso `review` (che deve essere revisionata e approvata), e il successivo merge da `review` a `main` il lunedì.
+*   Ogni PR verso il branch `review` richiede l'approvazione di almeno **1 reviewer qualificato** (il Tech Lead o un altro sviluppatore esperto del sottosistema).
+*   Il linter automatico e la suite di unit test configurati nella pipeline CI/CD devono superarsi con successo prima che la PR possa essere fusa in `develop`, `review` o `main`.
 *   In conformità con la DoD, la copertura dei test per la logica di business (backend, algoritmo di riconoscimento, protocolli di sync) deve essere pari o superiore all'**80%**.
 
 ### 3.3 Pair Programming Strategy
-Per superare i colli di bottiglia e favorire il trasferimento di competenze, il team adotta sessioni di **Pair Programming** obbligatorie (almeno 2 ore a sessione) per lo sviluppo delle seguenti componenti critiche sul *Critical Path*:
-1.  **US-W-04 (Algoritmo di Riconoscimento Sensori):** Sviluppo del modello matematico e del filtraggio dei dati grezzi.
-2.  **US-S-01 / US-S-03 (Protocolli di Sincronizzazione Bluetooth/Push):** Integrazione del CoreBluetooth e gestione dello stato disconnesso/caching.
-3.  **US-TEC-02 (Progettazione Architettura Dati):** Definizione dello schema e delle API per garantire la perfetta corrispondenza tra Wearable e Dashboard.
+Per superare i colli di bottiglia, mitigare i rischi tecnologici e favorire il trasferimento di competenze, il team adotta sessioni di **Pair Programming** obbligatorie (almeno 2 ore a sessione) focalizzate sullo sviluppo dell'algoritmo wearable:
+*   **US-W-04 (Algoritmo di Riconoscimento Sensori):** Sviluppo del modello matematico, filtraggio dei dati grezzi e classificazione dei movimenti in tempo reale. Data l'elevata complessità matematica e l'alto rischio di errore, la programmazione in coppia è richiesta per garantire l'accuratezza dei risultati e la solidità dell'architettura.
 
 ### 3.4 Knowledge Management e Allineamento Tecnico
 *   Ogni venerdì alle ore 15:00 viene organizzata una sessione di **Knowledge Sharing (durata 1 ora)** in cui lo sviluppatore che ha lavorato su una feature complessa ne illustra l'architettura interna al resto del team, aggiornando il workbook di progetto.
@@ -91,6 +91,7 @@ Per superare i colli di bottiglia e favorire il trasferimento di competenze, il 
 Al fine di minimizzare l'overhead di comunicazione (evitando la trappola del *Mythical Man-Month* in cui aggiungere persone rallenta il progetto), si adottano le seguenti regole per i canali:
 
 *   **Jira (Sprint Board):** È l'unica sorgente di verità per lo stato del lavoro. Nessun task può essere eseguito se non è presente sulla board. Le storie si spostano linearmente: *To Do -> In Progress -> Code Review/Test -> Done*.
+*   **Confluence (Project Workbook & Planning):** È lo strumento centrale per la documentazione tecnica, la pianificazione a lungo termine e la gestione della conoscenza. Ospita il *Workbook di Progetto*, i verbali delle cerimonie (es. retrospective), i piani di rilascio e la documentazione architetturale.
 *   **Slack:** Utilizzato per comunicazioni asincrone e veloci. Sono vietati i messaggi diretti per decisioni architetturali o di scope; queste discussioni devono avvenire nei canali pubblici per trasparenza:
     *   `#dev-smartwatch`: Discussione tecnica su watchOS e algoritmi sensori.
     *   `#dev-dashboard`: Discussione tecnica su web backend, frontend e grafici di pacing.

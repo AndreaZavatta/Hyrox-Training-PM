@@ -1,5 +1,3 @@
-
-
 **PROJECT OVERVIEW STATEMENT**
 
 **Project Name:** Hyrox Team Performance Optimizer	          **Project Manager:** Andrea Zavatta
