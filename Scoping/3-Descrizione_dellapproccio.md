@@ -97,7 +97,7 @@ Per mitigare il 'Bus Factor' (rischio legato a competenze specifiche su watchOS 
 Il monitoraggio avviene tramite Velocity Tracking (Story Points completati / Sprint), Burndown Chart e progressione dell'Accuracy dell'algoritmo.
 
 ### **4.3 Gestione Dinamica del Backlog e Scope Bank**
-Il cambiamento viene gestito attraverso una **Scope Bank** supportata da una Time Contingency Reserve pari al 10% della durata del progetto (gestita come buffer nei cicli di Sprint) e da una Budget Contingency Reserve di €11.000. In ottica Scrum, i nuovi requisiti diventano User Story stimate dal Dev Team in Story Points e inserite nel Product Backlog dal Product Owner.
+Il cambiamento viene gestito attraverso una **Scope Bank** supportata da una Time Contingency Reserve pari al 10% della durata del progetto (gestita come buffer nei cicli di Sprint) e da una Budget Contingency Reserve di €24.700. In ottica Scrum, i nuovi requisiti diventano User Story stimate dal Dev Team in Story Points e inserite nel Product Backlog dal Product Owner.
 * **Gestione del Vincolo (Fixed Capacity):** Poiché le risorse e la durata del progetto (8 mesi, 16 Sprint) sono fisse, l'inserimento di una nuova User Story ad alta priorità comporta che il PO rimuova o posticipi dal backlog elementi di pari sforzo (in Story Points), tipicamente a priorità COULD o SHOULD.
 
 ### **4.4 Protocolli di Validazione e Contingency**
