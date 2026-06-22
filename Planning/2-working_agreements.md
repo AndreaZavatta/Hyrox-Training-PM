@@ -52,7 +52,7 @@ Il progetto si sviluppa in cicli iterativi (**Sprint**) della durata fissa di **
 *   **Partecipanti:** Dev Team, TL, SM, PO.
 *   **Obiettivo:** Analizzare come ha funzionato il team durante lo Sprint in termini di persone, relazioni, processi e strumenti, identificando azioni concrete di miglioramento (*Kaizen*).
 *   **Regole Operative:**
-    1.  **Ambiente Protetto:** La discussione deve basarsi sul rispetto reciproco e sull'onestà intellettuale, senza cercare colpevoli ma analizzando le cause alla radice (approccio *5 Whys*).
+    1.  **Ambiente Protetto:** La discussione deve basarsi sul rispetto reciproco e sull'onestà, senza cercare colpevoli ma analizzando le cause alla radice (approccio *5 Whys*).
     2.  **Output Azionabile:** La retrospective si conclude con la selezione di massimo **2-3 azioni concrete di miglioramento** da inserire nel backlog dello Sprint successivo, assegnandovi un responsabile.
 
 ---
@@ -61,13 +61,13 @@ Il progetto si sviluppa in cicli iterativi (**Sprint**) della durata fissa di **
 
 Per mitigare i rischi tecnici e garantire la qualità del codice, il team si impegna a rispettare le seguenti regole:
 
-### 3.1 Gestione dei Repository e Branching Strategy (GitFlow Modificato)
+### 3.1 Gestione dei Repository e Branching Strategy
 *   **Branch `main`:** Contiene solo codice stabile e rilasciabile in produzione. Il branch `review` viene integrato (merged) in `main` **esclusivamente il lunedì** per formalizzare i rilasci stabili.
-*   **Branch `review`:** Branch intermedio di staging e validazione. Riceve gli avanzamenti da `develop` tramite Pull Request formale ed è l'ambiente in cui viene testato il codice prima del rilascio settimanale in `main`.
-*   **Branch `develop`:** Branch di integrazione principale per lo sviluppo corrente.
+*   **Branch `review`:** Branch intermedio di staging e validazione. Riceve gli avanzamenti da `develop` tramite Pull Request formale, queste ultime vengono approvate dal Tech Lead oppure da un altro sviluppatore esperto del sottosistema.
+*   **Branch `develop`:** Branch principale per lo sviluppo corrente.
 *   **Branch `feature/`:** Utilizzato per lo sviluppo di nuove User Story (es. `feature/US-W-01-watch-ui`) creato a partire da `develop`. Questi branch vengono integrati (merged) in `develop` al completamento delle attività di sviluppo.
 *   **Branch `bugfix/`:** Utilizzato per la correzione di bug ordinari identificati durante il ciclo di sviluppo. Ha la stessa funzione e ciclo di vita dei feature branch.
-*   **Branch `hotfix/`:** Utilizzato per la risoluzione urgente di anomalie critiche e bloccanti. Viene sviluppato a partire da `develop` ma, a differenza di feature e bugfix, può essere integrato in qualsiasi giorno della settimana per garantire la massima tempestività.
+*   **Branch `hotfix/`:** Utilizzato per la risoluzione urgente di anomalie critiche e bloccanti. Viene sviluppato a partire da `main` e può essere integrato su main tramite pull request in qualsiasi giorno della settimana per garantire la massima tempestività.
 *   **Convenzione Commit:** I messaggi di commit devono includere l'ID del task o del bug di riferimento (es. `HTPO-30: implementato design ad alto contrasto per la griglia esercizi`).
 
 ### 3.2 Pull Request e Peer Review
@@ -90,7 +90,7 @@ Per superare i colli di bottiglia, mitigare i rischi tecnologici e favorire il t
 
 Al fine di minimizzare l'overhead di comunicazione (evitando la trappola del *Mythical Man-Month* in cui aggiungere persone rallenta il progetto), si adottano le seguenti regole per i canali:
 
-*   **Jira (Sprint Board):** È l'unica sorgente di verità per lo stato del lavoro. Nessun task può essere eseguito se non è presente sulla board. Le storie si spostano linearmente: *To Do -> In Progress -> Code Review/Test -> Done*.
+*   **Jira (Sprint Board):** È l'unica sorgente di verità per lo stato del lavoro. Nessun task può essere eseguito se non è presente sulla board. Le storie si spostano linearmente: *To Do -> In Progress -> Test Business -> Test Technical-> Done*.
 *   **Confluence (Project Workbook & Planning):** È lo strumento centrale per la documentazione tecnica, la pianificazione a lungo termine e la gestione della conoscenza. Ospita il *Workbook di Progetto*, i verbali delle cerimonie (es. retrospective), i piani di rilascio e la documentazione architetturale.
 *   **Slack:** Utilizzato per comunicazioni asincrone e veloci. Sono vietati i messaggi diretti per decisioni architetturali o di scope; queste discussioni devono avvenire nei canali pubblici per trasparenza:
     *   `#dev-smartwatch`: Discussione tecnica su watchOS e algoritmi sensori.
@@ -104,7 +104,7 @@ Al fine di minimizzare l'overhead di comunicazione (evitando la trappola del *My
 
 I conflitti tecnici e organizzativi devono essere gestiti tempestivamente per evitare di rallentare lo Sprint. Il team adotta i seguenti stili decisionali:
 
-*   **Collaborativo (Consensus):** Utilizzato per decisioni di architettura software e design dei dati di sistema, al fine di massimizzare il buy-in di tutto il team.
+*   **Collaborativo (Consensus):** Utilizzato per decisioni di architettura software e design dei dati di sistema.
 *   **Consultivo:** Il Tech Lead prende le decisioni sull'infrastruttura ed il Product Owner sulle priorità di business, dopo aver ascoltato le proposte degli sviluppatori.
 *   **Direttivo (Escalation Protocol):** Se non si raggiunge il consenso entro 60 minuti, si attiva il protocollo di escalation in 3 livelli definito nella metodologia:
     1.  *Livello 1:* Il PM facilita una sessione di consensus focalizzata (max 60 min).
