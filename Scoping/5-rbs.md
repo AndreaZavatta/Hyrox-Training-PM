@@ -75,12 +75,12 @@
 
 **3.1 Funzione: Sincronizzazione Smartwatch-Smartphone Atleta**
 
-* **3.1.1 Sotto-funzione:** Trasferimento dati dallo smartwatch allo smartphone**.**  
+* **3.1.1 Sotto-funzione:** Trasferimento dati dallo smartwatch allo smartphone.
   * **3.1.1.1 Feature:** Capacità del sistema di trasferire l'intera sessione di allenamento dallo smartwatch all'applicazione dello smartphone non appena l'attività viene conclusa dall'atleta. **Analisi e Reporting (MUST)**
 
   **3.2 Funzione: Sincronizzazione Smartphone Atleta \- Dispositivo Coach** 
 
-* **3.2.1 Sotto-funzione:** Trasferimento dati dallo smartphone dell’atleta al dispositivo del coach**.**  
+* **3.2.1 Sotto-funzione:** Trasferimento dati dallo smartphone dell’atleta al dispositivo del coach.
   * **3.2.1.1 Feature:** Capacità di trasmissione remota dei dati di workout consolidati dallo smartphone dell'atleta verso la dashboard del Coach. **Analisi e Reporting (MUST)**
 
 **3.3 Funzione: Sincronizzazione Workout Push: Dashboard \-> Smartphone \-> Watch**
@@ -92,27 +92,6 @@
 
 A valle dell'analisi della RBS e delle Condition of Satisfaction, si è deciso che il progetto adotterà un modello PMLC iterativo (scrum) per gestire l’incertezza dell’algoritmo (che è centrale nel raggiungimento degli obiettivi di progetto).
 
----
 
-## **Checklist di Validazione RBS**
-
-Per garantire l'integrità metodologica e l'accuratezza dei requisiti definiti, l'RBS è stata sottoposta a una verifica formale di conformità basata sui 14 attributi qualitativi:
-
-| Attributo | Descrizione della Verifica / Stato nel Progetto | Esito |
-| :--- | :--- | :---: |
-| **Completeness** | Tutti i requisiti emersi dalle CoS (Conditions of Satisfaction) sono stati tradotti in feature. | **Conforme** |
-| **Clarity** | I requisiti sono descritti con un linguaggio chiaro, privo di ambiguità terminologiche. | **Conforme** |
-| **Validity** | Ogni feature risponde a una reale necessità espressa dagli stakeholder del team Hyrox. | **Conforme** |
-| **Measurability** | I requisiti contengono metriche quantitative ove possibile (es. latenza sync, accuratezza). | **Conforme** |
-| **Testability** | Ogni feature foglia è associata a un test case verificabile empiricamente in Lab o Field. | **Conforme** |
-| **Maintainability** | L'architettura software modulare consente aggiornamenti e modifiche future agevoli. | **Conforme** |
-| **Reliability** | Il tracciamento automatico e offline-first garantisce la disponibilità del dato. | **Conforme** |
-| **Look & Feel** | UI dello smartwatch ad alto contrasto per usabilità sotto sforzo estremo. | **Conforme** |
-| **Feasibility** | Fattibilità tecnica verificata tramite lo Spike sul PoC dell'algoritmo. | **Conforme** |
-| **Precedent** | Analisi di soluzioni simili sul mercato per l'apprendimento delle migliori pratiche. | **Conforme** |
-| **Scale** | Il sistema è dimensionato per gestire contemporaneamente team fino a 4 atleti. | **Conforme** |
-| **Stability** | I requisiti MUST sono congelati nella Scope Baseline, i COULD gestiti tramite Scope Bank. | **Conforme** |
-| **Performance** | Soglia di precisione dell'algoritmo ≥ 90% e tempi di sync push < 10 secondi. | **Conforme** |
-| **Safety** | Rispetto delle normative di protezione dei dati (ACL) per i profili degli atleti. | **Conforme** |
 
 
