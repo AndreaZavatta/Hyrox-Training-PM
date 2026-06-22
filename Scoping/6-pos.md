@@ -31,6 +31,7 @@ Sviluppare, entro un arco temporale di 8 mesi, un ecosistema software integrato 
 2. **Assumption:** Gli atleti seguano l'ordine dei blocchi strutturati nel workout, salvo deviazioni impreviste gestite tramite la funzione skip o riordina blocchi previste in app.   
 3. **Risk (Technical):** Il rumore di fondo dei dati accelerometrici durante l'attività ad alta intensità o i limiti hardware del wearable potrebbero compromettere l'accuratezza del riconoscimento sotto la soglia critica.   
 4. **Risk (Operational):** L'indisponibilità temporanea di specifici macchinari in palestra (es. SkiErg o Rower occupati) può costringere l'atleta a variare la sequenza programmata. 
+5. **Risk (Technical):** Prestazioni incoerenti o malfunzionamenti legati alla frammentazione hardware di smartwatch meno recenti (watchOS).
 6. **Risk (Ambientale):** Connessione internet assente o instabile durante le gare nei padiglioni fieristici o all'interno di palestre interrate.
 7. **Risk (Organizzativo):** Rallentamenti nello sviluppo causati dall'abbandono di un membro del team.
 8. **Risk (Culturale):** Difficoltà di adozione da parte dei coach legata alla resistenza al cambiamento degli strumenti attuali.
