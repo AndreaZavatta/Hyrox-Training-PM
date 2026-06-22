@@ -27,21 +27,9 @@ La disciplina atletica Hyrox è caratterizzata da sforzi fisici estremi e transi
 
 Sviluppare un ecosistema software integrato (Wearable watchOS App + Web Dashboard) che sollevi l'atleta dal tracciamento manuale durante la performance e riduca a meno di 2 minuti il tempo di analisi e correzione post-allenamento per il coach, consentendo la pianificazione e l'analisi comparativa delle prestazioni del team.
 
-```
-┌──────────────────┐               ┌──────────────────┐
-│  Smartwatch App  │ ──(BLE Sync)─►│  Web Dashboard   │
-│  (watchOS nativo)│               │  (React/Next.js) │
-└──────────────────┘               └──────────────────┘
-  - Auto-tracciamento                 - Comparativa split times
-  - Feedback aptico                   - Grafici di pacing overlay
-  - UI ad alto contrasto              - Gestione sanzioni & ACL
-```
-
----
-
 ## 4. Criteri di Successo del Prodotto (Success Criteria)
 
-Il successo del prodotto sarà misurato empiricamente al termine dello sviluppo tramite:
+Il successo del prodotto sarà misurato al termine dello sviluppo tramite:
 1.  **Efficienza per i Coach:** Tempo medio di editing e analisi post-workout ridotto da 15 minuti a **meno di 2 minuti** nel 95% delle sessioni tracciate.
 2.  **Accuratezza dell'Algoritmo:** Discrepanza inferiore al **2%** tra il tempo totale registrato dall'app (incluso di transizioni) e il tempo ufficiale da cronometro manuale di validazione.
 3.  **Usabilità Utente:** Punteggio medio di usabilità **SUS (System Usability Scale) >= 80/100** raccolto dai test effettuati sui 15 coach e 30 atleti.
@@ -53,17 +41,17 @@ Il successo del prodotto sarà misurato empiricamente al termine dello sviluppo 
 L'architettura del sistema si articola su tre moduli principali, dettagliati nella **Work Breakdown Structure (WBS) / Scomposizione del Backlog** e stimati in Story Points:
 
 ### 5.1 Sottosistema Smartwatch (Wearable App)
-Applicazione watchOS per Apple Watch 6+ che integra l'algoritmo di classificazione basato sui sensori di movimento (accelerometro/giroscopio) per distinguere automaticamente le stazioni Hyrox dalla corsa. Offre interfacce ad alto contrasto per usabilità sotto stress estremo, note dinamiche del coach e report locale post-attività in modalità *Offline-First*.
+Applicazione watchOS per Apple Watch 6+ che integra l'algoritmo di classificazione basato sui sensori di movimento (accelerometro/giroscopio) per capire automaticamente le fasi di transizione. Offre interfacce ad alto contrasto per usabilità sotto stress estremo, note dinamiche del coach e report locale post-attività in modalità *Offline-First*.
 
 ### 5.2 Sottosistema Dashboard (Web Portal)
-Portale web responsive per il monitoraggio comparativo del team (4 atleti) tramite grafici di pacing e sanzioni in tempo reale. Include il gestore visuale di pianificazione workout (builder) e la gestione dei ruoli con ACL (Coach con permessi completi, Atleta con sola lettura del team e permessi di modifica delle proprie sanzioni).
+Portale web responsive per il monitoraggio comparativo del team (4 atleti) tramite grafici di pacing e sanzioni in tempo reale. Include il gestore visuale di pianificazione workout e la gestione dei ruoli con ACL (Coach con permessi completi, Atleta con sola lettura del team e permessi di modifica delle proprie sanzioni).
 
 ### 5.3 Sottosistema Sincronizzazione Dati
 Protocollo di comunicazione locale Bluetooth tra watch e telefono, con successivo upload automatico su cloud per aggiornare la dashboard del coach. Gestione push per inviare le pianificazioni dal web all'orologio in meno di 10 secondi.
 
 ---
 
-## 6. Gestione Agile dei Rischi e Assunzioni
+## 6. Gestione dei Rischi e Assunzioni
 
 ### Assunzioni di Progetto
 *   Gli atleti utilizzano Apple Watch Series 6 o superiore con sensori funzionanti.
