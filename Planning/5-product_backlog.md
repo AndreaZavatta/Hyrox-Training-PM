@@ -22,10 +22,10 @@ Per garantire la massima qualità e coerenza del flusso Scrum, lo sviluppo del b
 
 Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottosistemi principali identificati nella WBS/RBS.
 
-### 2.1 Sottosistema Smartwatch (Wearable) — *Rif. WBS 4.x / RBS Req. 1*
+### 2.1 Sottosistema Smartwatch (Wearable) — *Rif. WBS Epic 1 / RBS Req. 1*
 
 #### **US-W-01: Interfaccia Utente Base ad Alto Contrasto**
-*   **Rif. WBS/RBS:** WBS 4.1 / RBS 1.1.6.1 (Priorità: **MUST**)
+*   **Rif. WBS/RBS:** WBS 1.1 / RBS 1.1.6.1 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* atleta sotto sforzo cardiaco e muscolare estremo durante un allenamento Hyrox,
     *   *voglio* un'interfaccia smartwatch ad alto contrasto con pulsanti di grandi dimensioni e scritte ben leggibili,
@@ -38,7 +38,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Stima:** `5 Story Points` (Media complessità; sviluppo e test del layout grafico nativo watchOS)
 
 #### **US-W-02: Visualizzazione Note del Coach sulla Stazione Attiva**
-*   **Rif. WBS/RBS:** WBS 4.2 / RBS 1.1.3.1 (Priorità: **MUST**)
+*   **Rif. WBS/RBS:** WBS 1.1 / RBS 1.1.3.1 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* atleta in allenamento,
     *   *voglio* visualizzare sul display dello smartwatch le note specifiche scritte dal coach per la stazione attiva (es. peso dello sled, target di watt sul row, note tecniche),
@@ -50,7 +50,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Stima:** `3 Story Points` (Bassa complessità; ricezione dati e visualizzazione stringa dinamica)
 
 #### **US-W-03: Transizione Manuale Gestita (Fallback Trigger)**
-*   **Rif. WBS/RBS:** WBS 4.3 / RBS 1.1.0.3 (Priorità: **MUST**)
+*   **Rif. WBS/RBS:** WBS 1.3 / RBS 1.1.0.3 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* atleta sotto sforzo estremo in gara o allenamento,
     *   *voglio* poter attivare manualmente il passaggio alla stazione successiva tramite una gesture semplice o la pressione coordinata dei tasti fisici del watch,
@@ -62,7 +62,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Stima:** `5 Story Points` (Media complessità; cattura input pulsanti fisici, feedback aptico e gestione timer/stato di Undo)
 
 #### **US-W-04: Algoritmo di Riconoscimento Cambio Stazione via Sensori**
-*   **Rif. WBS/RBS:** WBS 4.4 / RBS 1.1.2.1 (Priorità: **MUST**)
+*   **Rif. WBS/RBS:** WBS 1.2 / RBS 1.1.2.1 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* atleta in gara,
     *   *voglio* che lo smartwatch riconosca autonomamente l'inizio e la fine delle 8 stazioni funzionali Hyrox e delle Roxzone di corsa tramite i sensori inerziali (accelerometro e giroscopio),
@@ -74,7 +74,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Stima:** `13 Story Points` (Alta complessità / Rischio tecnologico. Questa è una stima preliminare di baseline ad alto rischio; lo Spike tecnologico programmato in US-TEC-03 ridurrà le incognite prima della stima definitiva nel Refinement di Sprint)
 
 #### **US-W-05: Caching Locale Continuo (Offline-First)**
-*   **Rif. WBS/RBS:** WBS 4.5 / RBS 1.1.5.1 (Priorità: **SHOULD**)
+*   **Rif. WBS/RBS:** WBS 1.4 / RBS 1.1.5.1 (Priorità: **SHOULD**)
 *   **User Story:**
     *   *Come* atleta,
     *   *voglio* che tutti i dati della mia sessione (frequenza cardiaca, split times, accelerazioni) siano salvati continuamente in un database locale sullo smartwatch,
@@ -86,7 +86,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Stima:** `8 Story Points` (Alta complessità; integrazione CoreData/SQLite per persistenza continuativa ad alta frequenza e prevenzione del memory leak)
 
 #### **US-W-06: Report Locale di Fine Sessione**
-*   **Rif. WBS/RBS:** WBS 4.6 / RBS 1.1.4.1 (Priorità: **MUST**)
+*   **Rif. WBS/RBS:** WBS 1.1 / RBS 1.1.4.1 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* atleta,
     *   *voglio* visualizzare un riepilogo sintetico dei miei risultati sul watch immediatamente dopo la conclusione della sessione,
@@ -97,7 +97,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Stima:** `3 Story Points` (Bassa complessità; calcolo metriche locali a fine sessione e rendering grafico della tabella split)
 
 #### **US-W-07: Flessibilità dell'Allenamento (Skip & Riordina Stazioni)**
-*   **Rif. WBS/RBS:** WBS 4.2 / RBS 1.1.1.1 - 1.1.1.2 (Priorità: **COULD**)
+*   **Rif. WBS/RBS:** WBS 1.3 / RBS 1.1.1.1 - 1.1.1.2 (Priorità: **COULD**)
 *   **User Story:**
     *   *Come* atleta in allenamento in una palestra affollata,
     *   *voglio* poter saltare (skip) la stazione corrente o modificare l'ordine dei blocchi di lavoro direttamente dall'orologio,
@@ -109,10 +109,10 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 
 ---
 
-### 2.2 Sottosistema Dashboard (Web/Smartphone) — *Rif. WBS 5.x / RBS Req. 2*
+### 2.2 Sottosistema Dashboard (Web/Smartphone) — *Rif. WBS Epic 2 / RBS Req. 2*
 
 #### **US-D-01: Autenticazione Sicura e Controllo Accessi (ACL)**
-*   **Rif. WBS/RBS:** WBS 5.1 / RBS 2.3.1.1 - 2.3.1.2 (Priorità: **MUST**)
+*   **Rif. WBS/RBS:** WBS 2.1 / RBS 2.3.1.1 - 2.3.1.2 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* utente del sistema (coach o atleta),
     *   *voglio* potermi registrare ed accedere in sicurezza alla piattaforma web tramite credenziali personali,
@@ -124,7 +124,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Stima:** `5 Story Points` (Media complessità; setup sicurezza e implementazione RBAC Coach/Atleta)
 
 #### **US-D-02: Profilazione Atleta e Configurazione Soglie / Categoria**
-*   **Rif. WBS/RBS:** WBS 5.2 / RBS 2.3.2.1 (Priorità: **MUST**)
+*   **Rif. WBS/RBS:** WBS 2.1 / RBS 2.3.2.1 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* atleta,
     *   *voglio* configurare le mie informazioni personali (genere, soglie cardiache di allenamento, categoria di gara Hyrox),
@@ -137,7 +137,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Stima:** `3 Story Points` (Bassa complessità; form di inserimento e calcolo soglie)
 
 #### **US-D-03: Visualizzazione Comparativa Performance Team**
-*   **Rif. WBS/RBS:** WBS 5.3 / RBS 2.1.1.1 (Priorità: **MUST**)
+*   **Rif. WBS/RBS:** WBS 2.3 / RBS 2.1.1.1 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* coach,
     *   *voglio* visualizzare una schermata di confronto che affianchi le prestazioni e gli split times di un massimo di 4 atleti contemporaneamente per la stessa sessione,
@@ -149,7 +149,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Stima:** `8 Story Points` (Alta complessità; confronto sincrono a 4 colonne, highlighting dinamico e logica di esportazione)
 
 #### **US-D-04: Motore Grafici Pacing e Overlay Discrepanze**
-*   **Rif. WBS/RBS:** WBS 5.4 / RBS 2.1.1.2 - 2.1.3.1 (Priorità: **MUST**)
+*   **Rif. WBS/RBS:** WBS 2.3 / RBS 2.1.1.2 - 2.1.3.1 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* coach,
     *   *voglio* visualizzare grafici ad andamento temporale che sovrappongono il ritmo reale di corsa e delle stazioni rispetto al piano strategico di pacing ideale impostato,
@@ -161,7 +161,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Stima:** `8 Story Points` (Alta complessità; calcolo delle deviazioni spaziali/temporali e integrazione libreria chart)
 
 #### **US-D-05: Inserimento e Gestione Sanzioni / Penalità**
-*   **Rif. WBS/RBS:** WBS 5.5 / RBS 2.1.2.1 - 2.1.2.2 (Priorità: **MUST**)
+*   **Rif. WBS/RBS:** WBS 2.3 / RBS 2.1.2.1 - 2.1.2.2 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* coach,
     *   *voglio* poter inserire penalità di tempo o contrassegnare no-rep per le stazioni di un allenamento terminato prima del consolidamento dei dati,
@@ -173,7 +173,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Stima:** `5 Story Points` (Media complessità; CRUD delle sanzioni e ricalcolo in tempo reale)
 
 #### **US-D-06: Builder Pianificazione Sessioni e Gestione Template**
-*   **Rif. WBS/RBS:** WBS 5.6 / RBS 2.2.1.1 - 2.2.2.1 - 2.2.2.2 (Priorità: **MUST**)
+*   **Rif. WBS/RBS:** WBS 2.2 / RBS 2.2.1.1 - 2.2.2.1 - 2.2.2.2 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* coach,
     *   *voglio* configurare graficamente un allenamento combinando blocchi di corsa e stazioni funzionali, inserendo parametri (peso, rep, note) per ciascuno, e salvare la configurazione come template riutilizzabile,
@@ -185,7 +185,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Stima:** `8 Story Points` (Alta complessità; interfaccia drag-and-drop del builder di workout e gestione template)
 
 #### **US-D-07: Consultazione Dashboard in Modalità Offline**
-*   **Rif. WBS/RBS:** WBS 5.7 / RBS 2.1.4.1 (Priorità: **COULD**)
+*   **Rif. WBS/RBS:** WBS 2.4 / RBS 2.1.4.1 (Priorità: **COULD**)
 *   **User Story:**
     *   *Come* coach,
     *   *voglio* visualizzare gli storici degli allenamenti e i profili degli atleti memorizzati localmente anche quando non ho connessione internet,
@@ -197,10 +197,10 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 
 ---
 
-### 2.3 Sottosistema Sincronizzazione — *Rif. WBS 6.x / RBS Req. 3*
+### 2.3 Sottosistema Sincronizzazione — *Rif. WBS Epic 3 / RBS Req. 3*
 
 #### **US-S-01: Trasferimento Dati Locale Watch -> Smartphone**
-*   **Rif. WBS/RBS:** WBS 6.1 / RBS 3.1.1.1 (Priorità: **MUST**)
+*   **Rif. WBS/RBS:** WBS 3.1 / RBS 3.1.1.1 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* atleta,
     *   *voglio* che i dati dell'allenamento salvati in locale sul watch vengano trasferiti in background al mio smartphone tramite Bluetooth,
@@ -212,7 +212,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Stima:** `5 Story Points` (Media complessità; protocollo CoreBluetooth e gestione sessione/resume)
 
 #### **US-S-02: Sincronizzazione Cloud Smartphone -> Server Dashboard**
-*   **Rif. WBS/RBS:** WBS 6.2 / RBS 3.2.1.1 (Priorità: **MUST**)
+*   **Rif. WBS/RBS:** WBS 3.2 / RBS 3.2.1.1 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* atleta,
     *   *voglio* che i dati di sessione memorizzati sullo smartphone siano trasmessi automaticamente al cloud non appena lo smartphone rileva una connessione Internet (4G/5G/Wi-Fi),
@@ -224,7 +224,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Stima:** `5 Story Points` (Media complessità; upload HTTPS in background al ripristino connettività)
 
 #### **US-S-03: Invio in Push del Workout Pianificato Dashboard -> Watch**
-*   **Rif. WBS/RBS:** WBS 6.3 / RBS 3.3.1.1 (Priorità: **MUST**)
+*   **Rif. WBS/RBS:** WBS 3.3 / RBS 3.3.1.1 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* coach,
     *   *voglio* inviare istantaneamente il workout pianificato dalla dashboard allo smartwatch dell'atleta (passando per lo smartphone associato),
@@ -242,7 +242,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 Questi elementi rappresentano prerequisiti tecnici non direttamente associati a una funzionalità utente finale ma necessari per abilitare lo sviluppo (Spikes o Technical Tasks).
 
 #### **US-TEC-01: Setup dell'Infrastruttura, CI/CD e Repository**
-*   **Rif. WBS:** WBS 2.1 (Priorità: **MUST**)
+*   **Rif. WBS:** WBS 4.1 (Priorità: **MUST**)
 *   **Descrizione:** Configurazione dei repository di codice (GitHub), organizzazione delle pipeline di CI/CD per il deploy automatico degli ambienti e setup del framework di sviluppo.
 *   **Criteri di Accettazione:**
     *   Repository inizializzato con branching strategy definita (GitFlow).
@@ -251,7 +251,7 @@ Questi elementi rappresentano prerequisiti tecnici non direttamente associati a 
 *   **Stima:** `5 Story Points` (Media complessità; setup CI/CD, GitFlow e configurazione staging)
 
 #### **US-TEC-02: Progettazione Architettura Dati e Cloud**
-*   **Rif. WBS:** WBS 3.1 (Priorità: **MUST**)
+*   **Rif. WBS:** WBS 4.2 (Priorità: **MUST**)
 *   **Descrizione:** Modellazione del database (relazionale o non relazionale) e definizione delle specifiche delle API RESTful per lo scambio dati tra client e server cloud.
 *   **Criteri di Accettazione:**
     *   Schema ER o diagramma delle entità validato dal Tech Lead.
@@ -259,7 +259,7 @@ Questi elementi rappresentano prerequisiti tecnici non direttamente associati a 
 *   **Stima:** `5 Story Points` (Media complessità; progettazione database ed esposizione endpoint Swagger)
 
 #### **US-TEC-03: Spike Tecnologico - Raccolta Dati e Fattibilità Algoritmo**
-*   **Rif. WBS:** WBS 4.4 (Priorità: **MUST**)
+*   **Rif. WBS:** WBS 1.2 (Priorità: **MUST**)
 *   **Descrizione:** Attività di ricerca time-boxed per l'acquisizione di tracciati accelerometrici grezzi su atleti in palestra e validazione iniziale del classificatore per superare il rischio tecnologico.
 *   **Criteri di Accettazione:**
     *   Almeno 10 sessioni di allenamento Hyrox registrate con dati accelerometro/giroscopio grezzi.
