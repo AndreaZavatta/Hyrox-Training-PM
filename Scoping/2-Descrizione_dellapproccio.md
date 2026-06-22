@@ -42,7 +42,7 @@ La fase di pianificazione è progettata per garantire l'allineamento tra gli obi
 L’avvio della fase di pianificazione è sancito dal passaggio formale dal POS al PDS. Il PDS espande i contenuti del POS, stabilendo gli obiettivi strategici, la governance e la cornice metodologica per lo sviluppo dell'ecosistema, includendo le attività definite nell'RBS e l'analisi empirica dei rischi.
 
 ### **2.2 Work Breakdown Structure (WBS) / Scomposizione del Backlog**
-Partendo dalla RBS, si costruisce la **Work Breakdown Structure (WBS) / Scomposizione del Backlog**. In conformità con il framework Scrum puro, questo strumento organizza gerarchicamente i requisiti di prodotto (in Epiche, Feature e User Story) per garantire l'integrità concettuale dello sviluppo, escludendo stime in giorni-uomo o durate fisse a favore degli **Story Points (SP)** (scala di Fibonacci) e della pianificazione guidata dalla **Velocity** del team.
+Partendo dalla RBS, si costruisce la **Work Breakdown Structure (WBS) / Scomposizione del Backlog**. Questo strumento organizza gerarchicamente i requisiti di prodotto (in Epiche, Feature e User Story) per garantire l'integrità concettuale dello sviluppo, includendo stime in **Story Points (SP)** (scala di Fibonacci) e pianificazione guidata dalla **Velocity** del team.
 
 ### **2.3 Backlog e Pianificazione Iterativa**
 Le componenti della WBS vengono tradotte in un *Product Backlog* ordinato. Le dimensioni delle User Story sono stimate in Story Points tramite *Planning Poker* dal Dev Team. Per mitigare l'incertezza tecnologica ed effettuare la validazione precoce del modello di riconoscimento dei movimenti, viene inserito uno *Spike* nello Sprint 4, finalizzato alla raccolta preliminare di dati sensori (accelerometro/giroscopio).
@@ -58,7 +58,7 @@ La gestione operativa avviene tramite *Sprint Board* (Jira), dove le attività e
 ## **3. Fase di Launching & Execution**
 
 ### **3.1 Team Organization e Matrice RASCI**
-Il team opera come uno **Scrum Team** auto-organizzato, cross-funzionale e focalizzato sulla consegna incrementale di valore. Le responsabilità operative e decisionali sono disciplinate dai Working Agreements e sintetizzate da una matrice RASCI per garantire la tracciabilità delle responsabilità operative sulle macro-attività. Per evitare il Bus Factor e assicurare l'integrità concettuale, le attività ad alta complessità (come lo sviluppo dell'algoritmo di riconoscimento) vengono affrontate in logica di Pair Programming.
+Il team opera come uno **Scrum Team** auto-organizzato, cross-funzionale e focalizzato sulla consegna incrementale di valore. Le responsabilità operative e decisionali sono disciplinate dai Working Agreements e sintetizzate da una matrice RASCI per garantire la tracciabilità delle responsabilità operative sulle macro-attività. Per evitare il Bus Factor e assicurare l'integrità concettuale, le attività ad alta complessità (come lo sviluppo dell'algoritmo di riconoscimento) vengono affrontate in Pair Programming.
 
 | Macro-Attività / Fasi WBS | Scrum Master (SM) / PM | Tech Lead (TL) | Product Owner (PO) | Dev Team (DEV) |
 | :--- | :---: | :---: | :---: | :---: |
@@ -69,7 +69,7 @@ Il team opera come uno **Scrum Team** auto-organizzato, cross-funzionale e focal
 | **5. Sviluppo Sottosistema Dashboard** | **I** | **A** | **C** | **R** |
 | **6. Sviluppo Sottosistema Sincronizzazione** | **I** | **A** / **R** | **I** | **R** |
 | **7. Testing & Quality Assurance** | **A** | **R** | **C** | **R** |
-| **8. Deployment e Rilascio** | **A** | **R** | **R** | **I** |
+| **8. Deployment e Rilascio** | **I** | **R** | **A** | **R** |
 
 *Legenda: **R** = Responsible (Esecutore), **A** = Accountable (Responsabile ultimo), **C** = Consulted (Consultato), **I** = Informed (Informato).*
 
@@ -90,8 +90,8 @@ Per mitigare il 'Bus Factor' (rischio legato a competenze specifiche su watchOS 
 
 ### **4.1 Status Meetings e Reporting Stratificato**
 * **Issue Log e Daily Standup:** Monitoraggio dei task aperti a livello operativo quotidiano.
-* **Sprint Review & Demo Live:** Riunioni di fine Sprint (ogni 2 settimane, max 1 ora) in cui lo Scrum Team presenta un incremento software funzionante (DoD soddisfatta) a coach e atleti per raccogliere feedback empirico.
-* **Reporting:** Variance Report bi-settimanali, Release Roadmap per la visione macroscopica, Sprint Board/Burn-up per il micro-management iterativo, e Stoplight Report mensile (ogni 2 Sprint) per lo Steering Committee.
+* **Sprint Review & Demo Live:** Riunioni di fine Sprint (ogni 2 settimane, max 1 ora) in cui lo Scrum Team presenta un incremento software funzionante (DoD soddisfatta) a coach e atleti per raccogliere dei feedback.
+* **Reporting:** Variance Report bi-settimanali, Release Roadmap per la visione macroscopica, Sprint Board/Burn-up per il micro-management iterativo, e Stoplight Report mensile (ogni 2 Sprint) per il Board / Investitori.
 
 ### **4.2 Monitoraggio Performance**
 Il monitoraggio avviene tramite Velocity Tracking (Story Points completati / Sprint), Burndown Chart e progressione dell'Accuracy dell'algoritmo.
@@ -121,6 +121,6 @@ Verrà condotto un audit finale per verificare oggettivamente il raggiungimento 
 Verrà organizzato un *Project Readiness Review* con il Product Owner (o Board) per presentare i risultati dell'audit. L'accettazione finale dei deliverable per il rilascio commerciale avverrà tramite un'approvazione formale interna (Executive Sign-off) che attesterà la conclusione della fase di sviluppo core (Sprint 16) e l'avvio della fase di post-lancio (fuori perimetro progetto).
 
 ### **5.3 Lessons Learned e Archiviazione**
-* **Knowledge Transfer:** Verrà eseguita una *Knowledge Transfer Checklist*, consegnando ai coach i manuali d'uso della dashboard e l'App Wearable.
+* **Knowledge Transfer:** Verrà eseguita una *Knowledge Transfer Checklist*, organizzando una sessione di onboarding formativa (con presentazione di supporto) per i nuovi clienti e fornendo un video tutorial esplicativo (YouTube) accompagnato da una guida di avvio rapido (Quick Start Guide).
 * **Lessons Learned:** Lo Scrum Master / PM condurrà una sessione di retrospettiva globale con lo Scrum Team per redigere il documento di *Lessons Learned*, identificando cosa ha funzionato e cosa andrà migliorato nei futuri progetti.
 * **Archiviazione:** Tutta la documentazione (POS, PDS, Product Backlog, Log dei Cambiamenti, Verbali e Retrospective) verrà congelata e archiviata centralmente.

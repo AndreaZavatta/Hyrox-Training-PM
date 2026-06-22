@@ -24,7 +24,7 @@ La sincronizzazione con gli stakeholder avviene  attraverso touchpoint negli Spr
 | **Sprint Review (Demo Live)** | Ogni 2 settimane (fine Sprint, max 1 ora) | Scrum Team, 15 Coach, Atleti di test | Incremento software funzionante (DoD soddisfatta) | Feedback utente, nuove proposte di requisiti nel backlog | Demo dal vivo del software su smartwatch e Dashboard Web. **No slide.** |
 | **Sessioni di Co-Design UI/UX** | Asincrona (fase di design iniziale o refactoring) | Product Owner, Tech Lead, Coach | Wireframe su Miro, requisiti utente | Modelli UI approvati, specifiche visive | Lavagna collaborativa virtuale Miro con sessioni asincrone di feedback. |
 | **Field Testing & Usability Sync** | Al rilascio delle Milestone (es. Sprint 4, 8, 12) | Scrum Master, Atleti di test | Build beta su TestFlight | Report SUS (System Usability Scale), ticket di anomalia | Distribuzione tramite TestFlight e successiva compilazione di brevi questionari. |
-| **Steering Committee Reporting** | Mensile (ogni 2 Sprint) | Scrum Master, Docenti del Corso | Velocity Chart (Burnup/Burndown), Risk Log | Approvazione dello stato di avanzamento | E-mail formale con allegato Stoplight Report e metriche di performance. |
+| **Reporting al Board / Investitori** | Mensile (ogni 2 Sprint) | Scrum Master, Board / Investitori | Velocity Chart (Burnup/Burndown), Risk Log | Approvazione dello stato di avanzamento | E-mail formale con allegato Stoplight Report e metriche di performance. |
 
 > [!NOTE]
 > Le cerimonie interne del team (come *Sprint Planning*, *Daily Scrum* e *Sprint Retrospective*), incentrate sul coordinamento operativo e sul miglioramento dei processi interni del team, sono escluse da questo piano in quanto riservate esclusivamente allo Scrum Team. Per le loro regole di svolgimento si rimanda ai [Working Agreements](file:///home/zava/Projects/PM-project/Planning/2-working_agreements.md#2-ritmo-di-lavoro-e-cerimonie-scrum).
@@ -45,14 +45,14 @@ graph TD
     subgraph Stakeholder Esterni
         COACH[15 Coach Esterni]
         ATLETI[30 Atleti di Test]
-        PROF[Professori / Comitato Corso]
+        BOARD[Board / Investitori]
     end
     
     PO -->|Prioritizzazione e Feedback| COACH
     PO -->|Interviste e CoS| ATLETI
     DEV -->|Demo Live nella Sprint Review| COACH
     DEV -->|Rilascio Beta in TestFlight| ATLETI
-    SM -->|Stoplight / Velocity Report| PROF
+    SM -->|Stoplight / Velocity Report| BOARD
 ```
 
 ### 3.1 Product Owner (PO)
@@ -71,9 +71,8 @@ graph TD
     *   **Beta Testing (TestFlight):** Ricevono i rilasci dell'app ad ogni conclusione di Sprint (es. al termine dello Sprint 4 per il modulo di navigazione, o dello Sprint 12 per il rilascio finale dell'algoritmo).
     *   **Validazione sul Campo:** Eseguono sessioni di allenamento simulate indossando Apple Watch Series 6+. I loro feedback sull'usabilità dell'interfaccia (es. leggibilità sotto sforzo estremo e utilità del feedback aptico) vengono raccolti tramite brevi questionari e inseriti direttamente come nuove storie nel Backlog.
 
-### 3.4 
-Steering Committee
-*   **Ruolo:** Organo di controllo accademico del progetto.
+### 3.4 Board / Investitori
+*   **Ruolo:** Organo di controllo e di indirizzo strategico e finanziario del progetto.
 *   **Coinvolgimento:**
     *   **Report di Status Mensile:** Al termine di ogni secondo Sprint (mensilmente), il Scrum Master invia un report sintetico contenente la **Velocity del team (Burnup/Burndown chart)** e un breve **Stoplight Report** sullo stato dei rischi critici (in particolare l'accuratezza del classificatore dei sensori).
 

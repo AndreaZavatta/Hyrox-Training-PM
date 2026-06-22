@@ -95,5 +95,5 @@ graph TD
     *   *Attività:* Setup dell'ambiente di produzione Cloud (AWS/Azure) con configurazioni di sicurezza e scalabilità. Preparazione del pacchetto app ed invio ad Apple App Store Connect per la review.
     *   *Obiettivo Sprint:* App in fase di revisione negli store e backend di produzione pronto e configurato.
 *   **Sprint 16: Deployment, Documentazione e Chiusura Progetto**
-    *   *Attività:* Rilascio pubblico dell'applicazione web e watchOS. Stesura del manuale utente (coach/atleta) e della documentazione tecnica finale per la manutenzione.
+    *   *Attività:* Rilascio pubblico dell'applicazione web e watchOS. Preparazione del materiale di onboarding per i nuovi clienti (video tutorial su YouTube/Loom, slide di presentazione) e della documentazione tecnica finale per la manutenzione.
     *   *Obiettivo Sprint:* Consegna formale del progetto, Sprint Retrospective finale e chiusura del ciclo di vita del progetto.
