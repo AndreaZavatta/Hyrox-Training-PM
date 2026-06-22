@@ -52,18 +52,18 @@ Una User Story è considerata "Pronta" per essere inserita nello Sprint Planning
 ### 2.2 Definition of Done (DoD) - Criteri di Rilascio dell'Incremento
 Nessuna User Story può essere considerata "Completata" (Done) e presentata nella Sprint Review se non rispetta rigorosamente la seguente DoD:
 
-#### 💻 Sviluppo & Standard di Codice
+#### Sviluppo & Standard di Codice
 *   Il codice è compilato con successo su watchOS (Wearable) e Web/Node (Dashboard) senza warning critici.
 *   Il codice segue le linee guida architetturali concordate (MVC/MVVM) e la convenzione dei commit.
 *   È stata eseguita una sessione di **Peer Review** (almeno un approvatore su Pull Request).
 
-#### 🧪 Testing & Copertura
+#### Testing & Copertura
 *   La suite di Unit Test è stata eseguita con successo nella pipeline CI/CD.
 *   Il codice di business logic (algoritmo di calcolo, logica di sync, controlli ACL) ha un **Code Coverage minimo dell'80%**.
 *   Sono stati eseguiti i test di integrazione per i flussi Bluetooth e di sincronizzazione API.
 
-#### 📦 Integrazione & Validazione
-*   Il feature branch è stato correttamente fuso (merged) nel branch `develop`.
+#### Integrazione & Validazione
+*   Il feature branch è stato correttamente fuso (merged) nel branch `review` dopo approvazione del Tech Lead.
 *   L'app per smartwatch è stata distribuita con successo su **TestFlight** per il testing interno degli atleti.
 *   Il PO ha testato la funzionalità in ambiente di staging e ha confermato il soddisfacimento dei criteri di accettazione della storia.
 
