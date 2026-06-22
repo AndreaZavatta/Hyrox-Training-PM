@@ -1,16 +1,15 @@
 # Release Roadmap
 
-La Release Roadmap definisce la schedulazione temporale dei rilasci e la suddivisione del Product Backlog in cicli iterativi di sviluppo (Sprint). Il progetto si articola su un orizzonte temporale di **8 mesi** suddiviso in **16 Sprint di 2 settimane ciascuno**, raggruppati in 4 fasi principali di rilascio coerenti con le dipendenze logiche e architetturali.
+La Release Roadmap definisce la schedulazione temporale dei rilasci e la suddivisione del Product Backlog in cicli iterativi di sviluppo (Sprint). Il progetto si articola su un orizzonte temporale di **8 mesi** suddiviso in **16 Sprint di 2 settimane ciascuno**, raggruppati in 3 release principali coerenti con le dipendenze logiche e architetturali.
 
 ---
 
 ## 1. Strategia Generale di Rilascio e Dipendenze
 
 La pianificazione segue una logica di **disaccoppiamento architetturale** e **mitigazione del rischio tecnologico**:
-1.  **Fase 1 (Design & Setup):** Setup ambiente, modelli dati e autenticazione. Prima di poter sincronizzare o tracciare, occorre definire come i dati sono strutturati e come i ruoli Coach/Atleta sono protetti.
-2.  **Fase 2 (Sviluppo Wearable e Riconoscimento):** Si sviluppa l'app orologio. L'algoritmo ha bisogno di un workout pre-schedulato per funzionare, quindi il builder su dashboard (sviluppato in Fase 1) precede il tracciamento automatico.
-3.  **Fase 3 (Analisi Avanzata):** Sviluppo dei grafici di pacing e delle sanzioni sulla dashboard, alimentati dai dati reali sincronizzati.
-4.  **Fase 4 (Quality Assurance e Rilascio):** Test end-to-end sul campo, validazione dell'accuratezza e rilascio negli store.
+1.  **Release 1: MVP Core Ecosistema (Sprint 1-8):** Include il setup dell'architettura e del database, la profilazione utenti e il workout builder (Fase 1: Foundation), unitamente all'applicazione smartwatch nativa con l'algoritmo di tracciamento automatico, il fallback manuale e le pipeline di sincronizzazione (Fase 2: Core Wearable). Questa release rappresenta il Minimum Viable Product, permettendo l'esecuzione end-to-end e la sincronizzazione di un allenamento reale.
+2.  **Release 2: Advanced Analytics & Flexibility (Sprint 9-11):** Include la visualizzazione comparativa del team, i grafici di pacing, la gestione delle sanzioni a posteriori e la dashboard offline, oltre a skip e riordino stazioni su watch.
+3.  **Release 3: Validation & Store Launch (Sprint 12-16):** Fasi di test intensivi in laboratorio e sul campo, validazione dell'usabilità SUS, deploy dell'infrastruttura cloud di produzione, revisione store e consegna del progetto.
 
 ---
 
@@ -18,16 +17,14 @@ La pianificazione segue una logica di **disaccoppiamento architetturale** e **mi
 
 ```mermaid
 graph TD
-    subgraph Release 1: Foundation (Sprint 1-3)
+    subgraph Release 1: MVP Core Ecosistema (Sprint 1-8)
         S1[Sprint 1: Setup & API] --> S2[Sprint 2: Auth & Profilo] --> S3[Sprint 3: Builder Workout]
-    end
-    subgraph Release 2: Core Wearable (Sprint 4-8)
         S3 --> S4[Sprint 4: Watch UI & Spike] --> S5[Sprint 5: Push & Fallback] --> S6[Sprint 6: Algo Core] --> S7[Sprint 7: Cache & Reports] --> S8[Sprint 8: Sync Pipeline]
     end
-    subgraph Release 3: Advanced Dashboard (Sprint 9-11)
+    subgraph Release 2: Advanced Analytics & Flexibility (Sprint 9-11)
         S8 --> S9[Sprint 9: Team View & Sanctions] --> S10[Sprint 10: Pacing & Flexibility] --> S11[Sprint 11: Offline Dashboard]
     end
-    subgraph Release 4: QA & Launch (Sprint 12-16)
+    subgraph Release 3: Validation & Store Launch (Sprint 12-16)
         S11 --> S12{Sprint 12: Lab Testing & Gate} --> S13[Sprint 13: Usability & SUS] --> S14[Sprint 14: System E2E] --> S15[Sprint 15: Infra & Store Prep] --> S16[Sprint 16: Deploy & Handover]
     end
 
