@@ -14,7 +14,7 @@ Ai fini della pianificazione della release e dell'allineamento con la baseline d
 Per garantire la massima qualità e coerenza del flusso Scrum, lo sviluppo del backlog e il completamento delle User Story seguono i criteri di qualità stabiliti.
 
 > [!NOTE]
-> La **Definition of Ready (DoR)** e la **Definition of Done (DoD)** dettagliate, che regolano l'ammissione e il rilascio delle storie all'interno degli Sprint, sono centralizzate per evitare ridondanze in [Agile Quality & Change Governance](file:///home/zava/Projects/PM-project/Planning/8-quality_and_change_governance.md#2-governance-della-qualità-quality-control).
+> La **Definition of Ready (DoR)** e la **Definition of Done (DoD)** dettagliate, che regolano l'ammissione e il rilascio delle storie all'interno degli Sprint, sono centralizzate per evitare ridondanze in [Quality & Change Governance](file:///home/zava/Projects/PM-project/Planning/8-quality_and_change_governance.md#2-governance-della-qualità-quality-control).
 
 ---
 
