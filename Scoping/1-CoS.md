@@ -46,7 +46,7 @@ Inoltre deve esserci una funzionalità a livello di smartwatch per vedere un rie
 
 **Stakeholder Want (Atleta):** *"In palestra capita che un macchinario sia occupato. Voglio poter cambiare una stazione o cambiare l'ordine degli esercizi senza che l'applicazione mi rovini i grafici della sessione."*
 
-**Project Manager Need (Workflow di Processo):** L'applicazione deve consentire il riordino o il cambio di una stazione tramite un massimo di 2 interazioni (touch o fisiche tramite bottoni) (latenza di risposta \<= 1 secondo).  
+**Project Manager Need (Workflow di Processo):** L'applicazione deve consentire il riordino o il cambio di una stazione tramite un massimo di 2 interazioni (touch o fisiche tramite bottoni).  
 ### **Usabilità sotto stress (MUST)**
 
 **Stakeholder Want (Atleta):** *"Durante la gara sono completamente in affanno; lo schermo dell'orologio deve essere leggibile con un colpo d'occhio immediato."*
@@ -57,12 +57,12 @@ Inoltre deve esserci una funzionalità a livello di smartwatch per vedere un rie
 
 **Stakeholder Want (Coach/Atleta):** *"Le palestre e le arene di gara spesso sono dei seminterrati o dei capannoni isolati dove internet non prende. Il sistema non deve perdere nemmeno un secondo di tracciamento se salta la connessione."* 
 
-**Project Manager Need (Architettura del Workflow):** Implementazione di logica *Offline-First*. Il sistema deve supportare il caching locale di almeno 4 ore di telemetria. La sincronizzazione cloud deve completarsi entro 5 secondi dal ripristino della connettività, con una perdita di dati < 1%.
+**Project Manager Need (Architettura del Workflow):** Implementazione di logica *Offline-First*. Il sistema deve supportare il caching locale di almeno 4 ore di allenamento. La sincronizzazione cloud deve completarsi entro 5 secondi dal ripristino della connettività, con una perdita di dati < 1%.
 
 ### **Dashboard Offline-First / Local View (COULD)**
 
 * **Stakeholder Want (Coach):** "Quando sono in zone con zero connettività (es. scantinati o zone remote), vorrei poter consultare i dati di sintesi del team memorizzati localmente sul mio tablet, senza dover attendere il ripristino della rete."  
-* **Project Manager Need (Modulo Dashboard Offline):** Il sistema *potrebbe* prevedere una modalità di visualizzazione "Offline-Cache" nell'applicazione Web. Questa funzionalità permetterebbe di accedere in sola lettura a un set limitato di dati (ultimi 10 allenamenti sincronizzati) salvati nel browser tramite IndexedDB o API di caching del browser.
+* **Project Manager Need (Modulo Dashboard Offline):** Il sistema *potrebbe* prevedere una modalità di visualizzazione "Offline-Cache" nell'applicazione Web. Questa funzionalità permetterebbe di accedere in sola lettura a un set limitato di dati (ultimi 10 allenamenti sincronizzati) salvati nel browser.
 
 ### **Sviluppo di Hardware Proprietario (WON'T)**
 
