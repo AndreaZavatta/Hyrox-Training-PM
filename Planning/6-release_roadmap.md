@@ -69,8 +69,8 @@ graph TD
 *   **Sprint 9: Visualizzazione Team & Gestione Sanzioni (13 SP)**
     *   *User Stories:* US-D-03 (Visualizzazione Comparativa Team - 8 SP), US-D-05 (Gestione Sanzioni / Penalità - 5 SP).
     *   *Obiettivo Sprint:* Tabella comparativa a colonne sulla dashboard del coach e gestione delle sanzioni/no-rep a posteriori con ricalcolo dei tempi.
-*   **Sprint 10: Grafici di Pacing & Flessibilità Allenamento (16 SP)**
-    *   *User Stories:* US-D-04 (Motore Grafici Pacing - 8 SP), US-W-07 (Skip & Riordina Stazioni su Watch - 8 SP).
+*   **Sprint 10: Grafici di Pacing & Flessibilità Allenamento (21 SP)**
+    *   *User Stories:* US-D-04 (Motore Grafici Pacing - 8 SP), US-W-07 (Skip & Riordina Stazioni su Watch - 13 SP).
     *   *Obiettivo Sprint:* Grafici interattivi di pacing reale vs target sulla dashboard e gestione sul watch delle modifiche all'ordine del workout (skip/riordina).
 *   **Sprint 11: Dashboard Offline-First (8 SP)**
     *   *User Stories:* US-D-07 (Dashboard in Modalità Offline - 8 SP).

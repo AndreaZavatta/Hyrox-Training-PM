@@ -105,7 +105,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Criteri di Accettazione:**
     *   L'interfaccia dell'orologio deve presentare una gesture o un tasto secondario per accedere alla lista dei blocchi ed effettuare lo "Skip" o il "Riordina".
     *   L'azione di deviazione deve contrassegnare i dati esportati con un flag specifico ("Esercizio Saltato / Riordinato") per informare correttamente il coach.
-*   **Stima:** `8 Story Points` (Alta complessità; gestione della macchina a stati dell'orologio in caso di variazione della sequenza pianificata)
+*   **Stima:** `13 Story Points` (Alta complessità; gestione della macchina a stati dell'orologio in caso di variazione della sequenza pianificata)
 
 ---
 

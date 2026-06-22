@@ -1,22 +1,7 @@
 # Work Breakdown Structure (WBS) / Scomposizione del Backlog
 
-In conformità con il framework **Scrum puro**, il progetto adotta una **Work Breakdown Structure (WBS) / Scomposizione del Backlog**. Questo documento organizza gerarchicamente i requisiti di prodotto per garantire l'integrità concettuale dello sviluppo, escludendo stime in giorni-uomo o durate fisse a favore degli **Story Points (SP)** (scala di Fibonacci) e della pianificazione guidata dalla **Velocity** del team.
+Il progetto adotta una **Work Breakdown Structure (WBS)**. Questo documento organizza gerarchicamente i requisiti di prodotto per garantire l'integrità concettuale dello sviluppo includendo stime in **Story Points (SP)** (scala di Fibonacci) e inserendo la pianificazione guidata dalla **Velocity** del team.
 
-```
-                  [Product Goal: Ecosistema Hyrox]
-                                 │
-         ┌───────────────────────┼───────────────────────┐
-         ▼                       ▼                       ▼
-   [Epic 1: Wearable]    [Epic 2: Dashboard]      [Epic 3: Sync]
-         │                       │                       │
- ┌───────┴───────┐       ┌───────┴───────┐       ┌───────┴───────┐
- ▼               ▼       ▼               ▼       ▼               ▼
-[Feature 1.1]  [...]   [Feature 2.1]   [...]   [Feature 3.1]   [...]
- │                       │                       │
- └─► User Stories        └─► User Stories        └─► User Stories
-```
-
----
 
 ## Livello 0: Product Goal
 Sviluppare un ecosistema integrato (Wearable App + Web Dashboard) per ottimizzare la pianificazione, il monitoraggio in gara e l'analisi post-allenamento dei team Hyrox, riducendo il tempo operativo dei coach ed eliminando il carico cognitivo dell'atleta.
@@ -25,7 +10,7 @@ Sviluppare un ecosistema integrato (Wearable App + Web Dashboard) per ottimizzar
 
 ## Livello 1: Epiche, Feature e User Story
 
-### EPIC 1: Sottosistema Smartwatch (Wearable) [Totale: 45 SP]
+### EPIC 1: Sottosistema Smartwatch (Wearable) [Totale: 47 SP]
 *Focus:* Sviluppo dell'applicazione nativa watchOS per l'acquisizione dei dati sul campo.
 
 *   **Feature 1.1: Interfaccia Utente (UI) & Navigazione [11 SP]**
@@ -35,9 +20,9 @@ Sviluppare un ecosistema integrato (Wearable App + Web Dashboard) per ottimizzar
 *   **Feature 1.2: Algoritmo di Riconoscimento Esercizi [18 SP]**
     *   **US-W-04 (Algoritmo Riconoscimento - Modello Core) [13 SP] (MUST):** Classificatore inerziale che distingue in modo automatico la corsa (Roxzone) dalle stazioni di forza (Sled, Lunge, Burpee, ecc.).
     *   **US-TEC-03 (Spike Tecnologico - Acquisizione Dati Sensori) [5 SP] (MUST):** Raccolta preliminare di campioni accelerometrici per addestrare e validare il modello di riconoscimento.
-*   **Feature 1.3: Flessibilità & Transizione Manuale [16 SP]**
+*   **Feature 1.3: Flessibilità & Transizione Manuale [18 SP]**
     *   **US-W-03 (Fallback Trigger Manuale) [5 SP] (MUST):** Funzionalità di transizione manuale tramite gesti rapidi/pulsanti fisici se l'algoritmo fallisce il riconoscimento automatico.
-    *   **US-W-07 (Skip & Riordina Stazioni su Watch) [11 SP] (COULD):** Possibilità per l'atleta di saltare o riordinare gli esercizi se un macchinario in palestra è occupato.
+    *   **US-W-07 (Skip & Riordina Stazioni su Watch) [13 SP] (COULD):** Possibilità per l'atleta di saltare o riordinare gli esercizi se un macchinario in palestra è occupato.
 
 ---
 
@@ -83,5 +68,5 @@ Sviluppare un ecosistema integrato (Wearable App + Web Dashboard) per ottimizzar
 ## 2. Note Metodologiche sulla Stima e Pianificazione
 
 1.  **Story Points vs Ore/Giorni:** Gli Story Points sono assegnati dal Dev Team e rappresentano la complessità complessiva, lo sforzo e l'incertezza tecnica di ciascuna User Story (scala di Fibonacci: 3, 5, 8, 13).
-2.  **Pianificazione degli Sprint (Velocity):** Con una Velocity stimata del team pari a circa **8-10 Story Points per Sprint**, il backlog complessivo di **124 SP** è schedulato per essere sviluppato in circa 13 Sprint di puro sviluppo, lasciando i restanti Sprint per la validazione sul campo (SUS, Lab Testing) e il rilascio finale.
+2.  **Pianificazione degli Sprint (Velocity):** Con una Velocity stimata del team pari a circa **8-10 Story Points per Sprint**, il backlog complessivo di **126 SP** è schedulato per essere sviluppato in circa 13 Sprint di puro sviluppo, lasciando i restanti Sprint per la validazione sul campo (SUS, Lab Testing) e il rilascio finale.
 3.  **Gestione del Debito Tecnico:** Le attività di refactoring e manutenzione non sono inserite in questa scomposizione di business, ma vengono stimate come storie tecniche aggiuntive all'inizio di ogni Sprint Planning (fino al 15% della capacità dello Sprint).

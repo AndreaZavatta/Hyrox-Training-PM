@@ -56,7 +56,7 @@ Lo User Story Mapping organizza il Product Backlog su due dimensioni:
 | User Journey -> <br> Release | 1. Configurazione Profilo & Accessi | 2. Creazione & Programmazione Workout | 3. Invio & Ricezione | 4. Esecuzione & Tracciamento | 5. Sincronizzazione Dati | 6. Debriefing & Analisi |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **RELEASE 1 (MVP)<br>Core Ecosistema**<br>*Sprints 1-8*<br>*(Effort: 86 SP)* | **US-TEC-01** (Setup CI/CD/Repo)<br>**US-TEC-02** (Architettura DB/API)<br>**US-D-01** (Autenticazione e ACL)<br>**US-D-02** (Profilo & Categoria) | **US-D-06** (Workout Builder) | **US-S-03** (Push Workout a Watch)<br>**US-W-02** (Note Coach su Watch) | **US-W-01** (UI Watch Alto Contrasto)<br>**US-TEC-03** (Spike Raccolta Dati)<br>**US-W-03** (Fallback Manuale)<br>**US-W-04** (Algoritmo Riconoscimento) | **US-W-05** (Caching Watch Offline)<br>**US-S-01** (Sync Watch->Phone)<br>**US-S-02** (Sync Phone->Cloud) | **US-W-06** (Report Finale su Watch) |
-| **RELEASE 2<br>Advanced Analytics & Flexibility**<br>*Sprints 9-11*<br>*(Effort: 37 SP)* | - | - | - | **US-W-07** (Skip & Riordina Stazioni) | **US-D-07** (Dashboard Offline-First) | **US-D-03** (Tabella Comparativa Team)<br>**US-D-05** (Gestione Sanzioni/Penalità)<br>**US-D-04** (Grafici di Pacing) |
+| **RELEASE 2<br>Advanced Analytics & Flexibility**<br>*Sprints 9-11*<br>*(Effort: 42 SP)* | - | - | - | **US-W-07** (Skip & Riordina Stazioni) | **US-D-07** (Dashboard Offline-First) | **US-D-03** (Tabella Comparativa Team)<br>**US-D-05** (Gestione Sanzioni/Penalità)<br>**US-D-04** (Grafici di Pacing) |
 
 ---
 
