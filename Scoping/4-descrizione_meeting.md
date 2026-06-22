@@ -26,7 +26,7 @@
 | :---- | :---- | :---- |
 | **Creazione del documento CoS** | **Project Manager** | **07 Maggio** |
 | **Validazione e Sign-off formale delle CoS** | **Product Owner** | **10 Maggio** |
-| **Scomposizione delle CoS in bozza RBS (Requirements Breakdown Structure)** | **Core Team Tecnico** | **15 Maggio** |
+| **Scomposizione delle CoS in bozza RBS (Requirements Breakdown Structure)** | **Project Manager & Product Owner** | **15 Maggio** |
 | **Redazione della prima bozza del POS (Project Overview Statement)** | **Project Manager** | **17 Maggio** |
 
 **NOTE OPERATIVE E NEXT STEPS:**
