@@ -40,10 +40,10 @@ Suddividiamo i costi in:
 
 * **Costi fissi (CapEx):** Includono lo sviluppo iniziale, Il Team, l’hardware di test e le consulenze legali (€271.700)  
 * **Costi variabili (OpEx):** Includono il mantenimento cloud per team e il supporto tecnico. (€2,50 per team/mese, inclusivo di hosting AWS, database NoSQL per la telemetria e chiamate API)  
-* **Prezzo di vendita (abbonamento mensile):** €25 (IVA inclusa) per ogni team gestito  
-  * Ricavo netto (Senza IVA 22%): €20.49  
-  * Commissioni Store (15%): €3,07.  
-  * Ricavo reale per ogni team: €17,42.
+* **Prezzo di vendita (abbonamento mensile):** €25 + IVA (22%) per ogni team gestito  
+  * Ricavo netto (Senza IVA): €25,00.  
+  * Commissioni Store (15%): €3,75.  
+  * Ricavo reale per ogni team: €21,25.
 
 * ### **Calcolo del Breakeven Point (BEP)**
 
@@ -53,7 +53,7 @@ Suddividiamo i costi in:
   $$Q = \frac{\text{Costi Fissi (CapEx)}}{\text{Ricavo Reale per Team} - \text{Costo Variabile (OpEx)}}$$
 
   Sostituendo i valori del progetto:
-  $$Q = \frac{271.700 \text{ €}}{17,42 \text{ €} - 2,50 \text{ €}} = \frac{271.700 \text{ €}}{14,92 \text{ €}} \approx 18.210,46 \text{ team totali }$$
+  $$Q = \frac{271.700 \text{ €}}{21,25 \text{ €} - 2,50 \text{ €}} = \frac{271.700 \text{ €}}{18,75 \text{ €}} \approx 14.490,67 \text{ team totali }$$
 
 **Calcolo del Payback Period (BEP Temporale)** 
 
@@ -63,13 +63,13 @@ Il marketing e le vendite rimangono rigorosamente *Out of Scope*.
 
 Sapendo:
 
-* **Punto di pareggio** (Q): 18.211 abbonamenti totali  
+* **Punto di pareggio** (Q): 14.491 abbonamenti totali  
 * **Adozione Mensile Stimata:** 540 team attivi al mese (se ogni coach gestisce in media 15 teams, ci servono 36 coach al mese).  
-* **Tempo di Recupero (Payback Period):** 18.211 / 540 \= 34 mesi dal rilascio in produzione dell'MVP.
+* **Tempo di Recupero (Payback Period):** 14.491 / 540 \= 27 mesi dal rilascio in produzione dell'MVP.
 
 **Return on Investment (ROI)**
 
-Il ROI viene calcolato rapportando l'Utile Netto Cumulato all'Investimento Iniziale (CapEx). Poiché l'investimento di sviluppo (CapEx) è un costo fisso sostenuto interamente nella fase iniziale, mentre i costi di gestione (OpEx) sono ridotti rispetto ai ricavi generati, l'utile netto mensile post-breakeven (€8.056,80/mese) determina una crescita del ROI molto sostenuta all'aumentare dell'orizzonte temporale.
+Il ROI viene calcolato rapportando l'Utile Netto Cumulato all'Investimento Iniziale (CapEx). Poiché l'investimento di sviluppo (CapEx) è un costo fisso sostenuto interamente nella fase iniziale, mentre i costi di gestione (OpEx) sono ridotti rispetto ai ricavi generati, l'utile netto mensile post-breakeven (€10.125,00/mese) determina una crescita del ROI molto sostenuta all'aumentare dell'orizzonte temporale.
 
 **Dati del Modello (Orizzonte 5 anni)** 
 
@@ -85,14 +85,14 @@ Il ROI viene calcolato rapportando l'Utile Netto Cumulato all'Investimento Inizi
 
 **Calcolo dei ricavi totali**
 
-* **Ricavo Netto**: 540 team x 17,42€ x 52 mesi \= €488.851
+* **Ricavo Netto**: 540 team x 21,25€ x 52 mesi \= €596.700
 
 **Calcolo del ROI Finale (Orizzonte 5 anni)**
 
-**ROI \= (Ricavi Totali - Costi Totali) / CapEx \= (488.851 - 341.900) / 271.700 \= 54,09%**
+**ROI \= (Ricavi Totali - Costi Totali) / CapEx \= (596.700 - 341.900) / 271.700 \= 93,78%**
 
 *Nota di confronto:*
-Con lo stesso metodo di calcolo, su un orizzonte di **3 anni** (28 mesi operativi), il ROI sarebbe stato del **-16,97%** ($\frac{263.390 - 309.500}{271.700}$), evidenziando come l'estensione del ciclo di vita del software ammortizzi i costi iniziali e incrementi notevolmente la redditività del progetto (un valore negativo che indica come il tempo di recupero di 34 mesi superi il periodo operativo di 28 mesi previsto nel triennio).
+Con lo stesso metodo di calcolo, su un orizzonte di **3 anni** (28 mesi operativi), il ROI sarebbe stato del **4,34%** ($\frac{321.300 - 309.500}{271.700}$), evidenziando come l'estensione del ciclo di vita del software ammortizzi i costi iniziali e incrementi notevolmente la redditività del progetto (un valore che diventa positivo in quanto il tempo di recupero di 27 mesi è ora inferiore al periodo operativo di 28 mesi previsto nel triennio).
 
 
 ## **5. Proiezione del Cash Flow Mensile (Mesi 1-12)**
@@ -104,7 +104,7 @@ Le stime considerano:
 - **Infrastruttura, Hardware e Licenze (CapEx)**: €15.000 distribuiti nei mesi 1, 7 e 8 (fase di setup, validazione e compliance).
 - **Riserva di Contingenza (CapEx)**: €24.700 tenuti come buffer di cassa e non spesi nel flusso base pianificato.
 - **OpEx (Costi di Esercizio Post-Rilascio)**: €2,50/team al mese (hosting server, database telemetria e supporto, escludendo il marketing che è fuori perimetro). L'OpEx varia proporzionalmente al numero di team attivi.
-- **Entrate (Inflow)**: Stimate sulla crescita progressiva degli abbonamenti dal mese 9 (Target BEP: 540 team attivi a regime). Si assume un'acquisizione iniziale di 150 team nel Mese 9, che cresce di 100 team al mese fino a 450 team al Mese 12 (ricavo netto: €17,42/team/mese).
+- **Entrate (Inflow)**: Stimate sulla crescita progressiva degli abbonamenti dal mese 9 (Target BEP: 540 team attivi a regime). Si assume un'acquisizione iniziale di 150 team nel Mese 9, che cresce di 100 team al mese fino a 450 team al Mese 12 (ricavo netto: €21,25/team/mese).
 
 | Mese | Attività Principale | Uscite CapEx (€) | Uscite OpEx (€) | Totale Uscite (€) | Entrate Inflow (€) | Flusso Netto Mensile (€) | Cassa Cumulata (€) |
 |:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -117,10 +117,10 @@ Le stime considerano:
 | **M6** | Integrazione & QA Testing | 29.000 | - | 29.000 | - | -29.000 | **90.200** |
 | **M7** | Beta Test & Validazione | 31.500 | - | 31.500 | - | -31.500 | **58.700** |
 | **M8** | Rilascio & Compliance | 34.000 | - | 34.000 | - | -34.000 | **24.700** |
-| **M9** | Lancio (150 Team attivi) | - | 375 | 375 | 2.613 | +2.238 | **26.938** |
-| **M10** | Esercizio (250 Team attivi) | - | 625 | 625 | 4.355 | +3.730 | **30.668** |
-| **M11** | Esercizio (350 Team attivi) | - | 875 | 875 | 6.097 | +5.222 | **35.890** |
-| **M12** | Esercizio (450 Team attivi) | - | 1.125 | 1.125 | 7.839 | +6.714 | **42.604** |
+| **M9** | Lancio (150 Team attivi) | - | 375 | 375 | 3.188 | +2.813 | **27.513** |
+| **M10** | Esercizio (250 Team attivi) | - | 625 | 625 | 5.312 | +4.687 | **32.200** |
+| **M11** | Esercizio (350 Team attivi) | - | 875 | 875 | 7.438 | +6.563 | **38.763** |
+| **M12** | Esercizio (450 Team attivi) | - | 1.125 | 1.125 | 9.562 | +8.437 | **47.200** |
 
 *Nota: La riserva di contingency di €24.700 (cassa cumulata al Mese 8) garantisce che il progetto non vada mai in deficit di cassa durante la transizione al regime commerciale.*
 
@@ -128,4 +128,4 @@ Le stime considerano:
   $$ROI = \frac{\text{Ricavi Totali - Costi Totali}}{\text{CapEx}}$$
 
   Sostituendo i valori del progetto:
-  $$ROI = \frac{488.851 \text{ €} - 341.900 \text{ €}}{271.700 \text{ €}} = \frac{146.951 \text{ €}}{271.700 \text{ €}} \approx 54,09\%$$
+  $$ROI = \frac{596.700 \text{ €} - 341.900 \text{ €}}{271.700 \text{ €}} = \frac{254.800 \text{ €}}{271.700 \text{ €}} \approx 93,78\%$$
