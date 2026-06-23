@@ -22,7 +22,7 @@ La sincronizzazione con gli stakeholder avviene  attraverso touchpoint negli Spr
 | Touchpoint | Frequenza | Partecipanti Coinvolti | Input Principale | Output Principale | Canale / Modalità |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Sprint Review (Demo Live)** | Ogni 2 settimane (fine Sprint, max 1 ora) | Scrum Team, 15 Coach, Atleti di test | Incremento software funzionante (DoD soddisfatta) | Feedback utente, nuove proposte di requisiti nel backlog | Demo dal vivo del software su smartwatch e Dashboard Web. **No slide.** |
-| **Sessioni di Co-Design UI/UX** | Asincrona (fase di design iniziale o refactoring) | Product Owner, Tech Lead, Coach | Wireframe su Miro, requisiti utente | Modelli UI approvati, specifiche visive | Lavagna collaborativa virtuale Miro con sessioni asincrone di feedback. |
+| **Sessioni di Co-Design UI/UX** | fase di design iniziale o refactoring| Product Owner, Tech Lead, Coach | Wireframe su Miro, requisiti utente | Modelli UI approvati, specifiche visive | Lavagna collaborativa virtuale Miro con sessioni asincrone di feedback. |
 | **Field Testing & Usability Sync** | Al rilascio delle Milestone (es. Sprint 4, 8, 12) | Scrum Master, Atleti di test | Build beta su TestFlight | Report SUS (System Usability Scale), ticket di anomalia | Distribuzione tramite TestFlight e successiva compilazione di brevi questionari. |
 | **Reporting al Board / Investitori** | Mensile (ogni 2 Sprint) | Scrum Master, Board / Investitori | Velocity Chart (Burnup/Burndown), Risk Log | Approvazione dello stato di avanzamento | E-mail formale con allegato Stoplight Report e metriche di performance. |
 
@@ -80,7 +80,7 @@ graph TD
 
 ## 4. Ciclo di Feedback Empirico e Adattamento
 
-In Scrum puro, il feedback degli stakeholder viene integrato dinamicamente nel ciclo empirico del prodotto:
+Il feedback degli stakeholder viene integrato dinamicamente nel ciclo empirico del prodotto:
 
 ```
 [Demo Funzionante in Sprint Review] 

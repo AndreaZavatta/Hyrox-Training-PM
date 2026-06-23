@@ -1,4 +1,4 @@
-# Agile Quality & Change Governance
+# Quality & Change Governance
 
 Il presente documento definisce le regole di governance per la gestione della **Qualità** e dello **Scope (Cambiamenti)**. Il controllo di qualità e l'adattamento dello scope si basano sul controllo empirico del processo, gestito attraverso la *Definition of Done (DoD)*, la *Definition of Ready (DoR)* e la prioritizzazione continua del *Product Backlog*.
 
@@ -60,8 +60,6 @@ Nessuna User Story può essere considerata "Completata" (Done) e presentata nell
 #### Testing & Copertura
 *   La suite di Unit Test è stata eseguita con successo nella pipeline CI/CD.
 *   Il codice di business logic (algoritmo di calcolo, logica di sync, controlli ACL) ha un **Code Coverage minimo dell'80%**.
-*   Sono stati eseguiti i test di integrazione per i flussi Bluetooth e di sincronizzazione API.
-
 #### Integrazione & Validazione
 *   Il feature branch è stato correttamente fuso (merged) nel branch `review` dopo approvazione del Tech Lead.
 *   L'app per smartwatch è stata distribuita con successo su **TestFlight** per il testing interno degli atleti.
