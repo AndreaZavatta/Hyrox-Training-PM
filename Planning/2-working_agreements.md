@@ -63,16 +63,22 @@ Per mitigare i rischi tecnici e garantire la qualità del codice, il team si imp
 
 ### 3.1 Gestione dei Repository e Branching Strategy
 *   **Branch `main`:** Contiene solo codice stabile e rilasciabile in produzione. Il branch `review` viene integrato (merged) in `main` **esclusivamente il lunedì** per formalizzare i rilasci stabili.
-*   **Branch `review`:** Branch intermedio di staging e validazione. Riceve gli avanzamenti da `develop` tramite Pull Request formale, queste ultime vengono approvate dal Tech Lead oppure da un altro sviluppatore esperto del sottosistema.
-*   **Branch `develop`:** Branch principale per lo sviluppo corrente.
-*   **Branch `feature/`:** Utilizzato per lo sviluppo di nuove User Story (es. `feature/US-W-01-watch-ui`) creato a partire da `develop`. Questi branch vengono integrati (merged) in `develop` al completamento delle attività di sviluppo.
-*   **Branch `bugfix/`:** Utilizzato per la correzione di bug ordinari identificati durante il ciclo di sviluppo. Ha la stessa funzione e ciclo di vita dei feature branch.
-*   **Branch `hotfix/`:** Utilizzato per la risoluzione urgente di anomalie critiche e bloccanti. Viene sviluppato a partire da `main` e può essere integrato su main tramite pull request in qualsiasi giorno della settimana per garantire la massima tempestività.
+*   **Branch `review`:** Branch di staging e validazione. Riceve gli avanzamenti dei singoli **feature branch** tramite Pull Request formale per la revisione del Tech Lead (Senior).
+*   **Branch `develop`:** Branch di integrazione e sviluppo corrente. Gli sviluppatori possono fondere i propri feature branch direttamente in `develop` (senza passare obbligatoriamente per la review) per testare l'integrazione con il codice degli altri.
+*   **Branch `feature/`:** Utilizzato per lo sviluppo di nuove User Story (es. `feature/US-W-01-watch-ui`). **Viene creato a partire da `main`** (per garantire l'isolamento ed evitare di ereditare codice non finito presente in `develop`).
+    *   *Per l'integrazione continua:* Il feature branch viene fuso direttamente in `develop` per i test di integrazione del team.
+    *   *Per la review formale:* Una volta completato, viene aperta una PR dal feature branch verso `review` per la verifica da parte del Tech Lead (Senior).
+*   **Branch `bugfix/`:** Utilizzato per la correzione di bug ordinari. Segue lo stesso flusso dei feature branch (creato da `main`, integrato in `develop` per i test, e PR verso `review` per il rilascio).
+*   **Branch `hotfix/`:** Utilizzato per la risoluzione urgente di anomalie critiche in produzione. Viene creato a partire da `main` e integrato direttamente in `main` e `develop` dopo approvazione immediata.
 *   **Convenzione Commit:** I messaggi di commit devono includere l'ID del task o del bug di riferimento (es. `HTPO-30: implementato design ad alto contrasto per la griglia esercizi`).
 
 ### 3.2 Pull Request e Peer Review
-*   Nessun codice può essere integrato in `develop`, `review` o `main` senza una **Pull Request (PR)**.
-*   Il flusso di integrazione prevede lo sviluppo in `develop` (tramite branch feature o bugfix), l'apertura di una PR verso `review` (che deve essere revisionata e approvata), e il successivo merge da `review` a `main` il lunedì.
+*   Nessun codice può essere integrato in `review` o `main` senza una **Pull Request (PR)** e l'approvazione formale di un Senior.
+*   Il flusso di integrazione prevede:
+    1. Sviluppo locale nel branch `feature/*` (staccato da `main`).
+    2. Merge libero/diretto di `feature/*` in `develop` per i test di integrazione continui tra sviluppatori.
+    3. Apertura di una PR da `feature/*` verso `review` per la code review formale da parte del Tech Lead.
+    4. Sincronizzazione settimanale (lunedì): fusione di `review` in `main` per il rilascio, e successivo merge di `main` in `develop` per riallineare il branch di integrazione con le feature stabili approvate.
 *   Ogni PR verso il branch `review` richiede l'approvazione di almeno **1 reviewer qualificato** (il Tech Lead o un altro sviluppatore esperto del sottosistema).
 *   Il linter automatico e la suite di unit test configurati nella pipeline CI/CD devono superarsi con successo prima che la PR possa essere fusa in `develop`, `review` o `main`.
 *   In conformità con la DoD, la copertura dei test per la logica di business (backend, algoritmo di riconoscimento, protocolli di sync) deve essere pari o superiore all'**80%**.
