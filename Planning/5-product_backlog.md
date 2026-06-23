@@ -41,7 +41,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Rif. WBS/RBS:** WBS 1.1 / RBS 1.1.3.1 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* atleta in allenamento,
-    *   *voglio* visualizzare sul display dello smartwatch le note specifiche scritte dal coach per la stazione attiva (es. peso dello sled, target di watt sul row, note tecniche),
+    *   *voglio* visualizzare sul display dello smartwatch le note specifiche scritte dal coach per la stazione attiva (es. target di watt sul row, note tecniche),
     *   *affinché* possa eseguire l'esercizio esattamente come pianificato senza dover interrompere l'allenamento per consultare il telefono o cartelli cartacei.
 *   **Criteri di Accettazione:**
     *   Le note devono apparire in un'area testuale dedicata nella schermata dell'esercizio in corso.
@@ -57,7 +57,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
     *   *affinché* possa disporre di un meccanismo di fallback affidabile e immediato qualora l'algoritmo automatico fallisca o introduca ritardi nel rilevamento della transizione.
 *   **Criteri di Accettazione:**
     *   La transizione manuale si attiva tramite pressione contemporanea della Digital Crown e del tasto laterale per 1.0 secondi (per prevenire attivazioni accidentali).
-    *   L'attivazione genera una vibrazione aptica forte (Haptic Feedback) per dare conferma fisica immediata all'atleta senza obbligarlo a guardare lo schermo.
+    *   L'attivazione genera un Feedback aptico (vibrazione) per dare conferma fisica immediata all'atleta senza obbligarlo a guardare lo schermo.
     *   Deve essere disponibile un comando "Undo/Annulla" visibile a schermo per 3 secondi dopo la transizione, per ripristinare lo stato precedente in caso di errore.
 *   **Stima:** `5 Story Points` (Media complessità; cattura input pulsanti fisici, feedback aptico e gestione timer/stato di Undo)
 
@@ -65,10 +65,10 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
 *   **Rif. WBS/RBS:** WBS 1.2 / RBS 1.1.2.1 (Priorità: **MUST**)
 *   **User Story:**
     *   *Come* atleta in gara,
-    *   *voglio* che lo smartwatch riconosca autonomamente l'inizio e la fine delle 8 stazioni funzionali Hyrox e delle Roxzone di corsa tramite i sensori inerziali (accelerometro e giroscopio),
+    *   *voglio* che lo smartwatch riconosca autonomamente l'inizio e la fine delle 8 stazioni funzionali Hyrox e delle Roxzone di corsa tramite i sensori inerziali (accelerometro e giroscopio) e la schedulazione del workout definita dal coach,
     *   *affinché* non debba effettuare alcuna interazione fisica con lo schermo del watch durante l'intera performance.
 *   **Criteri di Accettazione:**
-    *   L'algoritmo deve discriminare la transizione delle 8 stazioni Hyrox standard (SkiErg, Sled Push, Sled Pull, Burpee Broad Jumps, Rowing, Farmers Carry, Sandbag Lunges, Wall Balls) rispetto alla corsa (Roxzone).
+    *   L'algoritmo deve discriminare la transizione tra le 8 e la corsa (SkiErg, Sled Push, Sled Pull, Burpee Broad Jumps, Rowing, Farmers Carry, Sandbag Lunges, Wall Balls, Corsa) 
     *   L'algoritmo deve sfruttare la sequenza programmata del workout pre-schedulato per restringere lo spazio degli stati e aumentare l'accuratezza.
     *   L'accuratezza del riconoscimento automatico deve attestarsi a una soglia ≥ 90% in ambiente controllato prima del rilascio (Lab Testing).
 *   **Stima:** `13 Story Points` (Alta complessità / Rischio tecnologico. Questa è una stima preliminare di baseline ad alto rischio; lo Spike tecnologico programmato in US-TEC-03 ridurrà le incognite prima della stima definitiva nel Refinement di Sprint)
@@ -192,7 +192,7 @@ Di seguito sono elencate le User Stories strutturate, suddivise per i tre sottos
     *   *affinché* possa consultare i dati del team e preparare i debriefing anche durante i viaggi o in ambienti privi di copertura di rete.
 *   **Criteri di Accettazione:**
     *   L'applicazione web deve implementare Service Workers e salvare i dati consultati di recente in un IndexedDB locale.
-    *   Quando offline, l'utente deve visualizzare una notifica a schermo ("Modalità Offline attiva - Vista in sola lettura") e navigare tra i dati in cache senza blocchi dell'interfaccia.
+    *   Quando offline, l'utente deve visualizzare una notifica a schermo ("Modalità Offline attiva") e navigare tra i dati in cache senza blocchi dell'interfaccia.
 *   **Stima:** `8 Story Points` (Alta complessità; setup Service Worker e IndexedDB local caching per consultazione disconnessa)
 
 ---

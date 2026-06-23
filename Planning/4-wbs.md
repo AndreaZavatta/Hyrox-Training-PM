@@ -18,7 +18,7 @@ Sviluppare un ecosistema integrato (Wearable App + Web Dashboard) per ottimizzar
     *   **US-W-02 (Visualizzazione Note Coach) [3 SP] (MUST):** Visualizzazione a schermo delle direttive e dei pesi associati alla stazione attiva del workout.
     *   **US-W-06 (Report Locale Post-Workout) [3 SP] (MUST):** Visualizzazione sul watch a fine sessione dei tempi di split delle 8 stazioni e dei tempi di transizione (Roxzone).
 *   **Feature 1.2: Algoritmo di Riconoscimento Esercizi [18 SP]**
-    *   **US-W-04 (Algoritmo Riconoscimento - Modello Core) [13 SP] (MUST):** Classificatore inerziale che distingue in modo automatico la corsa (Roxzone) dalle stazioni di forza (Sled, Lunge, Burpee, ecc.).
+    *   **US-W-04 (Algoritmo Riconoscimento - Modello Core) [13 SP] (MUST):** Funzionalità di identificazione e tracciamento automatico del cambio di stazione Hyrox tramite l'elaborazione dei dati dei sensori di movimento e il confronto con la schedulazione del workout pianificata.
     *   **US-TEC-03 (Spike Tecnologico - Acquisizione Dati Sensori) [5 SP] (MUST):** Raccolta preliminare di campioni accelerometrici per addestrare e validare il modello di riconoscimento.
 *   **Feature 1.3: Flessibilità & Transizione Manuale [18 SP]**
     *   **US-W-03 (Fallback Trigger Manuale) [5 SP] (MUST):** Funzionalità di transizione manuale tramite gesti rapidi/pulsanti fisici se l'algoritmo fallisce il riconoscimento automatico.
