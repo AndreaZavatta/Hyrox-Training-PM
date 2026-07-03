@@ -8,9 +8,10 @@ Il presente **Project Definition Statement (PDS) / Agile Product Vision & Charte
 
 Il team opera come entità cross-funzionale, auto-organizzata e focalizzata sulla consegna incrementale di valore:
 
-*   **Product Owner (PO):** Detiene la responsabilità esclusiva sul ROI del prodotto, la gestione del Product Backlog, la prioritizzazione delle storie e la validazione dei rilasci.
-*   **Scrum Master (SM):** PM / Facilitatore Agile. Responsabile dell'efficacia del team, della rimozione attiva dei blocchi e del rispetto dei principi Scrum.
-*   **Dev Team (Developers & Tech Lead):** Responsabili della qualità tecnica, dell'architettura e della stima dello sforzo implementativo in Story Points. Il Tech Lead funge da garante per la coerenza architetturale e detiene il potere di veto sulla fattibilità tecnica dei requisiti.
+*   **Product Owner (PO):** Chiara Bertocchi
+*   **Scrum Master (SM) / Project Manager:** Andrea Zavatta
+*   **Technical Leader (TL) & ML Specialist:** Giovanni Manca
+*   **Dev Team:** Luca Rossi, Elena Bianchi, Matteo Neri, Sara Viola
 
 ---
 

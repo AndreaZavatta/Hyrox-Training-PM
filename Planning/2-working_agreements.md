@@ -119,4 +119,12 @@ I conflitti tecnici e organizzativi devono essere gestiti tempestivamente per ev
 
 ---
 
-*Accordo approvato e sottoscritto dallo Scrum Team in data 20 giugno 2026.*
+*Accordo approvato e sottoscritto dallo Scrum Team in data 20 giugno 2026:*
+
+*   **Chiara Bertocchi** (Product Owner)
+*   **Andrea Zavatta** (Scrum Master / PM)
+*   **Giovanni Manca** (Technical Leader & ML Specialist)
+*   **Luca Rossi** (Senior Wearable Developer)
+*   **Elena Bianchi** (Senior Frontend Developer)
+*   **Matteo Neri** (Backend & Database Developer)
+*   **Sara Viola** (Mobile Integration Specialist / QA)
