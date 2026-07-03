@@ -24,6 +24,17 @@ graph TD
 ### Applicazione della Regola di Scambio (Fixed Capacity Trading Rule)
 In base alle linee guida di pianificazione, l'aggiunta di nuove funzionalità nel Backlog deve essere compensata dalla rimozione o posticipazione di elementi di pari sforzo (misurato in Story Points). Questo garantisce che la baseline dei costi e la data di consegna finale non vengano alterate.
 
+### 1.2 Gestione della Riserva Temporale (Time Contingency) e dello Scope Bank
+Per gestire l'incertezza e l'elaborazione dei cambiamenti di scope senza inficiare il time-box fisso di 8 mesi (16 Sprint), la governance adotta due strumenti integrati:
+1. **Riserva Temporale (Time Contingency):** Il team accantona il **10% della capacità temporale complessiva del progetto** (pari a circa 1.6 Sprint su 16, equivalente a circa 3 settimane di calendario). Questa riserva non viene allocata a nuove feature fin dall'inizio, ma viene mantenuta libera e distribuita come "buffer" temporale per assorbire:
+   - L'impatto dei test sul campo (Field Testing e Spike).
+   - Eventuali ritardi nell'approvazione delle user story complesse.
+   - L'implementazione di modifiche di scope urgenti approvate tramite il processo di Change Request.
+2. **Lo Scope Bank:** È un sotto-registro del Product Backlog (gestito in Jira e Confluence) in cui vengono "depositati" tutti i requisiti, le funzionalità o le idee di miglioramento emersi durante il progetto (es. nelle Sprint Review o dai feedback dei coach) che non sono inclusi nello Sprint Backlog corrente. Le voci dello Scope Bank:
+   - Vengono costantemente stimate dal Dev Team in Story Points durante il Refinement.
+   - Sono ordinate per priorità di business dal Product Owner.
+   - Fungono da "portafoglio di scambio": se una richiesta di cambio scope viene approvata, il PO effettua un prelievo dallo Scope Bank per posizionare la nuova funzionalità nello Sprint, compensando con il deposito nello Scope Bank di storie di pari valore in Story Points attualmente pianificate nel core backlog (Regola dello Swap).
+
 ---
 
 ## 2. Simulazione: Scope Change Request (SCR)
@@ -71,3 +82,53 @@ La modifica proposta nel Project Impact Statement è stata valutata e approvata 
 
 *   **Approvato da (Product Owner):** *Chiara Bertocchi* (Firma digitale registrata il 14 Feb 2026)  
 *   **Approvato da (Scrum Master):** *Andrea Zavatta* (Firma digitale registrata il 14 Feb 2026)
+
+---
+
+## Appendice: Modelli Standard (Blank Forms) ad uso del PM Audit
+
+Di seguito vengono riportati i template formali vuoti, in linea con gli standard metodologici di Wysocki, per la gestione delle richieste di variazione dello scope di progetto.
+
+### 1. Scope Change Request Form (Template)
+
+| **Identificazione Richiesta** | |
+| :--- | :--- |
+| **ID Richiesta:** `SCR-[AAAA]-[XXX]` | **Data Richiesta:** `[GG/MM/AAAA]` |
+| **Richiedente (Nome & Ruolo):** | `[Nome del Richiedente - es. PO, Coach, Stakeholder]` |
+| **Titolo della Modifica:** | `[Breve titolo descrittivo]` |
+| **Dettaglio della Modifica** | |
+| **Descrizione del Cambiamento:** | *[Descrivere in dettaglio la modifica richiesta, specificando se si tratta di una nuova funzionalità, una rimozione o una modifica di requisiti esistenti]* |
+| **Giustificazione di Business:** | *[Spiegare il motivo della modifica e il valore aggiunto per gli utenti finali (atleti o coach), es. variazioni normative, feedback sul campo, impedimenti tecnologici]* |
+| **Elementi Backlog Impattati:** | *[Indicare eventuali Epiche o User Story già esistenti che vengono influenzate da questa richiesta]* |
+| **Data Limite per la Risposta:** | `[GG/MM/AAAA] (Necessaria per la valutazione degli impatti sullo Sprint corrente)` |
+| **Firma del Richiedente:** | *`[Firma o sigla]`* |
+
+---
+
+### 2. Project Impact Statement Form (Template)
+
+| **Dati di Riferimento** | | | |
+| :--- | :--- | :--- | :--- |
+| **ID PIS:** `PIS-[AAAA]-[XXX]` | **Riferimento SCR:** `SCR-[AAAA]-[XXX]` | **Data Analisi:** `[GG/MM/AAAA]` | **Compilato da:** `[PM / Scrum Master]` |
+| **Valutazione di Impatto** | | | |
+| **Impatto sullo Sforzo (SP):** | `[Stima dei Story Points aggiuntivi stimati dal Dev Team]` | | |
+| **Impatto Economico (€):** | `[Variazione dei costi del personale o infrastrutturali, se presenti]` | | |
+| **Impatto sui Tempi (Release):** | `[Indica se la data di rilascio dell'MVP o della Milestone subisce variazioni]` | | |
+| **Impatto sulla Qualità / DoD:** | `[Indica se sono richiesti nuovi standard di test, es. hardware specifico o certificazioni]` | | |
+| **Strategia di Mitigazione (The Agile Swap - Fixed Capacity)** | | | |
+| **Storie da Inserire (+ SP):** | `[ID Storia - Titolo - SP]` | **Storie da Rimuovere / Posticipare (- SP):** | `[ID Storia - Titolo - SP]` |
+| **Bilancio Netto Sforzo (SP):** | `[Sforzo netto finale, deve essere <= 0 per non alterare la baseline di Sprint]` | | |
+| **Impatto sui Rischi** | | | |
+| **Rischi Aggiuntivi Rilevati:** | *[Identificare se il cambiamento introduce nuovi rischi di regressione, instabilità o ritardi tecnologici]* | | |
+| **Strategia di Mitigazione Rischi:** | *[Azioni preventive da intraprendere, es. spike aggiuntivi, test mirati, branch dedicati]* | | |
+| **Possibile Esito dell'Analisi (Selezionare l'opzione concordata)** | | | |
+| `[ ]` **Esito A:** | Il cambiamento può essere applicato entro le risorse e i tempi previsti per il progetto (Swap a sforzo zero). | | |
+| `[ ]` **Esito B:** | Il cambiamento può essere applicato, ma richiederà un'estensione della schedula (Slittamento milestone). | | |
+| `[ ]` **Esito C:** | Il cambiamento può essere applicato entro la schedula prevista, ma sono necessarie ulteriori risorse finanziarie. | | |
+| `[ ]` **Esito D:** | Il cambiamento richiede sia estensione temporale che risorse aggiuntive. | | |
+| `[ ]` **Esito E:** | Il cambiamento sarà gestito con strategia "Multiple Release" (spostato a una release successiva). | | |
+| `[ ]` **Esito F:** | Il cambiamento non può essere applicato (Richiesta Respinta). | | |
+| **Firme per l'Approvazione Formale** | | | |
+| **Firma Product Owner:** | *`[Firma digitale]`* | **Data Approvazione:** | `[GG/MM/AAAA]` |
+| **Firma Scrum Master / PM:** | *`[Firma digitale]`* | **Data Approvazione:** | `[GG/MM/AAAA]` |
+| **Firma Technical Leader:** | *`[Firma digitale]`* | **Data Approvazione:** | `[GG/MM/AAAA]` |

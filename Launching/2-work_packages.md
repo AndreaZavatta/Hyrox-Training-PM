@@ -2,6 +2,12 @@
 
 Questo documento organizza l'intero Product Backlog (128 SP) in **6 Work Packages (WP) strutturati**, garantendo la scomposizione e la copertura al 100% di tutte le Epiche e User Story definite nella WBS.
 
+> [!NOTE]
+> **Giustificazione dell'Approccio Globale:**
+> In conformità con la teoria classica del PM, i Work Packages sono tipicamente utilizzati in modo selettivo per i task sul percorso critico, ad alto rischio o complessi. Nel nostro framework ibrido, abbiamo scelto di mappare l'**intero backlog** in 6 macro Work Packages per garantire la massima tracciabilità e la consistenza della WBS. Tuttavia, il focus del Project Manager e del Tech Lead nella compilazione e nel monitoraggio delle schede si concentra primariamente sui WP critici:
+> * **WP 2 (Smartwatch App UI & Cache)** e **WP 3 (Algoritmo ML & Roxzone):** identificati come i package a maggior rischio tecnologico e posizionati sul percorso critico.
+> * **WP 6 (Sync Bluetooth/Cloud):** a causa della complessità di integrazione tra i diversi canali di sincronizzazione dati.
+
 ---
 
 ## Indice dei Work Packages
@@ -174,6 +180,48 @@ Sviluppare il protocollo di comunicazione a due stadi che consenta il trasferime
 ### Deliverable in Output
 1.  Modulo `BluetoothSyncService` e `CloudSyncManager` integrati nelle app iOS/watchOS.
 2.  Infrastruttura di notifica push configurata e testata con tempi di ricezione inferiori a 10 secondi.
+
+---
+
+## Appendice: Modelli Standard (Blank Forms) ad uso del PM Audit
+
+Di seguito vengono riportati i template formali vuoti, in linea con gli standard metodologici di Wysocki, da utilizzare per la creazione di nuovi Work Packages o per l'assegnazione dei task.
+
+### 1. Work Package Description Form (Template)
+
+| **Dati Generali** | | | |
+| :--- | :--- | :--- | :--- |
+| **WP ID:** `[WP-XXX]` | **WBS Ref (Epic/Feature):** `[Epic X.X]` | **Codice Conto Budget:** `[Budget-Cod]` | **Data Stesura:** `[GG/MM/AAAA]` |
+| **Nome WP:** | `[Nome del Work Package]` | | |
+| **Responsabile (WP Manager):** | `[Nome Risorsa]` | **Ruolo:** | `[Tech Lead / Dev / QA]` |
+| **Pianificazione** | | | |
+| **Data Inizio Stimata:** | `[GG/MM/AAAA]` | **Data Fine Stimata:** | `[GG/MM/AAAA]` |
+| **Sforzo Stimato (SP o Ore):** | `[X Story Points / Y Ore]` | **Costo Stimato (€):** | `[€ X.XXX]` |
+| **Descrizione e Contenuto** | | | |
+| **Descrizione dell'Obiettivo:** | *[Fornire una descrizione di alto livello dell'obiettivo del Work Package]* | | |
+| **Deliverable in Input:** | 1. `[Elenco documenti/codice/requisiti necessari per iniziare]` <br>2. `[Specifiche UI/API di riferimento]` | | |
+| **Attività di Dettaglio:** | 1. `[Task di dettaglio 1]` <br>2. `[Task di dettaglio 2]` <br>3. `[Task di dettaglio 3]` | | |
+| **Deliverable in Output:** | 1. `[Codice compilabile/Repository attivo/Modulo di test]` <br>2. `[Documentazione/Schema di database/Report di test]` | | |
+| **Criteri di Accettazione & Quality:** | 1. `[Criterio 1: es. Superamento test di regressione/Copertura test >= 80%]` <br>2. `[Criterio 2: es. Approvazione Code Review / Demo funzionante]` | | |
+| **Approvazioni Formali** | | | |
+| **Firma WP Manager:** | *`[Firma digitale o sigla]`* | **Data Approvazione:** | `[GG/MM/AAAA]` |
+| **Firma Project Manager:** | *`[Firma digitale o sigla]`* | **Data Approvazione:** | `[GG/MM/AAAA]` |
+
+---
+
+### 2. Work Package Assignment Sheet (Template)
+
+**Riferimento Work Package:** `[WP-XXX - Nome Work Package]`  
+**Data di Emissione:** `[GG/MM/AAAA]`  
+
+| ID Task | Descrizione Attività | Risorsa Assegnata | Sforzo Stimato (Ore/SP) | Data Inizio | Data Fine | Stato (Da Iniziare / In Corso / Done) | Firma di Accettazione Risorsa |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **T-01** | `[Descrizione sintetica del task]` | `[Nome Risorsa]` | `[Xh / Y SP]` | `[GG/MM]` | `[GG/MM]` | `[Stato]` | `[Firma]` |
+| **T-02** | `[Descrizione sintetica del task]` | `[Nome Risorsa]` | `[Xh / Y SP]` | `[GG/MM]` | `[GG/MM]` | `[Stato]` | `[Firma]` |
+| **T-03** | `[Descrizione sintetica del task]` | `[Nome Risorsa]` | `[Xh / Y SP]` | `[GG/MM]` | `[GG/MM]` | `[Stato]` | `[Firma]` |
+| **T-04** | `[Descrizione sintetica del task]` | `[Nome Risorsa]` | `[Xh / Y SP]` | `[GG/MM]` | `[GG/MM]` | `[Stato]` | `[Firma]` |
+
+*Note di Coordinamento:* Le ore/SP effettive verranno rendicontate settimanalmente sulla board Jira del progetto. Eventuali scostamenti superiori al 15% rispetto allo sforzo stimato devono essere tempestivamente segnalati al WP Manager e al PM.
 
 ---
 
