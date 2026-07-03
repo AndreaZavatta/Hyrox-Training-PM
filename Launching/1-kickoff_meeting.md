@@ -26,7 +26,7 @@
 
 1.  **Introduzione e Visione del Prodotto:** Allineamento del team sulla Product Vision definita nel PDS.
 2.  **Obiettivi e Criteri di Successo:** Revisione dell'efficacia per i coach (post-workout < 2 minuti) e accuratezza dell'algoritmo (discrepanza < 2%).
-3.  **Metodologia Ibrida e Governance:** Presentazione delle regole operative del team, DoD/DoR e cerimonie Scrum.
+3.  **Metodologia Scrum e Governance:** Presentazione delle regole operative del team, DoD/DoR e cerimonie Scrum.
 4.  **Discussione dei Rischi Critici:** Focus sul rischio tecnologico dell'algoritmo watchOS e pianificazione dello Spike.
 5.  **Pianificazione e Roadmap:** Allineamento sugli 8 mesi di sviluppo (16 Sprint) e le 3 release principali.
 6.  **Domande, Risposte e Approvazione Formale:** Firma del PDS per l'avvio formale della Fase Esecutiva (Launching).
