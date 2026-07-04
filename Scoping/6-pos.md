@@ -35,5 +35,5 @@ Sviluppare, entro un arco temporale di 8 mesi, un ecosistema software integrato 
 6. **Risk (Ambientale):** Connessione internet assente o instabile durante le gare nei padiglioni fieristici o all'interno di palestre interrate.
 7. **Risk (Organizzativo):** Rallentamenti nello sviluppo causati dall'abbandono di un membro del team.
 8. **Risk (Culturale):** Difficoltà di adozione da parte dei coach legata alla resistenza al cambiamento degli strumenti attuali.
-9. **Obstacle:** Vincolo hardware di non sviluppare hardware proprietario; l'applicazione si appoggia esclusivamente su Apple Watch esistenti (Series 6+).
+9. **Obstacle:** Vincolo di non sviluppare hardware proprietario; l'applicazione si appoggia esclusivamente su Apple Watch esistenti (Series 6+).
 10. **Obstacle:** Vincolo ambientale di operare in modalità offline-first per far fronte alla scarsa connettività tipica di palestre e arene Hyrox.
