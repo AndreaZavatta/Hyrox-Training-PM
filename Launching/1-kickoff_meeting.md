@@ -90,7 +90,7 @@ Per garantire la massima chiarezza sui deliverable di avvio, viene condivisa la 
 | **Scrittura Work Packages** | **I** | **R** | **R** | **S** |
 | **Setup Repository & CI/CD** | **I** | **I** | **A** | **R** |
 | **Data Collection (Spike)** | **C** | **S** | **A** | **R** |
-| **Gestione Change Requests** | **A** | **R** | **C** | **I** |
+| **Gestione e Adattamento Backlog (Agile Swap)** | **A** | **R** | **C** | **I** |
 
 *Legenda: **R**esponsible, **A**ccountable, **S**upport, **C**onsulted, **I**nformed.*
 

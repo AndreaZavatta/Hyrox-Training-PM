@@ -115,7 +115,7 @@ I conflitti tecnici e organizzativi devono essere gestiti tempestivamente per ev
 *   **Direttivo (Escalation Protocol):** Se non si raggiunge il consenso entro 60 minuti, si attiva il protocollo di escalation in 3 livelli definito nella metodologia:
     1.  *Livello 1:* Il PM facilita una sessione di consensus focalizzata (max 60 min).
     2.  *Livello 2 (Arbitrato):* Il Tech Lead ha l'ultima parola sui conflitti tecnologici/architetturali; il PO sui conflitti di business/priorità; il PM sui vincoli finanziari/temporali.
-    3.  *Livello 3:* Conflitti che impattano > 15% del budget o > 20% della timeline sono escalati a una revisione formale con il CEO.
+    3.  *Livello 3:* Conflitti che impattano > 15% del budget o > 20% della timeline sono revisionati formalmente dal CEO.
 
 ---
 
