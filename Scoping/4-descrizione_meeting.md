@@ -14,7 +14,7 @@
 
 **DECISIONI CHIAVE (The "What" & "Why"):**
 
-* **Analisi As-Is:** È stato confermato che il problema principale ("pain point") è il tempo perso dai coach per l'editing manuale dei video/tempi post-workout (circa 15 min/atleta).  
+* **Analisi As-Is:** È stato confermato che il problema principale è il tempo perso dai coach per l'editing manuale dei tempi nel post-workout (circa 15 min/atleta).  
 * **Definizione CoS (Metodo MoSCoW):**  
   * **MUST:** Il sistema deve automatizzare il tracciamento delle transizioni tra stazioni Hyrox e corsa, azzerando l'intervento manuale.  
   * **SHOULD:** L'app dovrebbe permettere il riordino rapido delle stazioni.  
