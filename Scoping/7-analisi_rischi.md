@@ -5,7 +5,7 @@ I rischi sono stati classificati in base alla probabilità di accadimento e all'
 
 | Categoria | Descrizione | Probabilità | Impatto | Risk Score | Mitigazione |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| Tecnologico | Il sistema potrebbe non riconoscere correttamente alcuni esercizi. | 4 | 5 | 20 | Implementazione di un "Fallback Trigger" (transizione manuale) rapido per forzare l'avanzamento se l'automatismo fallisce. |
+| Tecnologico | Il sistema potrebbe non riconoscere correttamente la transizione di alcuni esercizi. | 4 | 5 | 20 | Implementazione di un "Fallback Trigger" (transizione manuale) rapido per forzare l'avanzamento se l'automatismo fallisce. |
 | Operativo | Un macchinario potrebbe essere temporaneamente occupato in palestra. | 3 | 3 | 9 | Implementazione di uno "Skip/Reorder Button" per permettere all'atleta di saltare/riordinare l'esercizio con due tocchi. |
 | Tecnologico | Prestazioni incoerenti tra diversi modelli di smartwatch (es. versioni vecchie vs nuove). | 4 | 3 | 12 | Definizione di una lista di "Dispositivi Certificati" (es. Apple Watch Series 6+).  |
 | Ambientale | Connessione instabile o assente nei padiglioni fieristici. | 3 | 3 | 9 | L'orologio salva i dati nella sua memoria interna privata. I dati vengono trasferiti appena torna la rete (Offline-First). |

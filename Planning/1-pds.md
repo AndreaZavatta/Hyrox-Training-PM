@@ -1,6 +1,6 @@
-# Project Definition Statement (PDS) / Product Vision & Charter
+# Project Definition Statement (PDS)
 
-Il presente **Project Definition Statement (PDS) / Agile Product Vision & Charter** stabilisce gli obiettivi strategici, la governance e la cornice metodologica per lo sviluppo dell'ecosistema "Hyrox Team Performance Optimizer". Questo documento definisce la visione globale del prodotto (Product Vision) e funge da allineamento iniziale tra gli stakeholder e il Scrum Team.
+Il presente **Project Definition Statement (PDS)** stabilisce gli obiettivi strategici, la governance e la cornice metodologica per lo sviluppo dell'ecosistema "Hyrox Team Performance Optimizer". Questo documento definisce la visione globale del prodotto (Product Vision) e funge da allineamento iniziale tra gli stakeholder e il Scrum Team.
 
 ---
 
@@ -39,7 +39,7 @@ Il successo del prodotto sarà misurato al termine dello sviluppo tramite:
 
 ## 5. Obiettivi di Prodotto e Sottosistemi
 
-L'architettura del sistema si articola su tre moduli principali, dettagliati nella **Work Breakdown Structure (WBS) / Scomposizione del Backlog** e stimati in Story Points:
+L'architettura del sistema si articola su tre moduli principali, dettagliati nella **Work Breakdown Structure (WBS)** e stimati in Story Points:
 
 ### 5.1 Sottosistema Smartwatch (Wearable App)
 Applicazione watchOS per Apple Watch 6+ che integra l'algoritmo di classificazione basato sui sensori di movimento (accelerometro/giroscopio) per capire automaticamente le fasi di transizione. Offre interfacce ad alto contrasto per usabilità sotto stress estremo, note dinamiche del coach e report locale post-attività in modalità *Offline-First*.
