@@ -20,7 +20,7 @@ La corretta esecuzione del progetto richiede una struttura di governance chiara 
 In caso di conflitto decisionale o impossibilità di raggiungere il consenso entro 60 minuti, si attiva il protocollo di escalation in 3 livelli:
 * **Livello 1 (Facilitazione SM/PM):** Lo Scrum Master / PM faciliterà una sessione di consensus building focalizzata (max 60 minuti).
 * **Livello 2 (Arbitrato per Dominio):** Il Tech Lead deciderà sui conflitti tecnologici/architetturali, il Product Owner sulle priorità di business, lo Scrum Master / PM sui rischi finanziari e temporali.
-* **Livello 3 (Escalation Esecutiva):** Decisioni o conflitti che impattano >15% del budget o >20% della timeline sono escalati a una revisione formale con il CEO.
+* **Livello 3 (Escalation Esecutiva):** Decisioni o conflitti che impattano >15% del budget o >20% della timeline vengono revisionati formalmente dal CEO.
 * **Regola Aurea:** Le decisioni tecniche non potranno essere sovrascritte da richieste di business; il Tech Lead avrà potere di veto su requisiti tecnicamente irrealizzabili.
 
 ### **1.3 Processo di Scoping Meeting**
@@ -41,8 +41,8 @@ La fase di pianificazione è progettata per garantire l'allineamento tra gli obi
 ### **2.1 Project Definition Statement (PDS)**
 L’avvio della fase di pianificazione è sancito dal passaggio formale dal POS al PDS. Il PDS espande i contenuti del POS, stabilendo gli obiettivi strategici, la governance e la cornice metodologica per lo sviluppo dell'ecosistema, includendo le attività definite nell'RBS e l'analisi empirica dei rischi.
 
-### **2.2 Work Breakdown Structure (WBS) / Scomposizione del Backlog**
-Partendo dalla RBS, si costruisce la **Work Breakdown Structure (WBS) / Scomposizione del Backlog**. Questo strumento organizza gerarchicamente i requisiti di prodotto (in Epiche, Feature e User Story) per garantire l'integrità concettuale dello sviluppo, includendo stime in **Story Points (SP)** (scala di Fibonacci) e pianificazione guidata dalla **Velocity** del team.
+### **2.2 Work Breakdown Structure (WBS)**
+Partendo dalla RBS, si costruisce la **Work Breakdown Structure (WBS)**. Questo strumento organizza gerarchicamente i requisiti di prodotto (in Epiche, Feature e User Story) per garantire l'integrità concettuale dello sviluppo, includendo stime in **Story Points (SP)** (scala di Fibonacci) e pianificazione guidata dalla **Velocity** del team.
 
 ### **2.3 Backlog e Pianificazione Iterativa**
 Le componenti della WBS vengono tradotte in un *Product Backlog* ordinato. Le dimensioni delle User Story sono stimate in Story Points tramite *Planning Poker* dal Dev Team. Per mitigare l'incertezza tecnologica ed effettuare la validazione precoce del modello di riconoscimento dei movimenti, viene inserito uno *Spike* nello Sprint 4, finalizzato alla raccolta preliminare di dati sensori (accelerometro/giroscopio).
@@ -57,8 +57,24 @@ La gestione operativa avviene tramite *Sprint Board* (Jira), dove le attività e
 
 ## **3. Fase di Launching & Execution**
 
-### **3.1 Team Organization e Matrice RASCI**
-Il team opera come uno **Scrum Team** auto-organizzato, cross-funzionale e focalizzato sulla consegna incrementale di valore. Le responsabilità operative e decisionali sono disciplinate dai Working Agreements e sintetizzate da una matrice RASCI per garantire la tracciabilità delle responsabilità operative sulle macro-attività. Per evitare il Bus Factor e assicurare l'integrità concettuale, le attività ad alta complessità (come lo sviluppo dell'algoritmo di riconoscimento) vengono affrontate in Pair Programming.
+### **3.1 Modello di Staffing e Organizzazione del Team**
+Durante la fase esecutiva, il team opera come uno **Scrum Team** auto-organizzato e cross-funzionale. Per definire chiaramente i ruoli operativi, contrattuali e decisionali, le risorse umane del progetto sono classificate secondo la tassonomia metodologica di Wysocki:
+*   **Co-Project Manager (Developer):** Lo Scrum Master / PM, con responsabilità sulla schedula, sul budget, sui rischi e sulla governance del processo Scrum.
+*   **Co-Project Manager (Client):** Il Product Owner, interfaccia con il business, responsabile della definizione dei requisiti e della validazione finale dei rilasci.
+*   **Core Team:** Gli sviluppatori e specialisti stabili che possiedono le competenze verticali chiave necessarie a garantire l'integrità concettuale dell'architettura.
+*   **Developer Team:** Sviluppatori di supporto allocati per lo sviluppo verticale (backend, database, testing e QA).
+*   **Client Team:** Stakeholder e utilizzatori finali (come coach e atleti del gruppo di test) incaricati di fornire feedback qualitativi e validare l'usabilità.
+*   **Contracted Team:** Eventuali consulenti o partner esterni contrattualizzati su specifiche attività ad alta specializzazione (non previsti se le competenze interne sono sufficienti).
+
+### **3.2 Bilanciamento del Team (Learning Styles di David Kolb)**
+Per ottimizzare la collaborazione e mitigare il "Bus Factor", il team viene strutturato e bilanciato coprendo le quattro dimensioni del modello di David Kolb per le attitudini e gli stili di apprendimento:
+*   **Assimilating (Modelli Teorici):** Focalizzato sulla progettazione logica, l'analisi dei dati di avanzamento e la modellazione teorica dell'algoritmo.
+*   **Converging (Applicazione Pratica):** Orientato alla risoluzione di problemi tecnologici complessi, programmazione sistematica e implementazione dell'architettura.
+*   **Diverging (Ideazione e UX):** Centrato sulla visualizzazione dei problemi da prospettive multiple, fondamentale per il co-design della UI/UX e della visualizzazione dati.
+*   **Accommodating (Azione sul Campo):** Orientato al testing empirico a contatto con gli utenti finali, al superamento degli ostacoli d'integrazione e all'adattamento rapido ai cambiamenti.
+
+### **3.3 Matrice RASCI Operativa Generale**
+Le responsabilità sulle principali macro-attività della fase di esecuzione sono tracciate mediante la seguente matrice RASCI di alto livello:
 
 | Macro-Attività / Fasi WBS | Scrum Master (SM) / PM | Tech Lead (TL) | Product Owner (PO) | Dev Team (DEV) |
 | :--- | :---: | :---: | :---: | :---: |
@@ -71,18 +87,39 @@ Il team opera come uno **Scrum Team** auto-organizzato, cross-funzionale e focal
 | **7. Testing & Quality Assurance** | **A** | **R** | **C** | **R** |
 | **8. Deployment e Rilascio** | **I** | **R** | **A** | **R** |
 
-*Legenda: **R** = Responsible (Esecutore), **A** = Accountable (Responsabile ultimo), **C** = Consulted (Consultato), **I** = Informed (Informato).*
+*Legenda: **R** = Responsible, **A** = Accountable, **C** = Consulted, **I** = Informed.*
 
-### **3.2 Knowledge Management Strategy**
-Per mitigare il 'Bus Factor' (rischio legato a competenze specifiche su watchOS e ML), si implementano le pratiche definite nei Working Agreements:
-* **Pair Programming:** Obbligatorio su task critici, in particolare sullo sviluppo dell'algoritmo wearable (US-W-04), con sessioni di almeno 2 ore.
-* **Documentazione Obbligatoria:** Docstrings e diagrammi C4 per l'architettura archiviati su Confluence (Project Workbook).
-* **Knowledge Sharing Sessions:** 1 ora settimanale (ogni venerdì alle 15:00) per il trasferimento di competenze interne e l'allineamento tecnico.
+### **3.4 Knowledge Management Strategy**
+Per mitigare i rischi legati a competenze esclusive (Bus Factor) e preservare l'integrità concettuale dell'architettura:
+*   **Pair Programming:** Applicato su attività ad alta complessità algoritmica o di integrazione.
+*   **Documentazione di Progetto:** Redazione sistematica di docstrings nel codice e schemi architetturali (es. modello C4) all'interno del Project Workbook condiviso.
+*   **Sessioni di Allineamento Tecnico:** Incontri periodici dedicati alla condivisione interna delle soluzioni e al trasferimento tecnologico tra i membri del team.
 
-### **3.3 Team Operating Rules**
-* **Daily Standup:** 15 minuti rigidi (giornaliero alle ore 09:00) davanti alla Sprint Board, focalizzati sullo status dei task rispetto al giorno precedente (On Track, Ahead, Behind). Gli ostacoli (impediments) identificati vengono delegati all'Issue Log.
-* **No Problem Solving al Daily:** Eventuali discussioni tecniche risolutive sono rimandate a un Problem Resolution Meeting subito dopo il Daily.
-* **Problem Solving (5 Step):** Definizione, Raccolta dati, Root Cause Analysis (5 Whys), Brainstorming, Piano d'azione.
+### **3.5 Regole Operative del Team (Working Agreements)**
+La governance operativa adotta Working Agreements strutturati per gestire il processo decisionale, la risoluzione di blocchi e la comunicazione:
+*   **Decision Making & Consensus:**
+    *   *Stile decisionale:* Si predilige uno stile *collaborativo/partecipativo* per le decisioni di architettura e design dei dati, e uno stile *consultivo/direttivo* in capo al Product Owner per la prioritizzazione strategica del backlog.
+    *   *Avviso di Wysocki sul Consensus:* Si riconosce che la ricerca forzata di un compromesso indebolisce le decisioni. In caso di stallo oltre un limite temporale prefissato (es. 60 minuti), si attiva l'escalation per dominio: Tech Lead per conflitti tecnici, PO per conflitti di business, PM per vincoli di budget/tempo.
+*   **Problem Solving & Conflict Resolution:**
+    *   *Problem Solving:* Si stabilisce l'adozione di un modello metodologico strutturato (come il **modello a 5 passi di Daniel Couger**) per definire, analizzare, proporre, selezionare e validare le azioni correttive sui problemi bloccanti.
+    *   *Conflict Resolution:* Risoluzione dei conflitti tecnici tramite negoziazione cooperativa ed empatia (*Collaborating/Integrating*), mitigando comportamenti competitivi (*Competing*) o evitanti (*Avoiding*).
+*   **Brainstorming Method:** Riunioni mirate dei tecnici di riferimento, sospensione di giudizi critici durante la generazione libera di idee, e test mentale delle alternative per convergere sulla soluzione ottimale.
+*   **Gestione delle Riunioni (Meeting Management):**
+    *   *Prima del meeting:* PM/SM verifica la necessità dell'incontro, ne definisce chiaramente lo scopo e invia l'agenda in anticipo convocando solo le risorse essenziali.
+    *   *Durante il meeting:* Rispetto rigoroso dei timebox, focus sugli obiettivi senza digressioni personali, e utilizzo di supporti visivi e board.
+    *   *Dopo il meeting:* Stesura immediata di *Action Items* con responsabili e scadenze, pubblicazione del verbale e pianificazione preliminare del meeting successivo.
+*   **Tipologie di Meeting Standard:**
+    1.  *Daily Status:* Breve incontro quotidiano timeboxato (es. 15 minuti) incentrato sullo status operativo dei task (On Track, Ahead, Behind) e sull'emersione di impedimenti, con esclusione di discussioni tecniche.
+    2.  *Problem Resolution Meeting:* Incontri operativi mirati per risolvere i blocchi identificati durante il Daily Status.
+    3.  *Project Review Meeting:* Dimostrazione del software funzionante (DoD soddisfatta) a fine Sprint per raccogliere feedback da Sponsor, Coach e utenti finali.
+
+### **3.6 Gestione delle Risorse, Saturazione e Livellamento**
+*   **Resource Loading (Focus Factor 75%):** Per evitare l'over-allocation invisibile, la pianificazione giornaliera adotta un focus factor del 75% della capacità produttiva dedicata a compiti della WBS. La restante parte (25%) è allocata all'overhead organizzativo e alle cerimonie Scrum (Daily, Review, planning, code review e documentazione).
+*   **Strategie di Resource-Leveling:**
+    1.  *Utilizzo degli Slack:* Ritarare l'avvio di task non critici con margini di scorrimento positivi per liberare ore in favore di task sul percorso critico.
+    2.  *Rimodulazione della Durata:* Diluire lo sforzo giornaliero di un task critico su più giorni lavorativi se lo sforzo stimato è superiore al previsto.
+    3.  *Sostituzione e Supporto (Resource Substitution):* Riassegnazione temporanea di risorse cross-funzionali per supportare membri del team su task bloccanti.
+    4.  *Straordinario Controllato (Overtime):* Considerato come ultima risorsa, regolamentato entro una soglia percentuale massima e autorizzato dal PM esclusivamente per la protezione di milestone critiche di rilascio.
 
 ---
 
