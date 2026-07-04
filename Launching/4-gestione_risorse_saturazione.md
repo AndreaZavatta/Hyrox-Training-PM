@@ -60,18 +60,22 @@ Di seguito viene riportato, a titolo di esempio, il grafico di saturazione per l
 
 ---
 
-## 4. Strategie di Livellamento delle Risorse (Resource-Leveling)
+## 4. Strategie di Livellamento delle Risorse in Ambito Scrum (Resource-Leveling)
 
-Nel caso in cui si verifichino imprevisti, assenze o colli di bottiglia durante l'esecuzione dello Sprint (ad esempio, complessità impreviste nell'elaborazione del filtro di Kalman durante lo Spike sui sensori), lo Scrum Master applica le seguenti strategie di livellamento approvate:
+> [!NOTE]
+> **Nota Metodologica sull'Approccio Agile:**
+> In conformità con la natura puramente Agile (Scrum) del progetto, le classiche tecniche predittive di *Resource-Leveling* e i concetti di *Critical Path* e *Slack* vengono qui reinterpretati e mappati sui meccanismi di auto-organizzazione e pianificazione dello Sprint Backlog, evitando la rigida schedulazione waterfall ma preservando la terminologia richiesta dalle linee guida del corso.
 
-1.  **Utilizzo degli Slack (Margini di Scorrimento):**
-    I task non posizionati sul *Critical Path* (come la stesura della documentazione UI `TS-06` o l'ottimizzazione secondaria delle API) hanno dei margini di scorrimento. Lo Scrum Master può ritardarne l'inizio senza impattare la data di conclusione dello Sprint, liberando ore per supportare i task critici.
-2.  **Rimodulazione della Durata dei Task (Lengthening Task Duration):**
-    Se un task critico richiede più tempo, la sua durata viene estesa riducendone l'intensità lavorativa giornaliera (es. da 8 ore/giorno a 4 ore/giorno) e distribuendolo su più giorni dello Sprint, parallelizzando altre attività non critiche.
-3.  **Sostituzione e Supporto delle Risorse (Resource Substitution):**
-    Grazie alle competenze trasversali del team, le risorse scariche o in anticipo sui propri task (es. Sara Viola che termina in anticipo la configurazione bluetooth) possono essere riallocate in supporto alle risorse critiche (es. Luca Rossi per il debug della cache locale).
-4.  **Straordinario Controllato (Overtime):**
-    Considerato come ultima risorsa (*Last Resort*), l'utilizzo dello straordinario è limitato a un massimo del **10% della capacità totale dello Sprint** (pari a 8 ore aggiuntive per sviluppatore per Sprint) e deve essere autorizzato dal PM per coprire esclusivamente rilasci di milestone bloccanti.
+Nel caso in cui si verifichino imprevisti, impedimenti o colli di bottiglia che mettono a rischio il completamento degli incrementi durante lo Sprint (ad esempio, complessità impreviste nell'elaborazione del filtro di Kalman durante lo Spike sui sensori), lo Scrum Team applica le seguenti strategie di livellamento auto-organizzato:
+
+1.  **Gestione dei Task non Critici per lo Sprint Goal (Slack / Scorrimento Agile):**
+    I task non posizionati sul percorso critico per il raggiungimento dello *Sprint Goal* (come la stesura della documentazione UI `TS-06` o l'ottimizzazione secondaria delle API) hanno margini di flessibilità. Gli sviluppatori possono sospendere temporaneamente o posticipare queste attività all'interno dello Sprint per concentrare l'effort sui task bloccanti, sfruttando il buffer di capacità.
+2.  **Rimodulazione e Swarming sui Task Critici (Adjusting Task Duration / Focus):**
+    Se un task fondamentale per lo Sprint Goal richiede più tempo del previsto, la sua durata viene estesa riducendo l'intensità lavorativa giornaliera dedicata ad altre storie dello Sprint. Il team applica lo *Swarming* (collaborazione simultanea di più sviluppatori sullo stesso elemento del backlog) per assicurarne il completamento entro la fine dello Sprint.
+3.  **Supporto Interfunzionale e Sostituzione delle Risorse (Cross-Functional Collaboration):**
+    Grazie alle competenze trasversali (T-shaped skills) dello Scrum Team, le risorse che completano in anticipo i propri task (es. Sara Viola che termina la configurazione bluetooth) supportano attivamente i colleghi impegnati sulle storie critiche (es. Luca Rossi per il debug della cache locale), fungendo da risorsa sostitutiva temporanea senza richiedere un intervento gerarchico esterno.
+4.  **Straordinario Controllato come Extrema Ratio (Overtime):**
+    Considerato esclusivamente come ultima risorsa per non compromettere l'obiettivo dello Sprint, l'uso dello straordinario è limitato a un massimo del **10% della capacità totale dello Sprint** (pari a 8 ore aggiuntive per sviluppatore per Sprint) e deve essere concordato internamente al team per far fronte a impedimenti bloccanti non risolvibili altrimenti.
 
 ---
 
