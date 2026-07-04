@@ -58,13 +58,11 @@ La gestione operativa avviene tramite *Sprint Board* (Jira), dove le attività e
 ## **3. Fase di Launching & Execution**
 
 ### **3.1 Modello di Staffing e Organizzazione del Team**
-Durante la fase esecutiva, il team opera come uno **Scrum Team** auto-organizzato e cross-funzionale. Per definire chiaramente i ruoli operativi, contrattuali e decisionali, le risorse umane del progetto sono classificate secondo la tassonomia metodologica di Wysocki:
-*   **Co-Project Manager (Developer):** Lo Scrum Master / PM, con responsabilità sulla schedula, sul budget, sui rischi e sulla governance del processo Scrum.
-*   **Co-Project Manager (Client):** Il Product Owner, interfaccia con il business, responsabile della definizione dei requisiti e della validazione finale dei rilasci.
-*   **Core Team:** Gli sviluppatori e specialisti stabili che possiedono le competenze verticali chiave necessarie a garantire l'integrità concettuale dell'architettura.
-*   **Developer Team:** Sviluppatori di supporto allocati per lo sviluppo verticale (backend, database, testing e QA).
-*   **Client Team:** Stakeholder e utilizzatori finali (come coach e atleti del gruppo di test) incaricati di fornire feedback qualitativi e validare l'usabilità.
-*   **Contracted Team:** Eventuali consulenti o partner esterni contrattualizzati su specifiche attività ad alta specializzazione (non previsti se le competenze interne sono sufficienti).
+Durante la fase esecutiva, il team opera come uno **Scrum Team** auto-organizzato e cross-funzionale. Le sfere decisionali e operative sono ripartite tra i seguenti ruoli chiave:
+*   **Product Owner (PO):** Definisce e prioritizza i requisiti nel Product Backlog per massimizzare il valore del prodotto, collaborando con gli stakeholder.
+*   **Tech Lead (TL):** Definisce l'architettura tecnica globale, coordina le scelte ingegneristiche e garantisce l'integrità architetturale.
+*   **Project Manager / Scrum Master (PM):** Gestisce la schedula e il budget del progetto, rimuove gli ostacoli (impediments) e garantisce il rispetto della governance metodologica.
+*   **Core Team:** Il gruppo cross-funzionale di sviluppatori e specialisti responsabile dell'implementazione tecnica e del rilascio del software.
 
 ### **3.2 Bilanciamento del Team (Learning Styles di David Kolb)**
 Per ottimizzare la collaborazione e mitigare il "Bus Factor", il team viene strutturato e bilanciato coprendo le quattro dimensioni del modello di David Kolb per le attitudini e gli stili di apprendimento:
