@@ -85,7 +85,7 @@ Le responsabilità sulle principali macro-attività della fase di esecuzione son
 | **7. Testing & Quality Assurance** | **A** | **R** | **C** | **R** |
 | **8. Deployment e Rilascio** | **I** | **R** | **A** | **R** |
 
-*Legenda: **R** = Responsible, **A** = Accountable, **C** = Consulted, **I** = Informed.*
+*Legenda: **R** = Responsible, **A** = Accountable, **S** = Support, **C** = Consulted, **I** = Informed.*
 
 ### **3.4 Knowledge Management Strategy**
 Per mitigare i rischi legati a competenze esclusive (Bus Factor) e preservare l'integrità concettuale dell'architettura:
@@ -116,7 +116,7 @@ La governance operativa adotta Working Agreements strutturati per gestire il pro
 *   **Strategie di Resource-Leveling:**
     1.  *Utilizzo degli Slack:* Ritarare l'avvio di task non critici con margini di scorrimento positivi per liberare ore in favore di task sul percorso critico.
     2.  *Rimodulazione della Durata:* Diluire lo sforzo giornaliero di un task critico su più giorni lavorativi se lo sforzo stimato è superiore al previsto.
-    3.  *Sostituzione e Supporto (Resource Substitution):* Riassegnazione temporanea di risorse cross-funzionali per supportare membri del team su task bloccanti.
+    3.  *Swarming (Riassegnazione Agile):* Più sviluppatori convergono temporaneamente su una singola User Story bloccante (sul percorso critico) per supportare un membro in difficoltà, sospendendo task a priorità inferiore.
     4.  *Straordinario Controllato (Overtime):* Considerato come ultima risorsa, regolamentato entro una soglia percentuale massima e autorizzato dal PM esclusivamente per la protezione di milestone critiche di rilascio.
 
 ---
