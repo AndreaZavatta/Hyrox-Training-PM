@@ -145,15 +145,15 @@ Il cambiamento viene gestito attraverso una **Scope Bank** supportata da una Tim
 
 A completamento dello sviluppo e dei test, il progetto entrerà nella fase formale di chiusura.
 
-### **5.1 Post-Implementation Audit**
-Verrà condotto un audit finale per verificare oggettivamente il raggiungimento dei Success Criteria definiti nel POS/PDS:
+### **5.1 Post-Implementation Review**
+Verrà condotta una review finale per verificare oggettivamente il raggiungimento dei Success Criteria definiti nel POS/PDS:
 * Accuratezza dell'algoritmo confermata ≥ 90% (se non attivato il Plan B).
 * Discrepanza del tempo rilevato rispetto al cronometro ufficiale < 2%.
 * SUS Score di usabilità ≥ 80/100 (raccolto dai 15 coach e 30 atleti).
 * Tempo medio di editing per coach ridotto sotto i 2 minuti nel 95% delle sessioni.
 
 ### **5.2 Executive / Internal Sign-off**
-Verrà organizzato un *Project Readiness Review* con il Product Owner (o Board) per presentare i risultati dell'audit. L'accettazione finale dei deliverable per il rilascio commerciale avverrà tramite un'approvazione formale interna (Executive Sign-off) che attesterà la conclusione della fase di sviluppo core (Sprint 16) e l'avvio della fase di post-lancio (fuori perimetro progetto).
+Verrà organizzato un *Project Readiness Review* con il Product Owner (o Board) per presentare i risultati della review. L'accettazione finale dei deliverable per il rilascio commerciale avverrà tramite un'approvazione formale interna (Executive Sign-off) che attesterà la conclusione della fase di sviluppo core (Sprint 16) e l'avvio della fase di post-lancio (fuori perimetro progetto).
 
 ### **5.3 Lessons Learned e Archiviazione**
 * **Knowledge Transfer:** Verrà eseguita una *Knowledge Transfer Checklist*, organizzando una sessione di onboarding formativa (con presentazione di supporto) per i nuovi clienti e fornendo un video tutorial esplicativo (YouTube) accompagnato da una guida di avvio rapido (Quick Start Guide).

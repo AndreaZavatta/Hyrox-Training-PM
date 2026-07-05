@@ -44,7 +44,7 @@ Il progetto si sviluppa in cicli iterativi (**Sprint**) della durata fissa di **
 *   **Partecipanti:** PO, SM, TL, Dev Team, Stakeholder invitati (es. Coach della palestra partner).
 *   **Obiettivo:** Dimostrare il funzionamento reale dell'incremento di prodotto completato durante lo Sprint e raccogliere feedback.
 *   **Regole Operative:**
-    1.  Non si mostrano slide o presentazioni teoriche: la review si basa esclusivamente sulla demo live di software funzionante che soddisfa la **Definition of Done (DoD)**.
+    1.  Non si mostrano presentazioni: la review si basa esclusivamente sulla demo live di software funzionante che soddisfa la **Definition of Done (DoD)**.
     2.  Le User Story non completate o che non rispettano la DoD non vengono mostrate e ritornano nel Product Backlog per la ri-prioritizzazione.
     3.  I feedback raccolti vengono tradotti dal PO in nuove User Story inserite nel Product Backlog.
 

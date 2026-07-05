@@ -151,7 +151,7 @@ Durante l'intero ciclo di vita del progetto (16 Sprint), sono state registrate *
 
 ## Appendice: Template dell'Issues Log (Blank Form)
 
-Per garantire la tracciabilità e la riproducibilità del processo per l'audit del progetto, viene qui riportato il template vuoto dell'Issues Log:
+Per garantire la tracciabilità e la riproducibilità del processo, viene qui riportato il template vuoto dell'Issues Log:
 
 | ID | Data | Sprint | Descrizione del Problema | Impatto sul Progetto | Owner del Problema | Azione da Intraprendere | Stato | Esito |
 | :--- | :--- | :---: | :--- | :--- | :--- | :--- | :---: | :--- |

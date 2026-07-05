@@ -69,9 +69,9 @@ Di seguito viene mostrato l'aggiornamento formale del registro degli scambi agil
 
 ---
 
-## Appendice: Modelli Standard ad uso del PM Audit
+## Appendice: Modelli Standard ad uso Interno
 
-In conformità con il framework Scrum, non si utilizzano moduli cartacei di approvazione o contratti di variazione scope (Change Request). La tracciabilità per l'audit del progetto è garantita dai seguenti modelli di registro e log di raffinamento.
+In conformità con il framework Scrum, non si utilizzano moduli cartacei di approvazione o contratti di variazione scope (Change Request). La tracciabilità del progetto è garantita dai seguenti modelli di registro e log di raffinamento.
 
 ### 1. Template del Registro degli Agile Swap (Blank Form)
 
