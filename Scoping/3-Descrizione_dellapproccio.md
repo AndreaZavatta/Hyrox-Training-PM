@@ -124,18 +124,24 @@ La governance operativa adotta Working Agreements strutturati per gestire il pro
 ## **4. Fase di Monitoring & Controlling**
 
 ### **4.1 Status Meetings e Reporting Stratificato**
-* **Issue Log e Daily Standup:** Monitoraggio dei task aperti a livello operativo quotidiano.
+* **Daily Scrum e Problem Resolution Meetings:** Monitoraggio operativo quotidiano. Eventuali blocchi emersi nel Daily vengono isolati e gestiti in successivi incontri mirati di Problem Resolution per non superare il timebox.
 * **Sprint Review & Demo Live:** Riunioni di fine Sprint (ogni 2 settimane, max 1 ora) in cui lo Scrum Team presenta un incremento software funzionante (DoD soddisfatta) a coach e atleti per raccogliere dei feedback.
-* **Reporting:** Variance Report bi-settimanali, Release Roadmap per la visione macroscopica, Sprint Board/Burn-up per il micro-management iterativo, e Stoplight Report mensile (ogni 2 Sprint) per il Board / Investitori.
+* **Reporting Stratificato:** Cinque livelli di reporting adattati al destinatario: Current Period Report (Sprint-by-Sprint), Cumulative Report (Burndown/Velocity), Variance Report, Stoplight Report (per il Board) ed Exception Report per deviazioni critiche.
 
-### **4.2 Monitoraggio Performance**
-Il monitoraggio avviene tramite Velocity Tracking (Story Points completati / Sprint), Burndown Chart e progressione dell'Accuracy dell'algoritmo.
+### **4.2 Monitoraggio Performance (Agile Earned Value)**
+Il monitoraggio quantitativo delle performance adotta l'**Earned Value Analysis (EVA) traslato in ambito Agile**. Invece di misurare ore o costi, le metriche di PV (Planned Value), EV (Earned Value) e AC (Actual Cost) sono calcolate sugli **Story Points**. Questo permette di calcolare indici di efficienza (SPI e CPI) senza tradire l'orientamento al valore tipico di Scrum. Il monitoraggio si avvale anche del Velocity Tracking, del Burndown Chart e della misurazione continua dell'Accuracy dell'algoritmo.
 
 ### **4.3 Gestione Dinamica del Backlog e Scope Bank**
 Il cambiamento viene gestito attraverso una **Scope Bank** supportata da una Time Contingency Reserve pari al 10% della durata del progetto (gestita come buffer nei cicli di Sprint) e da una Budget Contingency Reserve di €24.700. In ottica Scrum, i nuovi requisiti diventano User Story stimate dal Dev Team in Story Points e inserite nel Product Backlog dal Product Owner.
 * **Gestione del Vincolo (Fixed Capacity):** Poiché le risorse e la durata del progetto (8 mesi, 16 Sprint) sono fisse, l'inserimento di una nuova User Story ad alta priorità comporta che il PO rimuova o posticipi dal backlog elementi di pari sforzo (in Story Points), tipicamente a priorità COULD o SHOULD.
 
-### **4.4 Protocolli di Validazione e Contingency**
+### **4.4 Problem Escalation Strategy**
+Ogni anomalia viene tracciata nell'**Issues Log**. Se il team operativo non è in grado di risolvere il problema internamente, si attiva una strategia di escalation gerarchica su tre livelli:
+1. **Livello 1 (Scrum Master):** Risoluzione interna tramite self-organization (es. Swarming o utilizzo del buffer di capacità).
+2. **Livello 2 (Scrum Master + PO):** Negoziazione di scope e risorse (es. Overtime controllato, Agile Swap o consumo della Time Contingency).
+3. **Livello 3 (Product Owner / Sponsor):** Decisioni strategiche ad alto impatto (es. Phased Release, estensione della schedula o riduzione drammatica dello scope).
+
+### **4.5 Protocolli di Validazione e Contingency**
 * **Validation Protocol:** La validazione empirica avviene tramite *Lab Testing* (simulazioni di movimento controllate in palestra eseguite dal Tech Lead) e *Field Testing* (condizioni di gara reali con i 30 atleti del gruppo di test), raccogliendo i dati di usabilità tramite il questionario standardizzato SUS (System Usability Scale) con target di SUS Score ≥ 80/100.
 * **Go/No-Go Protocol (Gate Critico):** Al completamento della validazione dell'algoritmo nello Sprint 12, se l'accuratezza non raggiungerà la soglia minima del 90%, si attiverà il **Pivot al Plan B (Manual Trigger)**. In questo scenario, si esclude il tracciamento automatico e ci si basa interamente sulla transizione manuale rapida tramite fallback trigger (US-W-03) con interfaccia ottimizzata.
 
