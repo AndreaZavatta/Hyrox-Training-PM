@@ -61,15 +61,7 @@ La strategia di escalation definisce una gerarchia a tre livelli per la risoluzi
 
 La strategia di escalation si articola su tre livelli gerarchici, adattati ai ruoli dell'organizzazione agile Scrum:
 
-```mermaid
-graph TD
-    A["🟢 LIVELLO 1: Scrum Master<br>(Self-Organization)"] --> B["🟡 LIVELLO 2: Scrum Master + PO<br>(Negoziazione Risorse e Scope)"]
-    B --> C["🔴 LIVELLO 3: Product Owner / Sponsor<br>(Decisioni Strategiche)"]
-
-    style A fill:#c8e6c9,stroke:#388e3c
-    style B fill:#fff9c4,stroke:#f9a825
-    style C fill:#ffcdd2,stroke:#d32f2f
-```
+![Gerarchia di Escalation in Scrum](../Images/adattamento_gerarchia_scrum.png)
 
 ### 3.2 Dettaglio dei Tre Livelli
 
@@ -105,32 +97,7 @@ Si attiva quando il problema è tale da richiedere una decisione di business che
 
 ### 3.3 Gerarchia di Escalation applicata — Flusso Decisionale
 
-```mermaid
-graph TD
-    P["Problema Rilevato<br>(Daily Scrum / Sprint Review)"] --> L1
-
-    subgraph "🟢 Livello 1 — Scrum Master"
-        L1{"Il problema si risolve<br>con le risorse attuali?"}
-        L1 -->|Sì: buffer sufficiente| A1["Nessuna Azione"]
-        L1 -->|Sì: riordino backlog| A2["Riassegnazione / Swarming"]
-        L1 -->|No| L2
-    end
-
-    subgraph "🟡 Livello 2 — SM + PO"
-        L2{"Serve più capacità<br>o modifica dello scope?"}
-        L2 -->|Overtime ≤ 10%| B1["Overtime Controllato"]
-        L2 -->|Swap storie| B2["Agile Swap"]
-        L2 -->|Buffer temporale| B3["Consumo Time Contingency"]
-        L2 -->|No, serve decisione di business| L3
-    end
-
-    subgraph "🔴 Livello 3 — PO / Sponsor"
-        L3{"Il progetto è a rischio<br>nella sua interezza?"}
-        L3 -->|Rilascio parziale| C1["Phased Release"]
-        L3 -->|Più tempo| C2["Estensione Schedula"]
-        L3 -->|Meno funzionalità| C3["Riduzione Scope"]
-    end
-```
+![Flusso Decisionale di Escalation](../Images/gerarchia_escalation_applicata.png)
 
 ---
 

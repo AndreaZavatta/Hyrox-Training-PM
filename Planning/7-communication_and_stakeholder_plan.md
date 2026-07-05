@@ -35,25 +35,7 @@ La sincronizzazione con gli stakeholder avviene  attraverso touchpoint negli Spr
 
 Il successo del sistema dipende da una stretta collaborazione con gli utenti finali della palestra partner. La matrice definisce il coinvolgimento dei diversi attori nel ciclo di vita Scrum:
 
-```mermaid
-graph TD
-    subgraph Scrum Team
-        PO[Product Owner]
-        SM[Scrum Master]
-        DEV[Dev Team]
-    end
-    subgraph Stakeholder Esterni
-        COACH[15 Coach Esterni]
-        ATLETI[30 Atleti di Test]
-        BOARD[Board / Investitori]
-    end
-    
-    PO -->|Prioritizzazione e Feedback| COACH
-    PO -->|Interviste e CoS| ATLETI
-    DEV -->|Demo Live nella Sprint Review| COACH
-    DEV -->|Rilascio Beta in TestFlight| ATLETI
-    SM -->|Stoplight / Velocity Report| BOARD
-```
+![Matrice di Coinvolgimento degli Stakeholder](../Images/matrice_coinvolgimento_stakeholder.png)
 
 ### 3.1 Product Owner (PO)
 *   **Ruolo:** Unico punto di contatto per la definizione del valore di business.

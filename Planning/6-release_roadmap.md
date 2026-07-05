@@ -15,21 +15,7 @@ La pianificazione segue una logica di **disaccoppiamento architetturale** e **mi
 
 ## 2. Schedulazione dei 16 Sprint
 
-```mermaid
-graph TD
-    subgraph Release 1: MVP Core Ecosistema (Sprint 1-8)
-        S1[Sprint 1: Setup & API] --> S2[Sprint 2: Auth & Profilo] --> S3[Sprint 3: Builder Workout]
-        S3 --> S4[Sprint 4: Watch UI & Spike] --> S5[Sprint 5: Push & Fallback] --> S6[Sprint 6: Algo Core] --> S7[Sprint 7: Cache & Reports] --> S8[Sprint 8: Sync Pipeline]
-    end
-    subgraph Release 2: Advanced Analytics & Flexibility (Sprint 9-11)
-        S8 --> S9[Sprint 9: Team View & Sanctions] --> S10[Sprint 10: Pacing & Flexibility] --> S11[Sprint 11: Offline Dashboard]
-    end
-    subgraph Release 3: Validation & Store Launch (Sprint 12-16)
-        S11 --> S12{Sprint 12: Lab Testing & Gate} --> S13[Sprint 13: Usability & SUS] --> S14[Sprint 14: System E2E] --> S15[Sprint 15: Infra & Store Prep] --> S16[Sprint 16: Deploy & Handover]
-    end
-
-    style S12 fill:#ffeb3b,stroke:#f57f17,stroke-width:2px
-```
+![Schedulazione dei 16 Sprint](../Images/schedulazione_sedici_sprint.png)
 
 ### Fase 1: Inizializzazione e Architettura (Sprint 1 - 3) — *Mesi 1-2*
 *Focus:* Definizione delle fondamenta tecniche, sicurezza e protocollo di base.

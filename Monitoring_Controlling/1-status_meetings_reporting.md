@@ -45,13 +45,7 @@ Il monitoraggio del progetto si articola su tre livelli di riunioni, ciascuno co
 **Processo strutturato (Modello a 5 passi di Daniel Couger):**
 Il team adotta il modello di problem solving formalizzato nel Kick-Off Meeting:
 
-```mermaid
-graph LR
-    A["1. Definizione del Problema<br>e identificazione dell'Owner"] --> B["2. Raccolta Dati<br>e Root Cause Analysis"]
-    B --> C["3. Brainstorming<br>Soluzioni Alternative"]
-    C --> D["4. Valutazione<br>e Prioritizzazione"]
-    D --> E["5. Piano d'Azione<br>e Verifica"]
-```
+![Modello di Problem Solving](../Images/problem_resolution_meeting.png)
 
 **Output del meeting:**
 *   Aggiornamento dell'[Issues Log](file:///home/zava/Projects/PM-project/Monitoring_Controlling/3-issues_log_escalation.md) con la soluzione concordata, il responsabile e la data di risoluzione prevista.
@@ -84,27 +78,7 @@ Il sistema di reporting adotta i cinque tipi di report, differenziandoli per des
 
 ### 2.1 Mappa degli Strumenti di Reporting
 
-```mermaid
-graph TD
-    subgraph "Livello Operativo (Dev Team)"
-        A[Current Period Report<br>Sprint-by-Sprint]
-        B[Cumulative Report<br>Burndown & Velocity Trend]
-    end
-    subgraph "Livello Tattico (Scrum Master / PM)"
-        C[Variance Report<br>Planned vs Actual per Task]
-        D[Earned Value Analysis<br>PV, EV, AC, SPI, CPI]
-    end
-    subgraph "Livello Strategico (PO / Sponsor)"
-        E[Stoplight Report<br>Executive Summary]
-        F[Exception Report<br>Solo su Deviazioni Critiche]
-    end
-
-    A --> C
-    B --> D
-    C --> E
-    D --> E
-    E --> F
-```
+![Sistema di Reporting Stratificato](../Images/sistema_reporting_stratificato.png)
 
 ---
 

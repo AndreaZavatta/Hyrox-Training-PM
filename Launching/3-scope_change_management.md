@@ -10,14 +10,7 @@ Di seguito viene presentata la simulazione dell'adattamento dello scope avvenuta
 
 Per garantire il rispetto dei vincoli di budget e di tempo (8 mesi per 16 Sprint) senza irrigidire il perimetro del prodotto, il team applica il flusso empirico descritto di seguito:
 
-```mermaid
-graph TD
-    A[Rilevazione Nuove Esigenze o Feedback Coach/Atleti] --> B[Creazione o Revisione User Story nel Backlog]
-    B --> C[Stima dello Sforzo in Story Points - Dev Team]
-    C --> D[Backlog Refinement & Valutazione dell'Impatto - Scrum Team]
-    D --> E[Decisione di Riprioritizzazione & Agile Swap - Product Owner]
-    E --> F[Aggiornamento del Product Backlog & Release Roadmap]
-```
+![Processo Operativo di Adattamento dello Scope](../Images/processo_operativo_adattamento_scope.png)
 
 ### 1.1 La Regola di Scambio (Fixed Capacity Trading Rule)
 L'aggiunta di una nuova User Story o l'anticipazione di una funzionalità a una release precedente deve essere compensata dalla rimozione o posticipazione di elementi di pari sforzo (misurato in Story Points). Questo garantisce che la baseline dei costi operativi e la timeline delle release non subiscano variazioni, proteggendo la sostenibilità del lavoro del Dev Team.
