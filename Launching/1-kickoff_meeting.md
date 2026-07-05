@@ -40,10 +40,10 @@ Il Product Owner (Chiara) ha illustrato al team di sviluppo le frustrazioni viss
 Il team ha approvato e sottoscritto la **Product Vision**: sollevare l'atleta dal tracciamento manuale sul watch e automatizzare la visualizzazione comparativa del pacing per il coach sulla dashboard in meno di 2 minuti.
 
 ### 3.2 Formalizzazione delle Regole Operative del Team (Working Agreements)
-Lo Scrum Master ha presentato i Working Agreements definiti in fase di pianificazione, dettagliando l'applicazione delle regole operative richieste per la fase di esecuzione (dispensa Teoria/8):
+Lo Scrum Master ha presentato i Working Agreements definiti in fase di pianificazione, dettagliando l'applicazione delle regole operative per la fase di esecuzione:
 *   **Decision Making & Consensus Building:**
     *   *Stile decisionale:* Si adotta lo stile *collaborativo/partecipativo* per le decisioni di architettura software e design dei dati (coinvolgendo l'intero team per stimolare l'ingegno collettivo) e lo stile *consultivo/direttivo* per la prioritizzazione del Product Backlog (in capo al Product Owner).
-    *   *Avviso di Wysocki sul Consensus:* Il team accetta l'avvertimento formale della teoria: un consenso forzato che cerca di soddisfare equamente tutti i membri può tradursi in una decisione debole o compromissoria. Qualora non si raggiunga il consenso entro 60 minuti di discussione, si attiva il protocollo di escalation: l'arbitrato finale spetta al Tech Lead per i conflitti tecnologici, al PO per quelli di business e al PM per i vincoli di budget/tempo.
+    *   *Regola sul Consensus:* Il team riconosce che un consenso forzato che cerca di soddisfare equamente tutti i membri può tradursi in una decisione debole o compromissoria. Qualora non si raggiunga il consenso entro 60 minuti di discussione, si attiva il protocollo di escalation: l'arbitrato finale spetta al Tech Lead per i conflitti tecnologici, al PO per quelli di business e al PM per i vincoli di budget/tempo.
 *   **Problem Solving:**
     *   Si adotta il **modello a 5 passi di Daniel Couger**:
         1. *Definizione del problema* e identificazione del proprietario (owner).

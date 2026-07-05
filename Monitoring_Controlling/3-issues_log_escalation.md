@@ -59,7 +59,7 @@ La strategia di escalation definisce una gerarchia a tre livelli per la risoluzi
 
 ### 3.1 Adattamento della Gerarchia al Framework Scrum
 
-La teoria prevede tre livelli di escalation (Project Manager, Resource Manager, Client). Nel contesto Scrum puro del progetto, la gerarchia è stata adattata ai ruoli dell'organizzazione agile:
+La strategia di escalation si articola su tre livelli gerarchici, adattati ai ruoli dell'organizzazione agile Scrum:
 
 ```mermaid
 graph TD
@@ -75,7 +75,7 @@ graph TD
 
 #### 🟢 Livello 1 — Scrum Master-Based Strategies (Auto-organizzazione del Team)
 
-Sono le strategie che lo Scrum Master e il Dev Team possono applicare autonomamente, senza coinvolgere il Product Owner o lo Sponsor. Corrispondono alle *Project Manager-Based Strategies* della teoria.
+Sono le strategie che lo Scrum Master e il Dev Team possono applicare autonomamente, senza coinvolgere il Product Owner o lo Sponsor.
 
 | Strategia | Descrizione | Adattamento Scrum | Esempio nel Progetto |
 | :--- | :--- | :--- | :--- |
@@ -85,7 +85,7 @@ Sono le strategie che lo Scrum Master e il Dev Team possono applicare autonomame
 
 #### 🟡 Livello 2 — Negoziazione Risorse e Scope (Scrum Master + Product Owner)
 
-Si attiva quando le strategie di Livello 1 non sono sufficienti. Coinvolge il Product Owner per negoziare modifiche alla capacità o allo scope dello Sprint. Corrisponde alle *Resource Manager-Based Strategies* della teoria.
+Si attiva quando le strategie di Livello 1 non sono sufficienti. Coinvolge il Product Owner per negoziare modifiche alla capacità o allo scope dello Sprint.
 
 | Strategia | Descrizione | Adattamento Scrum | Esempio nel Progetto |
 | :--- | :--- | :--- | :--- |
@@ -95,7 +95,7 @@ Si attiva quando le strategie di Livello 1 non sono sufficienti. Coinvolge il Pr
 
 #### 🔴 Livello 3 — Product Owner / Sponsor-Based Strategies (Decisioni Strategiche)
 
-Si attiva quando il problema è tale da richiedere una decisione di business che impatta gli obiettivi del progetto. Corrisponde alle *Client-Based Strategies* della teoria.
+Si attiva quando il problema è tale da richiedere una decisione di business che impatta gli obiettivi del progetto.
 
 | Strategia | Descrizione | Adattamento Scrum | Esempio nel Progetto |
 | :--- | :--- | :--- | :--- |

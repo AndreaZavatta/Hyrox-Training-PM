@@ -1,12 +1,12 @@
 # Gestione delle Risorse, Saturazione e Livellamento
 
-Il presente documento definisce la strategia di gestione delle risorse umane del progetto "Hyrox Team Performance Optimizer". In conformità con le linee guida della [teoria del corso](file:///home/zava/Projects/PM-project/Teoria/8%20-%20Launching%20Process%20Group%20-%20Ver.3.3.md), vengono qui esplicitati il modello di Staffing, il bilanciamento del team secondo gli stili di apprendimento di Kolb, la programmazione della saturazione giornaliera (Resource Loading) e le tecniche di livellamento (Resource-Leveling).
+Il presente documento definisce la strategia di gestione delle risorse umane del progetto "Hyrox Team Performance Optimizer". Vengono qui esplicitati il modello di Staffing, il bilanciamento del team secondo gli stili di apprendimento di Kolb, la programmazione della saturazione giornaliera (Resource Loading) e le tecniche di livellamento (Resource-Leveling).
 
 ---
 
 ## 1. Modello di Staffing e Classificazione del Team
 
-Per garantire una chiara distinzione dei ruoli operativi, contrattuali e decisionali, i membri del progetto sono classificati secondo la tassonomia metodologica di Wysocki:
+Per garantire una chiara distinzione dei ruoli operativi, contrattuali e decisionali, i membri del progetto sono classificati come segue:
 
 | Categoria | Nominativi | Ruolo e Responsabilità nel Progetto |
 | :--- | :--- | :--- |
@@ -64,7 +64,7 @@ Di seguito viene riportato, a titolo di esempio, il grafico di saturazione per l
 
 > [!NOTE]
 > **Nota Metodologica sull'Approccio Agile:**
-> In conformità con la natura puramente Agile (Scrum) del progetto, le classiche tecniche predittive di *Resource-Leveling* e i concetti di *Critical Path* e *Slack* vengono qui reinterpretati e mappati sui meccanismi di auto-organizzazione e pianificazione dello Sprint Backlog, evitando la rigida schedulazione waterfall ma preservando la terminologia richiesta dalle linee guida del corso.
+> In conformità con la natura puramente Agile (Scrum) del progetto, le classiche tecniche predittive di *Resource-Leveling* e i concetti di *Critical Path* e *Slack* vengono qui reinterpretati e mappati sui meccanismi di auto-organizzazione e pianificazione dello Sprint Backlog, evitando la rigida schedulazione waterfall.
 
 Nel caso in cui si verifichino imprevisti, impedimenti o colli di bottiglia che mettono a rischio il completamento degli incrementi durante lo Sprint (ad esempio, complessità impreviste nell'elaborazione del filtro di Kalman durante lo Spike sui sensori), lo Scrum Team applica le seguenti strategie di livellamento auto-organizzato:
 

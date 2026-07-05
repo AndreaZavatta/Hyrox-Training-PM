@@ -184,7 +184,7 @@ SP Rimanenti
          Sprint
 ```
 
-*Il grafico mostra un andamento regolare e coerente con la curva a S standard della teoria (slow start → acceleration → convergence). La flessione dello Sprint 5 è stata riassorbita immediatamente.*
+*Il grafico mostra un andamento regolare e coerente con il profilo atteso della S-Curve (slow start → acceleration → convergence). La flessione dello Sprint 5 è stata riassorbita immediatamente.*
 
 ---
 
@@ -215,7 +215,7 @@ Il *Variance Report* confronta, per ogni attività e periodo, lo stato di avanza
 **Frequenza:** Alla fine di ogni Sprint (o su richiesta del PO)  
 **Formato:** Sintesi visuale a una pagina con indicatori a colori
 
-Lo *Stoplight Report* è il report più sintetico e immediato, pensato per comunicare lo stato complessivo del progetto in pochi secondi. Utilizza il sistema a tre colori definito dalla teoria:
+Lo *Stoplight Report* è il report più sintetico e immediato, pensato per comunicare lo stato complessivo del progetto in pochi secondi. Utilizza il sistema a tre colori:
 
 | Colore | Significato |
 | :---: | :--- |
@@ -267,7 +267,7 @@ A titolo di esempio e per completezza documentale, viene qui riportato il templa
 
 ## 3. Come Rispettare la Schedula di Progetto
 
-Per mantenere il progetto entro i binari stabiliti in fase di pianificazione, lo Scrum Team applica le seguenti linee guida operative, derivate dalla teoria del corso e formalizzate nei [Working Agreements](file:///home/zava/Projects/PM-project/Planning/2-working_agreements.md):
+Per mantenere il progetto entro i binari stabiliti in fase di pianificazione, lo Scrum Team applica le seguenti linee guida operative, formalizzate nei [Working Agreements](file:///home/zava/Projects/PM-project/Planning/2-working_agreements.md):
 
 1.  **Tenere dei Daily Scrum ogni giorno** per intercettare i problemi alla radice (early warning).
 2.  **Completare i task il prima possibile** per accumulare margine nella Scope Bank.
@@ -292,4 +292,4 @@ Per mantenere il progetto entro i binari stabiliti in fase di pianificazione, lo
 
 ---
 
-*Documento redatto dallo Scrum Master Andrea Zavatta in conformità con le linee guida del corso di Project Management (Prof. M. A. Boschetti) e con le regole operative definite nel Kick-Off Meeting del progetto.*
+*Documento redatto dallo Scrum Master Andrea Zavatta in conformità con le regole operative definite nel Kick-Off Meeting del progetto.*

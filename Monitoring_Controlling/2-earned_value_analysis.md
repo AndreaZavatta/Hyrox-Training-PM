@@ -138,7 +138,7 @@ SP (Cumulativi)
 ```
 
 **Interpretazione della curva:**
-La forma della curva segue il profilo della **Standard S-Curve** descritta nella teoria: avvio moderato (Sprint 1-3, fase di setup e fondamenta), accelerazione nella fase centrale (Sprint 4-8, sviluppo core wearable) e convergenza finale (Sprint 9-11, analytics e chiusura scope).
+La forma della curva segue il profilo della **Standard S-Curve**: avvio moderato (Sprint 1-3, fase di setup e fondamenta), accelerazione nella fase centrale (Sprint 4-8, sviluppo core wearable) e convergenza finale (Sprint 9-11, analytics e chiusura scope).
 
 Le tre curve (PV, EV, AC) sono sostanzialmente sovrapposte per l'intero arco del progetto, con scostamenti minimi. Questo indica un progetto ben pianificato e controllato.
 

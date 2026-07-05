@@ -97,7 +97,7 @@ Per mitigare i rischi legati a competenze esclusive (Bus Factor) e preservare l'
 La governance operativa adotta Working Agreements strutturati per gestire il processo decisionale, la risoluzione di blocchi e la comunicazione:
 *   **Decision Making & Consensus:**
     *   *Stile decisionale:* Si predilige uno stile *collaborativo/partecipativo* per le decisioni di architettura e design dei dati, e uno stile *consultivo/direttivo* in capo al Product Owner per la prioritizzazione strategica del backlog.
-    *   *Avviso di Wysocki sul Consensus:* Si riconosce che la ricerca forzata di un compromesso indebolisce le decisioni. In caso di stallo oltre un limite temporale prefissato (es. 60 minuti), si attiva l'escalation per dominio: Tech Lead per conflitti tecnici, PO per conflitti di business, PM per vincoli di budget/tempo.
+    *   *Regola sul Consensus:* Si riconosce che la ricerca forzata di un compromesso indebolisce le decisioni. In caso di stallo oltre un limite temporale prefissato (es. 60 minuti), si attiva l'escalation per dominio: Tech Lead per conflitti tecnici, PO per conflitti di business, PM per vincoli di budget/tempo.
 *   **Problem Solving & Conflict Resolution:**
     *   *Problem Solving:* Si stabilisce l'adozione di un modello metodologico strutturato (come il **modello a 5 passi di Daniel Couger**) per definire, analizzare, proporre, selezionare e validare le azioni correttive sui problemi bloccanti.
     *   *Conflict Resolution:* Risoluzione dei conflitti tecnici tramite negoziazione cooperativa ed empatia (*Collaborating/Integrating*), mitigando comportamenti competitivi (*Competing*) o evitanti (*Avoiding*).
