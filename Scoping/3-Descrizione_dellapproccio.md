@@ -1,167 +1,24 @@
 # **Descrizione dell'Approccio Metodologico**
 
-Questo documento descrive la metodologia che viene adottata per la gestione dell'intero ciclo di vita del progetto "Hyrox Team Performance Optimizer", coprendo tutte le fasi fondamentali del Project Management attraverso il framework **Agile/Scrum**.
+Questo documento sintetizza l'approccio metodologico **Ibrido (Agile/Tradizionale)** adottato per la gestione del progetto "Hyrox Team Performance Optimizer". L'obiettivo è unire la flessibilità esecutiva del framework Scrum con il rigore documentale del Project Management tradizionale, necessario per garantire tracciabilità e controllo finanziario.
 
 ---
 
-## **1. Fase di Scoping (Initiating)**
+## **1. Scoping e Planning (Approccio Predittivo)**
+Le fasi iniziali seguono un approccio strutturato per garantire l'allineamento strategico e la definizione del perimetro (Scope):
+*   **Documentazione Formale:** Redazione di POS (Project Overview Statement) e PDS (Project Definition Statement) per definire criteri di successo misurabili e vincoli di budget/tempo.
+*   **WBS e Backlog:** I requisiti vengono scomposti in una WBS orientata ai deliverable e tradotti in un Product Backlog stimato in Story Points (SP).
+*   **Baseline:** Viene definita una Release Roadmap a capacità fissa (16 Sprint, 8 mesi) e una Cost Baseline per il monitoraggio.
 
-### **1.1 Governance e Partecipanti al Progetto**
-La corretta esecuzione del progetto richiede una struttura di governance chiara che bilanci le esigenze di business con la fattibilità tecnica. Di seguito sono definiti i ruoli chiave dello Scrum Team e le relative sfere decisionali:
+## **2. Launching ed Execution (Approccio Agile/Scrum)**
+L'esecuzione del progetto è interamente delegata a uno **Scrum Team cross-funzionale e auto-organizzato**, operante in cicli iterativi:
+*   **Ruoli Scrum:** Product Owner (priorità di business), Tech Lead (architettura), Scrum Master/PM (processo e ostacoli), Dev Team (implementazione).
+*   **Working Agreements e Ritmi:** Il team opera su Sprint di 2 settimane, sincronizzandosi tramite Daily Scrum e validando il lavoro (DoD soddisfatta) nelle Sprint Review con gli stakeholder.
+*   **Gestione Incertezza:** Utilizzo di *Spike* tecnici per la validazione precoce delle architetture complesse (es. algoritmo di Machine Learning) e Pair Programming per la mitigazione dei rischi operativi.
 
-| Ruolo | Responsabilità Principali | Autorità / Sfera Decisionale |
-| :--- | :--- | :--- |
-| **Product Owner (PO)** | Massimizzare il Business Value del prodotto. Gestione e prioritizzazione del Product Backlog. Interfaccia con gli stakeholder (coach esterni). | **Cosa sviluppare:** Ha l'ultima parola sulla prioritizzazione delle User Stories e sull'accettazione degli incrementi (DoD). |
-| **Scrum Master (SM) / PM** | Facilitare le cerimonie Scrum. Rimuovere gli ostacoli (impediments) segnalati dal team. Garantire il rispetto della metodologia e della governance. | **Processo e Governance:** Decide come facilitare le riunioni e gestisce i rischi finanziari/temporali di macro-livello. |
-| **Tech Lead (TL)** | Definire l'architettura tecnica e coordinare il team di sviluppo. Garantire l'integrità concettuale del codice e mitigare i rischi tecnologici. | **Fattibilità Tecnica:** Detiene il potere di veto su requisiti tecnicamente irrealizzabili o ad alto rischio architetturale. |
-| **Dev Team (Core Team)** | Sviluppare gli incrementi di prodotto. Effettuare le stime in Story Points. Garantire la qualità del codice tramite test e peer review. | **Come sviluppare:** Ha completa autonomia sulle scelte di implementazione e sulla stima dello sforzo dei task. |
-
-### **1.2 Protocollo di Escalation delle Decisioni**
-In caso di conflitto decisionale o impossibilità di raggiungere il consenso entro 60 minuti, si attiva il protocollo di escalation in 3 livelli:
-* **Livello 1 (Facilitazione SM/PM):** Lo Scrum Master / PM faciliterà una sessione di consensus building focalizzata (max 60 minuti).
-* **Livello 2 (Arbitrato per Dominio):** Il Tech Lead deciderà sui conflitti tecnologici/architetturali, il Product Owner sulle priorità di business, lo Scrum Master / PM sui rischi finanziari e temporali.
-* **Livello 3 (Escalation Esecutiva):** Decisioni o conflitti che impattano >15% del budget o >20% della timeline vengono revisionati formalmente dal CEO.
-* **Regola Aurea:** Le decisioni tecniche non potranno essere sovrascritte da richieste di business; il Tech Lead avrà potere di veto su requisiti tecnicamente irrealizzabili.
-
-### **1.3 Processo di Scoping Meeting**
-Il *Project Scoping Meeting* non è un evento isolato, ma un processo di confronto iterativo. Per mantenere velocità decisionale, si prediligono sessioni di lavoro facilitate e consensus building, documentando le decisioni in verbali formali (es. Verbale #01).
-
-### **1.4 Deliverable di Scoping**
-Durante questa fase vengono prodotti i seguenti artefatti:
-* **Conditions of Satisfaction (CoS):** Strutturate da WANTS a NEEDS, prioritizzate con metodo MoSCoW.
-* **Requirements Breakdown Structure (RBS):** Scomporrà i requisiti in feature misurabili, fungendo da ponte logico verso la scomposizione del backlog (WBS).
-* **Project Overview Statement (POS):** Definirà il problem statement, l'obiettivo e i criteri di successo quantitativi.
-
----
-
-## **2. Fase di Planning**
-
-La fase di pianificazione è progettata per garantire l'allineamento tra gli obiettivi strategici definiti nello Scoping e l'esecuzione operativa.
-
-### **2.1 Project Definition Statement (PDS)**
-L’avvio della fase di pianificazione è sancito dal passaggio formale dal POS al PDS. Il PDS espande i contenuti del POS, stabilendo gli obiettivi strategici, la governance e la cornice metodologica per lo sviluppo dell'ecosistema, includendo le attività definite nell'RBS e l'analisi empirica dei rischi.
-
-### **2.2 Work Breakdown Structure (WBS)**
-Partendo dalla RBS, si costruisce la **Work Breakdown Structure (WBS)**. Questo strumento organizza gerarchicamente i requisiti di prodotto (in Epiche, Feature e User Story) per garantire l'integrità concettuale dello sviluppo, includendo stime in **Story Points (SP)** (scala di Fibonacci) e pianificazione guidata dalla **Velocity** del team.
-
-### **2.3 Backlog e Pianificazione Iterativa**
-Le componenti della WBS vengono tradotte in un *Product Backlog* ordinato. Le dimensioni delle User Story sono stimate in Story Points tramite *Planning Poker* dal Dev Team. Per mitigare l'incertezza tecnologica ed effettuare la validazione precoce del modello di riconoscimento dei movimenti, viene inserito uno *Spike* nello Sprint 4, finalizzato alla raccolta preliminare di dati sensori (accelerometro/giroscopio).
-
-### **2.4 Release Roadmap e Baseline dei Costi**
-Il piano temporale è rappresentato tramite una Release Roadmap che mappa le macro-fasi su un orizzonte temporale fisso di **8 mesi (16 Sprint di 2 settimane ciascuno)**, garantendo visibilità agli stakeholder. La *Cost Baseline* viene definita calcolando il Burn Rate del team, definendo le curve dei costi operativi per il controllo del Cash Flow.
-
-### **2.5 Strumenti di Monitoraggio (Sprint Board)**
-La gestione operativa avviene tramite *Sprint Board* (Jira), dove le attività evolvono negli stati (To Do, In Progress, Code Review/Test, Done). La *Definition of Done (DoD)* e la *Definition of Ready (DoR)* assicurano che ogni incremento soddisfi gli standard qualitativi e di processo prima del rilascio.
-
----
-
-## **3. Fase di Launching & Execution**
-
-### **3.1 Modello di Staffing e Organizzazione del Team**
-Durante la fase esecutiva, il team opera come uno **Scrum Team** auto-organizzato e cross-funzionale. Le sfere decisionali e operative sono ripartite tra i seguenti ruoli chiave:
-*   **Product Owner (PO):** Definisce e prioritizza i requisiti nel Product Backlog per massimizzare il valore del prodotto, collaborando con gli stakeholder.
-*   **Tech Lead (TL):** Definisce l'architettura tecnica globale, coordina le scelte ingegneristiche e garantisce l'integrità architetturale.
-*   **Project Manager / Scrum Master (PM):** Gestisce la schedula e il budget del progetto, rimuove gli ostacoli (impediments) e garantisce il rispetto della governance metodologica.
-*   **Core Team:** Il gruppo cross-funzionale di sviluppatori e specialisti responsabile dell'implementazione tecnica e del rilascio del software.
-
-### **3.2 Bilanciamento del Team (Learning Styles di David Kolb)**
-Per ottimizzare la collaborazione e mitigare il "Bus Factor", il team viene strutturato e bilanciato coprendo le quattro dimensioni del modello di David Kolb per le attitudini e gli stili di apprendimento:
-*   **Assimilating (Modelli Teorici):** Focalizzato sulla progettazione logica, l'analisi dei dati di avanzamento e la modellazione teorica dell'algoritmo.
-*   **Converging (Applicazione Pratica):** Orientato alla risoluzione di problemi tecnologici complessi, programmazione sistematica e implementazione dell'architettura.
-*   **Diverging (Ideazione e UX):** Centrato sulla visualizzazione dei problemi da prospettive multiple, fondamentale per il co-design della UI/UX e della visualizzazione dati.
-*   **Accommodating (Azione sul Campo):** Orientato al testing empirico a contatto con gli utenti finali, al superamento degli ostacoli d'integrazione e all'adattamento rapido ai cambiamenti.
-
-### **3.3 Matrice RASCI Operativa Generale**
-Le responsabilità sulle principali macro-attività della fase di esecuzione sono tracciate mediante la seguente matrice RASCI di alto livello:
-
-| Macro-Attività / Fasi WBS | Scrum Master (SM) / PM | Tech Lead (TL) | Product Owner (PO) | Dev Team (DEV) |
-| :--- | :---: | :---: | :---: | :---: |
-| **1. Project Management e Scoping** | **A** / **R** | **C** | **C** | **I** |
-| **2. Inizializzazione Tecnica & Agile** | **A** | **R** | **I** | **R** |
-| **3. Design UI/UX & Architettura** | **I** | **A** / **R** | **C** | **R** |
-| **4. Sviluppo Sottosistema Smartwatch** | **I** | **A** | **C** | **R** |
-| **5. Sviluppo Sottosistema Dashboard** | **I** | **A** | **C** | **R** |
-| **6. Sviluppo Sottosistema Sincronizzazione** | **I** | **A** / **R** | **I** | **R** |
-| **7. Testing & Quality Assurance** | **A** | **R** | **C** | **R** |
-| **8. Deployment e Rilascio** | **I** | **R** | **A** | **R** |
-
-*Legenda: **R** = Responsible, **A** = Accountable, **S** = Support, **C** = Consulted, **I** = Informed.*
-
-### **3.4 Knowledge Management Strategy**
-Per mitigare i rischi legati a competenze esclusive (Bus Factor) e preservare l'integrità concettuale dell'architettura:
-*   **Pair Programming:** Applicato su attività ad alta complessità algoritmica o di integrazione.
-*   **Documentazione di Progetto:** Redazione sistematica di docstrings nel codice e schemi architetturali (es. modello C4) all'interno del Project Workbook condiviso.
-*   **Sessioni di Allineamento Tecnico:** Incontri periodici dedicati alla condivisione interna delle soluzioni e al trasferimento tecnologico tra i membri del team.
-
-### **3.5 Regole Operative del Team (Working Agreements)**
-La governance operativa adotta Working Agreements strutturati per gestire il processo decisionale, la risoluzione di blocchi e la comunicazione:
-*   **Decision Making & Consensus:**
-    *   *Stile decisionale:* Si predilige uno stile *collaborativo/partecipativo* per le decisioni di architettura e design dei dati, e uno stile *consultivo/direttivo* in capo al Product Owner per la prioritizzazione strategica del backlog.
-    *   *Regola sul Consensus:* Si riconosce che la ricerca forzata di un compromesso indebolisce le decisioni. In caso di stallo oltre un limite temporale prefissato (es. 60 minuti), si attiva l'escalation per dominio: Tech Lead per conflitti tecnici, PO per conflitti di business, PM per vincoli di budget/tempo.
-*   **Problem Solving & Conflict Resolution:**
-    *   *Problem Solving:* Si stabilisce l'adozione di un modello metodologico strutturato (come il **modello a 5 passi di Daniel Couger**) per definire, analizzare, proporre, selezionare e validare le azioni correttive sui problemi bloccanti.
-    *   *Conflict Resolution:* Risoluzione dei conflitti tecnici tramite negoziazione cooperativa ed empatia (*Collaborating/Integrating*), mitigando comportamenti competitivi (*Competing*) o evitanti (*Avoiding*).
-*   **Brainstorming Method:** Riunioni mirate dei tecnici di riferimento, sospensione di giudizi critici durante la generazione libera di idee, e test mentale delle alternative per convergere sulla soluzione ottimale.
-*   **Gestione delle Riunioni (Meeting Management):**
-    *   *Prima del meeting:* PM/SM verifica la necessità dell'incontro, ne definisce chiaramente lo scopo e invia l'agenda in anticipo convocando solo le risorse essenziali.
-    *   *Durante il meeting:* Rispetto rigoroso dei timebox, focus sugli obiettivi senza digressioni personali, e utilizzo di supporti visivi e board.
-    *   *Dopo il meeting:* Stesura immediata di *Action Items* con responsabili e scadenze, pubblicazione del verbale e pianificazione preliminare del meeting successivo.
-*   **Tipologie di Meeting Standard:**
-    1.  *Daily Status:* Breve incontro quotidiano timeboxato (es. 15 minuti) incentrato sullo status operativo dei task (On Track, Ahead, Behind) e sull'emersione di impedimenti, con esclusione di discussioni tecniche.
-    2.  *Problem Resolution Meeting:* Incontri operativi mirati per risolvere i blocchi identificati durante il Daily Status.
-    3.  *Project Review Meeting:* Dimostrazione del software funzionante (DoD soddisfatta) a fine Sprint per raccogliere feedback da Sponsor, Coach e utenti finali.
-
-### **3.6 Gestione delle Risorse, Saturazione e Livellamento**
-*   **Resource Loading (Focus Factor 75%):** Per evitare l'over-allocation invisibile, la pianificazione giornaliera adotta un focus factor del 75% della capacità produttiva dedicata a compiti della WBS. La restante parte (25%) è allocata all'overhead organizzativo e alle cerimonie Scrum (Daily, Review, planning, code review e documentazione).
-*   **Strategie di Resource-Leveling:**
-    1.  *Utilizzo degli Slack:* Ritarare l'avvio di task non critici con margini di scorrimento positivi per liberare ore in favore di task sul percorso critico.
-    2.  *Rimodulazione della Durata:* Diluire lo sforzo giornaliero di un task critico su più giorni lavorativi se lo sforzo stimato è superiore al previsto.
-    3.  *Swarming (Riassegnazione Agile):* Più sviluppatori convergono temporaneamente su una singola User Story bloccante (sul percorso critico) per supportare un membro in difficoltà, sospendendo task a priorità inferiore.
-    4.  *Straordinario Controllato (Overtime):* Considerato come ultima risorsa, regolamentato entro una soglia percentuale massima e autorizzato dal PM esclusivamente per la protezione di milestone critiche di rilascio.
-
----
-
-## **4. Fase di Monitoring & Controlling**
-
-### **4.1 Status Meetings e Reporting Stratificato**
-* **Daily Scrum e Problem Resolution Meetings:** Monitoraggio operativo quotidiano. Eventuali blocchi emersi nel Daily vengono isolati e gestiti in successivi incontri mirati di Problem Resolution per non superare il timebox.
-* **Sprint Review & Demo Live:** Riunioni di fine Sprint (ogni 2 settimane, max 1 ora) in cui lo Scrum Team presenta un incremento software funzionante (DoD soddisfatta) a coach e atleti per raccogliere dei feedback.
-* **Reporting Stratificato:** Cinque livelli di reporting adattati al destinatario: Current Period Report (Sprint-by-Sprint), Cumulative Report (Burndown/Velocity), Variance Report, Stoplight Report (per il Board) ed Exception Report per deviazioni critiche.
-
-### **4.2 Monitoraggio Performance (Agile Earned Value)**
-Il monitoraggio quantitativo delle performance adotta l'**Earned Value Analysis (EVA) traslato in ambito Agile**. Invece di misurare ore o costi, le metriche di PV (Planned Value), EV (Earned Value) e AC (Actual Cost) sono calcolate sugli **Story Points**. Questo permette di calcolare indici di efficienza (SPI e CPI) senza tradire l'orientamento al valore tipico di Scrum. Il monitoraggio si avvale anche del Velocity Tracking, del Burndown Chart e della misurazione continua dell'Accuracy dell'algoritmo.
-
-### **4.3 Gestione Dinamica del Backlog e Scope Bank**
-Il cambiamento viene gestito attraverso una **Scope Bank** supportata da una Time Contingency Reserve pari al 10% della durata del progetto (gestita come buffer nei cicli di Sprint) e da una Budget Contingency Reserve di €24.700. In ottica Scrum, i nuovi requisiti diventano User Story stimate dal Dev Team in Story Points e inserite nel Product Backlog dal Product Owner.
-* **Gestione del Vincolo (Fixed Capacity):** Poiché le risorse e la durata del progetto (8 mesi, 16 Sprint) sono fisse, l'inserimento di una nuova User Story ad alta priorità comporta che il PO rimuova o posticipi dal backlog elementi di pari sforzo (in Story Points), tipicamente a priorità COULD o SHOULD.
-
-### **4.4 Problem Escalation Strategy**
-Ogni anomalia viene tracciata nell'**Issues Log**. Se il team operativo non è in grado di risolvere il problema internamente, si attiva una strategia di escalation gerarchica su tre livelli:
-1. **Livello 1 (Scrum Master):** Risoluzione interna tramite self-organization (es. Swarming o utilizzo del buffer di capacità).
-2. **Livello 2 (Scrum Master + PO):** Negoziazione di scope e risorse (es. Overtime controllato, Agile Swap o consumo della Time Contingency).
-3. **Livello 3 (Product Owner / Sponsor):** Decisioni strategiche ad alto impatto (es. Phased Release, estensione della schedula o riduzione drammatica dello scope).
-
-### **4.5 Protocolli di Validazione e Contingency**
-* **Validation Protocol:** La validazione empirica avviene tramite *Lab Testing* (simulazioni di movimento controllate in palestra eseguite dal Tech Lead) e *Field Testing* (condizioni di gara reali con i 30 atleti del gruppo di test), raccogliendo i dati di usabilità tramite il questionario standardizzato SUS (System Usability Scale) con target di SUS Score ≥ 80/100.
-* **Go/No-Go Protocol (Gate Critico):** Al completamento della validazione dell'algoritmo nello Sprint 12, se l'accuratezza non raggiungerà la soglia minima del 90%, si attiverà il **Pivot al Plan B (Manual Trigger)**. In questo scenario, si esclude il tracciamento automatico e ci si basa interamente sulla transizione manuale rapida tramite fallback trigger (US-W-03) con interfaccia ottimizzata.
-
----
-
-## **5. Fase di Closing**
-
-A completamento dello sviluppo e dei test, il progetto entrerà nella fase formale di chiusura.
-
-### **5.1 Post-Implementation Review**
-Verrà condotta una review finale per verificare oggettivamente il raggiungimento dei Success Criteria definiti nel POS/PDS:
-* Accuratezza dell'algoritmo confermata ≥ 90% (se non attivato il Plan B).
-* Discrepanza del tempo rilevato rispetto al cronometro ufficiale < 2%.
-* SUS Score di usabilità ≥ 80/100 (raccolto dai 15 coach e 30 atleti).
-* Tempo medio di editing per coach ridotto sotto i 2 minuti nel 95% delle sessioni.
-
-### **5.2 Executive / Internal Sign-off**
-Verrà organizzato un *Project Readiness Review* con il Product Owner (o Board) per presentare i risultati della review. L'accettazione finale dei deliverable per il rilascio commerciale avverrà tramite un'approvazione formale interna (Executive Sign-off) che attesterà la conclusione della fase di sviluppo core (Sprint 16) e l'avvio della fase di post-lancio (fuori perimetro progetto).
-
-### **5.3 Lessons Learned e Archiviazione**
-* **Knowledge Transfer:** Verrà eseguita una *Knowledge Transfer Checklist*, organizzando una sessione di onboarding formativa (con presentazione di supporto) per i nuovi clienti e fornendo un video tutorial esplicativo (YouTube) accompagnato da una guida di avvio rapido (Quick Start Guide).
-* **Lessons Learned:** Lo Scrum Master / PM condurrà una sessione di retrospettiva globale con lo Scrum Team per redigere il documento di *Lessons Learned*, identificando cosa ha funzionato e cosa andrà migliorato nei futuri progetti.
-* **Archiviazione:** Tutta la documentazione (POS, PDS, Product Backlog, Log dei Cambiamenti, Verbali e Retrospective) verrà congelata e archiviata centralmente.
+## **3. Monitoring, Controlling e Closing (Governance Ibrida)**
+Il controllo di progetto fonde metriche tradizionali con unità di misura Agile:
+*   **Agile Earned Value Analysis (EVA):** Monitoraggio delle performance di costo (CPI) e schedula (SPI) calcolate sugli Story Points completati rispetto a quelli pianificati, anziché sulle ore spese.
+*   **Scope Change Management:** Il cambiamento è accolto ma governato. Nuovi requisiti richiedono un *Agile Swap* (rimozione di User Story di pari peso dal backlog) o l'utilizzo della Time/Budget Contingency.
+*   **Issues ed Escalation:** I blocchi operativi vengono risolti dal team (Livello 1). Le deviazioni critiche seguono un protocollo di escalation formale verso il PO (Livello 2) o lo Sponsor (Livello 3).
+*   **Post-Implementation Audit:** Il progetto si chiude con una verifica formale dei Success Criteria (es. accuratezza algoritmo >90%, SUS >80) e il Sign-off esecutivo del Product Owner.
