@@ -2,9 +2,13 @@
 
 **Project Name:** Hyrox Team Performance Optimizer	          **Project Manager:** Andrea Zavatta
 
+**Contesto e Dominio (Hyrox):**
+
+L'Hyrox è una competizione di fitness ibrida globale con una pipeline sequenziale rigida (16 blocchi alternati tra corsa e stazioni funzionali). Tra ogni blocco gli atleti attraversano una "Roxzone" (Area di Transizione). Il risultato finale è basato esclusivamente sul tempo totale, rendendo l'efficienza nelle transizioni un fattore critico.
+
 **Problem/Opportunity:**
 
-Hyrox è una disciplina atletica ibrida in cui la gestione strategica della gara e la velocità nelle transizioni incidono drasticamente sul tempo finale. Gli attuali dispositivi wearable commerciali mostrano forti limiti nel riconoscimento automatico di attività multi-esercizio strutturate. Questa carenza costringe gli atleti a interagire manualmente con lo smartwatch durante sessioni ad alta intensità cardiaca e muscolare, distogliendo il focus dal gesto atletico e penalizzando la performance stessa e i coach a operazioni manuali di editing post-allenamento della durata media di 15 minuti per atleta. Inoltre, l'assenza di metriche sincronizzate e la mancanza di strumenti per tracciare penalità di tempo e no-rep impediscono un'analisi precisa delle prestazioni del team. 
+Gli attuali dispositivi wearable commerciali mostrano forti limiti nel riconoscimento automatico di attività multi-esercizio strutturate, costringendo gli atleti a interagire manualmente con lo smartwatch durante sforzi estremi, distogliendo il focus dal gesto atletico. A questo si aggiunge l'onere per i coach di eseguire un editing post-allenamento manuale di circa 15 minuti per atleta. L'assenza di metriche sincronizzate e di strumenti integrati per tracciare penalità ("no-rep") impedisce un'analisi strategica dei colli di bottiglia del team. 
 
 **Project Goal:**
 
