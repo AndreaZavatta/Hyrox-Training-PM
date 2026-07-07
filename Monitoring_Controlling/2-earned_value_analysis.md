@@ -1,12 +1,12 @@
 # Earned Value Analysis (EVA)
 
-Il presente documento applica l'analisi dell'Earned Value al progetto "Hyrox Team Performance Optimizer" per misurare le performance di schedula e di costo durante l'esecuzione. L'EVA viene adattata al framework Scrum puro adottato dal progetto, utilizzando gli **Story Points** come unità di misura del valore e l'**effort in ore/uomo** come unità di misura del costo.
+Il presente documento applica l'analisi dell'Earned Value al progetto "Hyrox Team Performance Optimizer" per misurare le performance di schedula e di costo durante l'esecuzione. L'EVA viene adattata alla metodologia ibrida adottata dal progetto, utilizzando gli **Story Points** come unità di misura del valore e l'**effort in ore/uomo** come unità di misura del costo.
 
 ---
 
 ## 1. Adattamento dell'EVA al Framework Scrum
 
-In un progetto Scrum puro, l'EVA tradizionale richiede un adattamento metodologico poiché non esistono task con durate fisse e percorsi critici predeterminati. Il valore viene consegnato in modo incrementale attraverso gli Sprint e misurato tramite Story Points completati.
+In un progetto a metodologia ibrida, l'EVA tradizionale richiede un adattamento metodologico poiché non esistono task con durate fisse e percorsi critici predeterminati per la componente Agile. Il valore viene consegnato in modo incrementale attraverso gli Sprint e misurato tramite Story Points completati.
 
 ### 1.1 Definizione delle Metriche nel Contesto Scrum
 

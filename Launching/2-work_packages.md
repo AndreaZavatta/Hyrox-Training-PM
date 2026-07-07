@@ -4,7 +4,7 @@ Questo documento organizza l'intero Product Backlog (128 SP) in **6 Work Package
 
 > [!NOTE]
 > **Giustificazione dell'Approccio Globale:**
-> I Work Packages sono tipicamente utilizzati in modo selettivo per i task sul percorso critico, ad alto rischio o complessi. Adottando Scrum puro, abbiamo scelto di mappare l'**intero backlog** in 6 macro Work Packages (coincidenti con le Epiche del nostro Product Backlog) come strumento di controllo amministrativo di alto livello e tracciabilità verso gli stakeholder esterni, fermo restando che l'esecuzione avviene interamente tramite sprint backlog ed eventi Scrum. Il focus dello Scrum Master e del Tech Lead nella compilazione e nel monitoraggio delle schede si concentra primariamente sui WP critici:
+> I Work Packages sono tipicamente utilizzati in modo selettivo per i task sul percorso critico, ad alto rischio o complessi. Adottando una metodologia ibrida, abbiamo scelto di mappare l'**intero backlog** in 6 macro Work Packages (coincidenti con le Epiche del nostro Product Backlog) come strumento di controllo amministrativo di alto livello e tracciabilità verso gli stakeholder esterni, fermo restando che l'esecuzione avviene interamente tramite sprint backlog ed eventi Scrum. Il focus dello Scrum Master e del Tech Lead nella compilazione e nel monitoraggio delle schede si concentra primariamente sui WP critici:
 > * **WP 2 (Smartwatch App UI & Cache)** e **WP 3 (Algoritmo ML & Roxzone):** identificati come i package a maggior rischio tecnologico e posizionati sul percorso critico.
 > * **WP 6 (Sync Bluetooth/Cloud):** a causa della complessità di integrazione tra i diversi canali di sincronizzazione dati.
 

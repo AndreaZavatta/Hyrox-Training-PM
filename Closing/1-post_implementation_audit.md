@@ -163,7 +163,7 @@ Il progetto "Hyrox Team Performance Optimizer" si chiude con esito **pienamente 
 - **Rischi:** La strategia di Spike Tecnologico e il gate Go/No-Go si sono dimostrati gli strumenti più efficaci per la mitigazione del rischio tecnico principale.
 - **Stakeholder:** Soddisfazione elevata da parte del PO e degli utenti finali (coach e atleti).
 
-Il progetto rappresenta un caso di successo nella gestione di un prodotto software ad alta complessità tecnica (Machine Learning, Sensor Fusion, Bluetooth) mediante un framework Scrum puro con ibridazione controllata degli strumenti di PM tradizionale (EVA, WBS, Work Packages).
+Il progetto rappresenta un caso di successo nella gestione di un prodotto software ad alta complessità tecnica (Machine Learning, Sensor Fusion, Bluetooth) mediante una metodologia ibrida (framework Scrum con integrazione controllata degli strumenti di PM tradizionale come EVA, WBS, Work Packages).
 
 ---
 

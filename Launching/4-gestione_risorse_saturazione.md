@@ -64,7 +64,7 @@ Di seguito viene riportato, a titolo di esempio, il grafico di saturazione per l
 
 > [!NOTE]
 > **Nota Metodologica sull'Approccio Agile:**
-> In conformità con la natura puramente Agile (Scrum) del progetto, le classiche tecniche predittive di *Resource-Leveling* e i concetti di *Critical Path* e *Slack* vengono qui reinterpretati e mappati sui meccanismi di auto-organizzazione e pianificazione dello Sprint Backlog, evitando la rigida schedulazione waterfall.
+> In conformità con la metodologia ibrida del progetto, le classiche tecniche predittive di *Resource-Leveling* e i concetti di *Critical Path* e *Slack* vengono qui reinterpretati e mappati sui meccanismi di auto-organizzazione e pianificazione dello Sprint Backlog (componente Agile), evitando la rigida schedulazione waterfall per l'esecuzione iterativa.
 
 Nel caso in cui si verifichino imprevisti, impedimenti o colli di bottiglia che mettono a rischio il completamento degli incrementi durante lo Sprint (ad esempio, complessità impreviste nell'elaborazione del filtro di Kalman durante lo Spike sui sensori), lo Scrum Team applica le seguenti strategie di livellamento auto-organizzato:
 
