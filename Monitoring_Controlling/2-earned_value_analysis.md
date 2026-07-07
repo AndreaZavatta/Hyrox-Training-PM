@@ -85,22 +85,9 @@ Di seguito viene riportata la tabella completa dell'Earned Value Analysis per gl
 *   **SPI (Schedule Performance Index)** = EV / PV → >1 = in anticipo, <1 = in ritardo.
 *   **CPI (Cost Performance Index)** = EV / AC → >1 = sotto budget, <1 = sopra budget.
 
-### 3.2 Calcolo dell'AC in SP-Equivalenti — Dettaglio
+### 3.2 Calcolo dell'AC in SP-Equivalenti
 
-L'Actual Cost in SP-equivalenti è stato calcolato convertendo le ore effettivamente registrate su **Tempo (Jira)** per ciascuno Sprint, utilizzando il rapporto di conversione pianificato dello Sprint di riferimento:
-
-| Sprint | Ore Pianificate (Dev Team) | SP Pianificati | Rapporto (h/SP) | Ore Effettive (Tempo) | AC (SP-eq) |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| Sprint 1 | 300h | 10 | 30,0 | 300h | 10,0 |
-| Sprint 2 | 300h | 8 | 37,5 | 295h | 18,5 (cum.) |
-| Sprint 3 | 300h | 8 | 37,5 | 300h | 26,5 (cum.) |
-| Sprint 4 | 300h | 10 | 30,0 | 330h | 37,5 (cum.) |
-| Sprint 5 | 300h | 13 | 23,1 | 312h | 51,0 (cum.) |
-| Sprint 6 | 300h | 13 | 23,1 | 255h | 62,0 (cum.) |
-| Sprint 7 | 300h | 14 | 21,4 | 305h | 76,5 (cum.) |
-| Sprint 8 | 300h | 10 | 30,0 | 285h | 86,0 (cum.) |
-
-*Nota: Le ore pianificate per Sprint sono 300h (5 sviluppatori × 60h di task WBS per Sprint, con Focus Factor 75% sulle 80h totali), coerentemente con la [Gestione Risorse](file:///home/zava/Projects/PM-project/Launching/4-gestione_risorse_saturazione.md).*
+L'Actual Cost in SP-equivalenti è stato calcolato convertendo le ore effettivamente registrate su **Tempo (Jira)** per ciascuno Sprint, utilizzando il rapporto di conversione pianificato dello Sprint di riferimento. Il totale delle ore effettive registrate è stato in linea con quelle pianificate, eccetto un lieve overtime nello Sprint 5 (312h su 300h pianificate).
 
 ---
 
@@ -142,21 +129,7 @@ Le tre curve (PV, EV, AC) sono sostanzialmente sovrapposte per l'intero arco del
 
 ---
 
-## 6. Gestione della Scope Bank durante l'Esecuzione
 
-La Scope Bank, definita nel documento di [Scope Change Management](file:///home/zava/Projects/PM-project/Launching/3-scope_change_management.md), è stata monitorata continuamente durante i Daily Scrum. Di seguito il riepilogo dell'andamento:
-
-| Evento | Sprint | Operazione | SP Depositati (+) | SP Prelevati (-) | Saldo Scope Bank |
-| :--- | :---: | :--- | :---: | :---: | :---: |
-| *Saldo iniziale (Time Contingency 10%)* | — | Accantonamento iniziale | — | — | **~1,6 Sprint** |
-| SWAP-01 (US-W-07 anticipata) | Sprint 2 | Agile Swap | +14 SP (3 US posticipate) | -13 SP (US-W-07) | **Bilancio: -1 SP** |
-| Recupero Sprint 2 (velocity +1) | Sprint 2 | Risparmio di capacità | +1 SP | — | **+1 SP depositato** |
-| Carry-over Sprint 5 | Sprint 5 | Consumo buffer | — | -2 SP | **-2 SP temporanei** |
-| Recupero Sprint 6 (velocity +2) | Sprint 6 | Recupero swarming | +2 SP | — | **Bilancio netto: 0** |
-
-*La Scope Bank ha operato come ammortizzatore naturale delle variazioni di velocity, confermando l'efficacia del meccanismo di Agile Swap e della Time Contingency nel proteggere la baseline del progetto.*
-
----
 
 ## 7. Riepilogo Esecutivo dell'EVA
 

@@ -83,18 +83,7 @@ I rischi identificati nel POS e nel PDS vengono qui valutati retrospettivamente:
 
 ## 5. Riepilogo delle Issues e delle Escalation
 
-Il registro completo delle issue è documentato nell'[Issues Log](file:///home/zava/Projects/PM-project/Monitoring_Controlling/3-issues_log_escalation.md). Di seguito il riepilogo statistico:
-
-| Metrica | Valore |
-| :--- | :---: |
-| **Issue totali registrate** | 8 |
-| **Issue risolte** | 8/8 (100%) |
-| **Tempo medio di risoluzione** | 1,4 Sprint |
-| **Issue che hanno causato carry-over** | 1 (ISS-003, Sprint 5 → Sprint 6) |
-| **Issue con impatto sui criteri di successo** | 2 (ISS-007 su SC-1, ISS-008 su SC-4) |
-| **Escalation a Livello 1 (Scrum Master)** | 6/8 (75%) |
-| **Escalation a Livello 2 (SM + PO)** | 2/8 (25%) |
-| **Escalation a Livello 3 (PO/Sponsor)** | 0/8 (0%) |
+Il registro completo delle issue (8 totali) mostra un tasso di risoluzione del 100% con un tempo medio di 1,4 Sprint. Solo un'issue ha causato carry-over e nessuna è mai degenerata oltre il Livello 2 di escalation (Scrum Master + PO), confermando un'ottima reattività del team.
 
 ---
 
@@ -108,24 +97,7 @@ La soddisfazione complessiva è stata valutata molto positivamente:
 
 ## 7. Accettazione Formale del Progetto
 
-### 7.1 Dichiarazione di Accettazione
-
-Il Product Owner  **Chiara Bertocchi** dichiara che:
-
-1. Tutti i deliverable previsti dal [Product Backlog](file:///home/zava/Projects/PM-project/Planning/5-product_backlog.md) sono stati completati e verificati (128/128 SP).
-2. Tutti i [Criteri di Successo](#11-tabella-di-verifica-dei-success-criteria) definiti nel POS sono stati soddisfatti.
-3. La qualità del prodotto è conforme alla [Definition of Done](file:///home/zava/Projects/PM-project/Planning/2-working_agreements.md) e ai requisiti delle [Conditions of Satisfaction](file:///home/zava/Projects/PM-project/Scoping/2-CoS.md).
-4. Il progetto viene formalmente **accettato e chiuso**.
-
-| Ruolo | Nome | Firma | Data |
-| :--- | :--- | :---: | :---: |
-| Product Owner / Project Sponsor | Chiara Bertocchi | _________________ | __ / __ / 2026 |
-| Scrum Master / Project Manager | Andrea Zavatta | _________________ | __ / __ / 2026 |
-| Technical Leader | Giovanni Manca | _________________ | __ / __ / 2026 |
-
-
-
----
+Il Product Owner (Chiara Bertocchi), verificato il raggiungimento del 100% degli Story Points (128/128) e il superamento dei Criteri di Successo e della Definition of Done, dichiara il progetto formalmente accettato e concluso in data 14 Febbraio 2026.---
 
 ## 8. Conclusioni dell'Audit
 
