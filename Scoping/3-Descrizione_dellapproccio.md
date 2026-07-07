@@ -1,24 +1,29 @@
 # **Descrizione dell'Approccio Metodologico**
 
-Questo documento sintetizza l'approccio metodologico **Ibrido (Agile/Tradizionale)** adottato per la gestione del progetto "Hyrox Team Performance Optimizer". L'obiettivo è unire la flessibilità esecutiva del framework Scrum con il rigore documentale del Project Management tradizionale, necessario per garantire tracciabilità e controllo finanziario.
+Questo documento sintetizza l'approccio metodologico **Ibrido (Agile/Tradizionale)** adottato per la gestione del progetto "Hyrox Team Performance Optimizer". L'obiettivo è unire la flessibilità esecutiva del framework Scrum con il rigore del Project Management per garantire tracciabilità, auditabilità accademica e controllo finanziario, evitando al contempo "administrative bloat".
 
 ---
 
-## **1. Scoping e Planning (Approccio Predittivo)**
-Le fasi iniziali seguono un approccio strutturato per garantire l'allineamento strategico e la definizione del perimetro (Scope):
-*   **Documentazione Formale:** Redazione di POS (Project Overview Statement) e PDS (Project Definition Statement) per definire criteri di successo misurabili e vincoli di budget/tempo.
-*   **WBS e Backlog:** I requisiti vengono scomposti in una WBS orientata ai deliverable e tradotti in un Product Backlog stimato in Story Points (SP).
-*   **Baseline:** Viene definita una Release Roadmap a capacità fissa (16 Sprint, 8 mesi) e una Cost Baseline per il monitoraggio.
+## **1. Scoping (Allineamento Strategico)**
+La fase di inizializzazione segue un approccio strutturato per garantire l'allineamento degli stakeholder e definire il perimetro del progetto:
+*   **Definizione del Valore:** Redazione del POS (Project Overview Statement) e delle CoS (Conditions of Satisfaction) per stabilire obiettivi chiari, criteri di successo misurabili e vincoli esecutivi.
+*   **Fattibilità e Rischio:** Valutazione della sostenibilità tramite Analisi Finanziaria e identificazione tempestiva delle criticità attraverso la RBS (Risk Breakdown Structure) e la conseguente Analisi dei Rischi.
 
-## **2. Launching ed Execution (Approccio Agile/Scrum)**
-L'esecuzione del progetto è interamente delegata a uno **Scrum Team cross-funzionale e auto-organizzato**, operante in cicli iterativi:
-*   **Ruoli Scrum:** Product Owner (priorità di business), Tech Lead (architettura), Scrum Master/PM (processo e ostacoli), Dev Team (implementazione).
-*   **Working Agreements e Ritmi:** Il team opera su Sprint di 2 settimane, sincronizzandosi tramite Daily Scrum e validando il lavoro (DoD soddisfatta) nelle Sprint Review con gli stakeholder.
-*   **Gestione Incertezza:** Utilizzo di *Spike* tecnici per la validazione precoce delle architetture complesse (es. algoritmo di Machine Learning) e Pair Programming per la mitigazione dei rischi operativi.
+## **2. Planning (Organizzazione Agile)**
+La pianificazione rifugge la rigidità della WBS tradizionale in favore di artefatti flessibili orientati al valore:
+*   **Gestione dei Requisiti:** I bisogni del cliente sono tradotti in un **Product Backlog** dinamico, stimato in Story Points (SP).
+*   **Orizzonte Temporale e Regole:** Viene definita una **Release Roadmap** per tracciare la direzione strategica, mentre i **Working Agreements** e il piano di **Governance e Comunicazione** stabiliscono le regole operative del team.
 
-## **3. Monitoring, Controlling e Closing (Governance Ibrida)**
-Il controllo di progetto fonde metriche tradizionali con unità di misura Agile:
-*   **Agile Earned Value Analysis (EVA):** Monitoraggio delle performance di costo (CPI) e schedula (SPI) calcolate sugli Story Points completati rispetto a quelli pianificati, anziché sulle ore spese.
-*   **Scope Change Management:** Il cambiamento è accolto ma governato. Nuovi requisiti richiedono un *Agile Swap* (rimozione di User Story di pari peso dal backlog) o l'utilizzo della Time/Budget Contingency.
-*   **Issues ed Escalation:** I blocchi operativi vengono risolti dal team (Livello 1). Le deviazioni critiche seguono un protocollo di escalation formale verso il PO (Livello 2) o lo Sponsor (Livello 3).
-*   **Post-Implementation Audit:** Il progetto si chiude con una verifica formale dei Success Criteria (es. accuratezza algoritmo >90%, SUS >80) e il Sign-off esecutivo del Product Owner.
+## **3. Launching ed Execution (Ciclo Iterativo Scrum)**
+Il lavoro è eseguito da uno **Scrum Team cross-funzionale e auto-organizzato** (composto da Product Owner, Tech Lead, Scrum Master/PM e Dev Team), focalizzato sulla consegna incrementale:
+*   **Kick-off:** La fase di **Launching** si concretizza in un momento di allineamento formale in cui il team si impegna sulle regole definite e sulle baseline (costi/tempi).
+*   **Ritmo di Sviluppo:** Il team opera in iterazioni (Sprint) brevi, validando il lavoro alla fine di ogni ciclo (Sprint Review) in base alla Definition of Done (DoD) e affrontando le incertezze con pratiche come Spike tecnici e Pair Programming.
+
+## **4. Monitoring & Controlling (Controllo Ibrido)**
+Il controllo di avanzamento consolida le metriche tradizionali adattandole all'esecuzione Agile in un unico framework operativo:
+*   **Agile EVA:** Monitoraggio delle performance di costo (CPI) e schedula (SPI) misurando il valore guadagnato in Story Points rispetto a quelli pianificati.
+*   **Gestione Cambiamenti ed Escalation:** Il cambiamento è governato tramite meccanismi flessibili (es. *Agile Swap* nel backlog) o l'utilizzo della Contingency. Eventuali ostacoli non risolvibili internamente seguono protocolli di escalation formali verso il PO o lo Sponsor.
+
+## **5. Closing (Audit e Formalizzazione)**
+La chiusura del progetto è gestita formalmente per massimizzare il valore documentale:
+*   **Post-Mortem:** Valutazione formale del raggiungimento dei Success Criteria (es. SUS >80, accuratezza algoritmo >90%), raccolta delle *Lessons Learned* e Sign-off esecutivo per lo svincolo delle risorse.
