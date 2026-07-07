@@ -1,0 +1,47 @@
+site_name: Hyrox Team Performance Optimizer
+site_description: Documentazione di Project Management
+theme:
+  name: material
+  language: it
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Passa alla modalità scura
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Passa alla modalità chiara
+
+docs_dir: docs
+site_dir: site
+
+nav:
+  - Home: index.md
+  - 1. Scoping:
+    - Project Overview Statement (POS): 1-Scoping/1-pos.md
+    - Descrizione dell'Approccio: 1-Scoping/3-Descrizione_dellapproccio.md
+    - Analisi dei Rischi: 1-Scoping/5-analisi_rischi.md
+    - Analisi Finanziaria: 1-Scoping/6-analisi_finanziaria.md
+  - 2. Planning:
+    - Working Agreements: 2-Planning/1-working_agreements.md
+    - Product Backlog: 2-Planning/2-product_backlog.md
+    - Release Roadmap: 2-Planning/3-release_roadmap.md
+    - Governance & Communication: 2-Planning/4-governance_and_communication.md
+  - 3. Launching:
+    - Launching Phase: 3-Launching/1-launching.md
+  - 4. Monitoring & Controlling:
+    - Monitoring & Controlling Phase: 4-Monitoring_Controlling/1-monitoring_and_controlling.md
+  - 5. Closing:
+    - Closing Phase: 5-Closing/1-closing.md
