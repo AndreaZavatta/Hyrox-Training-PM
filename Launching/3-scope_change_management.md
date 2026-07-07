@@ -62,29 +62,4 @@ Di seguito viene mostrato l'aggiornamento formale del registro degli scambi agil
 
 ---
 
-## Appendice: Modelli Standard ad uso Interno
 
-In conformità con il framework Scrum, non si utilizzano moduli cartacei di approvazione o contratti di variazione scope (Change Request). La tracciabilità del progetto è garantita dai seguenti modelli di registro e log di raffinamento.
-
-### 1. Template del Registro degli Agile Swap (Blank Form)
-
-| ID Swap | Data | Sprint | Descrizione Modifica / Storia Inserita | SP (+) | Storie Rimosse / Swap | SP (-) | Bilancio Netto | Stato / Note Approvazione PO |
-| :--- | :--- | :--- | :--- | :---: | :--- | :---: | :---: | :--- |
-| `[SWAP-XXX]` | `[GG/MM/AA]` | `[Sprint X]` | `[Codice - Titolo Storia]` | `[+X]` | `[Codici e Titoli Storie in Swap]` | `[-Y]` | `[X - Y]` | `[Approvato/Rifiutato da PO in data GG/MM]` |
-
-### 2. Schema di Verbale di Product Backlog Refinement (Template)
-
-| **Dati Generali** | |
-| :--- | :--- |
-| **ID Sessione:** `[REF-XXX]` | **Data Refinement:** `[GG/MM/AAAA]` |
-| **Partecipanti Presenti:** | `[Product Owner, Scrum Master, Dev Team]` |
-| **Obiettivo della Sessione** | *[Indicare le User Story in esame o le nuove esigenze emerse]* |
-| **Analisi Tecnica e Stime** | |
-| **Nuovo Requisito / Storia:** | *`[Codice - Descrizione - Stima in Story Points dal Dev Team]`* |
-| **Impatto Tecnico & Rischi:** | *[Note del Tech Lead su architettura, regressioni o mitigazioni necessarie]* |
-| **Strategia di Bilanciamento (Agile Swap)** | |
-| **Elemento in Ingresso (+SP):** | `[Codice - Titolo - SP]` |
-| **Elementi in Uscita (-SP):** | `[Codici - Titoli - SP]` (Devono risiedere nello Scope Bank) |
-| **Esito e Sincronizzazione Backlog** | |
-| **Decisione del Product Owner:** | `[ ]` **Applicare lo Swap** (Aggiorna backlog e roadmap)<br>`[ ]` **Rifiutare / Posticipare** (Inserisce la nuova storia nello Scope Bank senza swap) |
-| **Firma di Presa Atto (PO):** | *`[Firma PO]`* (Tracciata in formato digitale su Jira/Confluence) |

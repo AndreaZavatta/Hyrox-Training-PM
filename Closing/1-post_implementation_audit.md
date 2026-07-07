@@ -100,22 +100,9 @@ Il registro completo delle issue è documentato nell'[Issues Log](file:///home/z
 
 ## 6. Valutazione della Soddisfazione degli Stakeholder
 
-### 6.1 Product Owner (Chiara Bertocchi)
-
-| Area di Valutazione | Giudizio | Commento |
-| :--- | :---: | :--- |
-| **Rispetto degli obiettivi di business** | ⭐⭐⭐⭐⭐ | Tutti i criteri di successo superati. Il prodotto è pronto per il mercato. |
-| **Qualità dei deliverable** | ⭐⭐⭐⭐ | Ottima qualità complessiva. Il SUS iniziale (74/100) ha richiesto intervento, ma la versione finale (83/100) è soddisfacente. |
-| **Comunicazione e trasparenza** | ⭐⭐⭐⭐⭐ | Gli Stoplight Report e le Sprint Review bisettimanali hanno garantito visibilità costante sullo stato del progetto. |
-| **Rispetto di tempi e budget** | ⭐⭐⭐⭐⭐ | Progetto consegnato nei tempi previsti e sotto budget del 7%. |
-
-### 6.2 Coach e Atleti (Utenti Finali)
-
-| Area di Valutazione | Giudizio | Commento |
-| :--- | :---: | :--- |
-| **Usabilità sotto stress (Atleti)** | ⭐⭐⭐⭐ | SUS 83/100. Il feedback aptico ritmico è stato particolarmente apprezzato come alternativa alla lettura visiva. |
-| **Efficienza operativa (Coach)** | ⭐⭐⭐⭐⭐ | Tempo di analisi ridotto da 15 min a 1 min 22 sec. I coach hanno riportato un aumento significativo della produttività. |
-| **Affidabilità del tracciamento** | ⭐⭐⭐⭐ | Accuratezza del 94%. I coach segnalano occasionali imprecisioni solo nelle transizioni Sled Push/Sled Pull (edge case gestito dal fallback manuale). |
+La soddisfazione complessiva è stata valutata molto positivamente:
+*   **Product Owner:** Tutti i criteri di business sono stati superati, il prodotto è stato consegnato nei tempi (16 Sprint) e sotto budget del 7%. Visibilità costante garantita dalle Sprint Review.
+*   **Utenti Finali (Coach e Atleti):** Punteggio SUS (System Usability Scale) di 83/100. Il tempo di analisi post-workout è sceso da 15 minuti a meno di un minuto e mezzo (media di 1 min 22 sec), con elevato apprezzamento per il feedback aptico e l'efficienza operativa. L'accuratezza del tracciamento si è assestata al 94%.
 
 ---
 
@@ -136,19 +123,7 @@ Il Product Owner  **Chiara Bertocchi** dichiara che:
 | Scrum Master / Project Manager | Andrea Zavatta | _________________ | __ / __ / 2026 |
 | Technical Leader | Giovanni Manca | _________________ | __ / __ / 2026 |
 
-### 7.2 Consegna degli Asset di Progetto
 
-Al termine del progetto, i seguenti asset vengono formalmente consegnati al Product Owner e al team di manutenzione:
-
-| Asset | Ubicazione | Responsabile della Consegna |
-| :--- | :--- | :--- |
-| **Codice sorgente** (watchOS App + Web Dashboard + Backend API) | Repository Git (GitHub Organization) | Giovanni Manca (TL) |
-| **Documentazione tecnica** (API Swagger, schema DB, architettura) | Confluence — Spazio "Hyrox Tech Docs" | Matteo Neri |
-| **Pipeline CI/CD** (GitHub Actions + deploy automatico) | Repository Git — `.github/workflows/` | Giovanni Manca (TL) |
-| **Infrastruttura Cloud** (AWS — ambiente di produzione) | AWS Console — Account di produzione | Matteo Neri |
-| **Documentazione di progetto** (POS, PDS, WBS, Backlog, EVA, Issues Log) | Confluence — Spazio "Hyrox PM" | Andrea Zavatta (SM) |
-| **Materiale di onboarding** (video tutorial, slide per coach) | YouTube Channel + Google Drive condiviso | Elena Bianchi |
-| **Certificato Apple Developer e Store Listing** | App Store Connect | Sara Viola |
 
 ---
 

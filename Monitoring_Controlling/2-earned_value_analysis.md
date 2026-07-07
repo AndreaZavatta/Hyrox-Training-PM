@@ -108,35 +108,6 @@ L'Actual Cost in SP-equivalenti è stato calcolato convertendo le ore effettivam
 
 ### 4.1 Curva PV vs EV vs AC (Sprint 1-11)
 
-```
-SP (Cumulativi)
-128 |                                              ●═══●  EV (Earned Value)
-    |                                         ●═══●····×  AC (Actual Cost)
-120 |                                    ●═══●·····
-    |                               ●═══●·····
- 99 |                          ●═══●·····
-    |                     ●═══●·····
- 86 |                ●═══●·····                    ══  PV (Planned Value)
-    |           ●═══●·····                         ●●  EV (Earned Value)
- 76 |      ●═══●·····                              ××  AC (Actual Cost)
-    | ●═══●·····
- 62 |●····
-    |
- 49 |
-    |
- 36 |
-    |
- 26 |
-    |
- 18 |
-    |
- 10 |
-    |
-  0 |________________________________________________
-    S1  S2  S3  S4  S5  S6  S7  S8  S9  S10  S11
-                        Sprint
-```
-
 **Interpretazione della curva:**
 La forma della curva segue il profilo della **Standard S-Curve**: avvio moderato (Sprint 1-3, fase di setup e fondamenta), accelerazione nella fase centrale (Sprint 4-8, sviluppo core wearable) e convergenza finale (Sprint 9-11, analytics e chiusura scope).
 
@@ -147,21 +118,6 @@ Le tre curve (PV, EV, AC) sono sostanzialmente sovrapposte per l'intero arco del
 ## 5. Analisi degli Indici di Performance (SPI e CPI)
 
 ### 5.1 Trend SPI e CPI (Sprint 1-11)
-
-```
-Indice
-1.10 |
-     |     S              
-1.05 |     C   S                          under budget
-     |         C   S                      ahead of schedule
-1.00 | S━━━━━━━━━━━━━S━━━━━━━━━━━━━━━━━━S━━━━━━━━━━━━━━━━
-     | C               S   S   S   S         S   S
-0.95 |               C               C   C   C   C  over budget
-     |                                                behind schedule
-0.90 |
-     S1  S2  S3  S4  S5  S6  S7  S8  S9  S10  S11
-                        Sprint
-```
 
 ### 5.2 Interpretazione dei Trend
 

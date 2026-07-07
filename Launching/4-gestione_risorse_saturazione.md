@@ -19,20 +19,17 @@ Per garantire una chiara distinzione dei ruoli operativi, contrattuali e decisio
 
 ---
 
-## 2. Bilanciamento del Team (Modello dei Learning Styles di David Kolb)
+## 2. Bilanciamento del Team e Competenze (Cross-Functionality)
 
-Trovare il giusto bilanciamento nel team è un fattore critico di successo. Le competenze e le attitudini dei membri dello Scrum Team sono state bilanciate mappando i loro profili individuali sulle quattro dimensioni degli stili di apprendimento di David Kolb:
+Il bilanciamento del team è un fattore critico di successo. Le competenze dei membri dello Scrum Team sono state assortite per garantire la massima copertura tecnica e operativa senza dipendenze esterne:
 
-| | **Sperimentazione Attiva (AE)**<br>*(Doing / Azione)* | **Osservazione Riflessiva (RO)**<br>*(Watching / Osservazione)* |
-| :--- | :--- | :--- |
-| **Esperienza Concreta (CE)**<br>*(Feeling / Percezione)* | **ACCOMMODATING** (Orientato al Fare)<br>• **Sara Viola** (QA & Integration)<br>• **Andrea Zavatta** (SM/PM - parziale) | **DIVERGING** (Orientato alle Idee)<br>• **Elena Bianchi** (Frontend & UI/UX) |
-| **Concettualizzazione Astratta (AC)**<br>*(Thinking / Pensiero)* | **CONVERGING** (Orientato all'Applicazione)<br>• **Luca Rossi** (Wearable Developer)<br>• **Giovanni Manca** (Tech Lead - parziale) | **ASSIMILATING** (Orientato ai Modelli)<br>• **Giovanni Manca** (Algorithm & ML)<br>• **Andrea Zavatta** (SM/PM - parziale) |
-*Note descrittive dei profili:*
-*   **Giovanni Manca (Assimilating / Converging):** Ha una forte propensione a raccogliere dati, progettare modelli teorici complessi (l'algoritmo matematico di activity recognition) e identificare la migliore soluzione tecnica tra diverse alternative. Guida il team verso scelte tecnologiche razionali.
-*   **Luca Rossi (Converging):** Risorsa focalizzata sulla risoluzione di problemi complessi e sull'implementazione tecnica (watchOS SDK, caching locale offline). Preferisce l'azione logica e la programmazione sistematica al brainstorming esteso.
-*   **Elena Bianchi (Diverging):** Mette in campo una spiccata creatività ed elasticità mentale. Riesce a visualizzare i problemi da molteplici prospettive, risultando fondamentale nella progettazione della UI/UX della dashboard e dei grafici di pacing overlay (Miro co-design).
-*   **Sara Viola (Accommodating):** Estremamente orientata ai risultati sul campo e all'azione. Si adatta rapidamente ai cambiamenti ed eccelle nel testing di usabilità a contatto diretto con gli atleti e nell'integrazione di rete in ambienti instabili.
-*   **Andrea Zavatta (Assimilating / Accommodating):** Bilancia la capacità di visione macroscopica del progetto (raccolta e modellazione dei dati di avanzamento) con un approccio pragmatico volto a facilitare la collaborazione e a rimuovere i blocchi operativi del team.
+*   **Giovanni Manca (Tech Lead & ML):** Guida il team verso le scelte tecnologiche (Machine Learning e architettura).
+*   **Luca Rossi (Wearable Developer):** Risorsa focalizzata sull'implementazione watchOS e integrazione hardware.
+*   **Elena Bianchi (Frontend & UI/UX):** Fondamentale nella progettazione della dashboard e nell'esperienza utente.
+*   **Matteo Neri & Sara Viola:** Sviluppatori focalizzati rispettivamente su backend/cloud e connettività Bluetooth/QA.
+*   **Andrea Zavatta (SM/PM):** Bilancia la gestione del progetto e la rimozione dei blocchi operativi del team.
+
+Questo assetto garantisce che il team sia auto-organizzato e *cross-funzionale*, come richiesto dalla metodologia.
 
 ---
 
