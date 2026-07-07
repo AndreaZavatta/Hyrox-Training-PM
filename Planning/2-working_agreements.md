@@ -119,7 +119,7 @@ I conflitti tecnici e organizzativi devono essere gestiti tempestivamente per ev
 
 ---
 
-*Accordo approvato e sottoscritto dallo Scrum Team in data 20 giugno 2026:*
+*Accordo approvato e sottoscritto dallo Scrum Team in data 20 gennaio 2026:*
 
 *   **Chiara Bertocchi** (Product Owner)
 *   **Andrea Zavatta** (Scrum Master / PM)

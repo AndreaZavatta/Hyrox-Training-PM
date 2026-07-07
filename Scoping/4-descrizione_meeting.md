@@ -1,6 +1,6 @@
 **Progetto:** Hyrox Team Performance Optimizer   
 **Sync \#:** 01 |   
-**Data:** 4 Maggio 2026   
+**Data:** 6 Ottobre 2025   
 **Presenti:** PM, Co-PM, Core Team Tecnico, Product Owner
 
 **Partecipanti:**
@@ -24,13 +24,13 @@
 
 | Task | Owner | Deadline |
 | :---- | :---- | :---- |
-| **Creazione del documento CoS** | **Project Manager** | **07 Maggio** |
-| **Validazione e Sign-off formale delle CoS** | **Product Owner** | **10 Maggio** |
-| **Scomposizione delle CoS in bozza RBS (Requirements Breakdown Structure)** | **Project Manager & Product Owner** | **15 Maggio** |
-| **Redazione della prima bozza del POS (Project Overview Statement)** | **Project Manager** | **17 Maggio** |
+| **Creazione del documento CoS** | **Project Manager** | **09 Ottobre** |
+| **Validazione e Sign-off formale delle CoS** | **Product Owner** | **13 Ottobre** |
+| **Scomposizione delle CoS in bozza RBS (Requirements Breakdown Structure)** | **Project Manager & Product Owner** | **17 Ottobre** |
+| **Redazione della prima bozza del POS (Project Overview Statement)** | **Project Manager** | **20 Ottobre** |
 
 **NOTE OPERATIVE E NEXT STEPS:**
 
-* **Next Step 1 (Delibera PMLC & POS):** Una volta consegnata l'RBS il 15 Maggio, il PM e il Tech Lead analizzeranno le aree di incertezza per decidere l'adozione del modello da utilizzare.   
+* **Next Step 1 (Delibera PMLC & POS):** Una volta consegnata l'RBS il 17 Ottobre, il PM e il Tech Lead analizzeranno le aree di incertezza per decidere l'adozione del modello da utilizzare.   
 * **Next Step 2 (Sign-off del POS):** Sessione di approvazione finale e approvazione del POS con il Product Owner per congelare il perimetro (Scope Baseline).
 * **Next Step 3 (Sviluppo del PDS e della WBS):** Passaggio formale dal POS al PDS (Project Definition Statement) per avviare la pianificazione di dettaglio e iniziare la scomposizione della RBS nella WBS (Work Breakdown Structure).

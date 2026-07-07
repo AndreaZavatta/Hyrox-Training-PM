@@ -24,7 +24,7 @@ L'evoluzione dinamica dello scope si appoggia su due strumenti integrati:
 
 ## 2. Simulazione: Adattamento dello Scope nello Sprint 2
 
-*   **Data dell'Evento:** 10 Febbraio 2026 (Sprint 2)
+*   **Data dell'Evento:** 18 Febbraio 2026 (Sprint 2)
 *   **Contesto:** Durante le sessioni preliminari di test nei box affiliati (Sprint 2), il Product Owner (Chiara Bertocchi) raccoglie il feedback dei coach e degli atleti sul campo: le palestre sono spesso affollate e gli atleti non riescono a seguire la sequenza lineare e rigida delle 8 stazioni Hyrox senza dover attendere che i macchinari si liberino.
 *   **Esigenza di Scope:** La funzionalità di **Skip & Riordina Stazioni (`US-W-07`)**, inizialmente pianificata come `COULD` per la Release 2 (Sprint 10), diventa critica per il valore dell'MVP (Release 1) e deve essere anticipata.
 
@@ -58,7 +58,7 @@ Di seguito viene mostrato l'aggiornamento formale del registro degli scambi agil
 
 | ID Swap | Data | Sprint | User Story Aggiunta / Anticipata | SP (+) | User Story Rimossa / Posticipata | SP (-) | Bilancio Netto (SP) | Decisione PO & Note |
 | :--- | :--- | :--- | :--- | :---: | :--- | :---: | :---: | :--- |
-| **SWAP-01** | 12 Feb 2026 | Sprint 2 | `US-W-07` (Skip & Riordina Stazioni) | +13 SP | `US-W-05` (Caching parziale)<br>`US-D-02` (Profilazione fisiologica)<br>`US-W-02` (Note coach su Watch) | -8 SP<br>-3 SP<br>-3 SP | **-1 SP** | **Approvato da PO (C. Bertocchi):** Necessario per palestre affollate. Baseline MVP protetta. |
+| **SWAP-01** | 19 Feb 2026 | Sprint 2 | `US-W-07` (Skip & Riordina Stazioni) | +13 SP | `US-W-05` (Caching parziale)<br>`US-D-02` (Profilazione fisiologica)<br>`US-W-02` (Note coach su Watch) | -8 SP<br>-3 SP<br>-3 SP | **-1 SP** | **Approvato da PO (C. Bertocchi):** Necessario per palestre affollate. Baseline MVP protetta. |
 
 ---
 
