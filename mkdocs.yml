@@ -31,7 +31,9 @@ nav:
   - Home: index.md
   - 1. Scoping:
     - Project Overview Statement (POS): 1-Scoping/1-pos.md
-    - Descrizione dell'Approccio: 1-Scoping/3-Descrizione_dellapproccio.md
+    - Conditions of Satisfaction (CoS): 1-Scoping/2-cos.md
+    - Approccio Metodologico: 1-Scoping/3-Descrizione_dellapproccio.md
+    - Requirements Breakdown Structure (RBS): 1-Scoping/4-rbs.md
     - Analisi dei Rischi: 1-Scoping/5-analisi_rischi.md
     - Analisi Finanziaria: 1-Scoping/6-analisi_finanziaria.md
   - 2. Planning:

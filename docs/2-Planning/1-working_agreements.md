@@ -57,42 +57,7 @@ Il progetto si sviluppa in cicli iterativi (**Sprint**) della durata fissa di **
 
 ---
 
-## 3. Standard di Sviluppo e Collaborazione
-
-Per mitigare i rischi tecnici e garantire la qualità del codice, il team si impegna a rispettare le seguenti regole:
-
-### 3.1 Gestione dei Repository e Branching Strategy
-*   **Branch `main`:** Contiene solo codice stabile e rilasciabile in produzione. Il branch `review` viene integrato (merged) in `main` **esclusivamente il lunedì** per formalizzare i rilasci stabili.
-*   **Branch `review`:** Branch di staging e validazione. Riceve gli avanzamenti dei singoli **feature branch** tramite Pull Request formale per la revisione del Tech Lead (Senior).
-*   **Branch `develop`:** Branch di integrazione e sviluppo corrente. Gli sviluppatori possono fondere i propri feature branch direttamente in `develop` (senza passare obbligatoriamente per la review) per testare l'integrazione con il codice degli altri.
-*   **Branch `feature/`:** Utilizzato per lo sviluppo di nuove User Story (es. `feature/US-W-01-watch-ui`). **Viene creato a partire da `main`** (per garantire l'isolamento ed evitare di ereditare codice non finito presente in `develop`).
-    *   *Per l'integrazione continua:* Il feature branch viene fuso direttamente in `develop` per i test di integrazione del team.
-    *   *Per la review formale:* Una volta completato, viene aperta una PR dal feature branch verso `review` per la verifica da parte del Tech Lead (Senior).
-*   **Branch `bugfix/`:** Utilizzato per la correzione di bug ordinari. Segue lo stesso flusso dei feature branch (creato da `main`, integrato in `develop` per i test, e PR verso `review` per il rilascio).
-*   **Branch `hotfix/`:** Utilizzato per la risoluzione urgente di anomalie critiche in produzione. Viene creato a partire da `main` e integrato direttamente in `main` e `develop` dopo approvazione immediata.
-*   **Convenzione Commit:** I messaggi di commit devono includere l'ID del task o del bug di riferimento (es. `HTPO-30: implementato design ad alto contrasto per la griglia esercizi`).
-
-### 3.2 Pull Request e Peer Review
-*   Nessun codice può essere integrato in `review` o `main` senza una **Pull Request (PR)** e l'approvazione formale di un Senior.
-*   Il flusso di integrazione prevede:
-    1. Sviluppo locale nel branch `feature/*` (staccato da `main`).
-    2. Merge libero/diretto di `feature/*` in `develop` per i test di integrazione continui tra sviluppatori.
-    3. Apertura di una PR da `feature/*` verso `review` per la code review formale da parte del Tech Lead.
-    4. Sincronizzazione settimanale (lunedì): fusione di `review` in `main` per il rilascio, e successivo merge di `main` in `develop` per riallineare il branch di integrazione con le feature stabili approvate.
-*   Ogni PR verso il branch `review` richiede l'approvazione di almeno **1 reviewer qualificato** (il Tech Lead o un altro sviluppatore esperto del sottosistema).
-*   Il linter automatico e la suite di unit test configurati nella pipeline CI/CD devono superarsi con successo prima che la PR possa essere fusa in `develop`, `review` o `main`.
-*   In conformità con la DoD, la copertura dei test per la logica di business (backend, algoritmo di riconoscimento, protocolli di sync) deve essere pari o superiore all'**80%**.
-
-### 3.3 Pair Programming Strategy
-Per superare i colli di bottiglia, mitigare i rischi tecnologici e favorire il trasferimento di competenze, il team adotta sessioni di **Pair Programming** obbligatorie (almeno 2 ore a sessione) focalizzate sullo sviluppo dell'algoritmo wearable:
-*   **US-W-04 (Algoritmo di Riconoscimento Sensori):** Sviluppo del modello matematico, filtraggio dei dati grezzi e classificazione dei movimenti in tempo reale. Data l'elevata complessità matematica e l'alto rischio di errore, la programmazione in coppia è richiesta per garantire l'accuratezza dei risultati e la solidità dell'architettura.
-
-### 3.4 Knowledge Management e Allineamento Tecnico
-*   Ogni venerdì alle ore 15:00 viene organizzata una sessione di **Knowledge Sharing (durata 1 ora)** in cui lo sviluppatore che ha lavorato su una feature complessa ne illustra l'architettura interna al resto del team, aggiornando il workbook di progetto.
-
----
-
-## 4. Comunicazione e Gestione del Lavoro (Workbook Strategy)
+## 3. Comunicazione e Gestione del Lavoro (Workbook Strategy)
 
 Al fine di minimizzare l'overhead di comunicazione (evitando la trappola del *Mythical Man-Month* in cui aggiungere persone rallenta il progetto), si adottano le seguenti regole per i canali:
 
@@ -106,7 +71,7 @@ Al fine di minimizzare l'overhead di comunicazione (evitando la trappola del *My
 
 ---
 
-## 5. Gestione dei Conflitti e Consensus Building
+## 4. Gestione dei Conflitti e Consensus Building
 
 I conflitti tecnici e organizzativi devono essere gestiti tempestivamente per evitare di rallentare lo Sprint. Il team adotta i seguenti stili decisionali:
 

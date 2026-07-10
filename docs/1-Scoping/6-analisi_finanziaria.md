@@ -1,15 +1,11 @@
 # **Analisi Finanziaria e Baseline dei Costi**
 
-L'analisi finanziaria è essenziale per stabilire la **Baseline dei Costi**, parametro fondamentale (BAC - Budget At Completion) per il tracciamento e il calcolo dell'EVA (Earned Value Analysis) nella successiva fase di *Monitoring & Controlling*.
+L'analisi finanziaria è essenziale per stabilire la **Baseline dei Costi**, parametro fondamentale (BAC - Budget At Completion) per il tracciamento e il calcolo dell'Earned Value Analysis (EVA) nella successiva fase di *Monitoring & Controlling*.
 
-L'investimento totale (CapEx) per i primi 8 mesi di sviluppo (MVP) copre i costi fissi del team e una riserva strategica per l'incertezza, garantendo la sostenibilità e la flessibilità del framework ibrido.
+Abbiamo adottato un **modello a iniezioni mensili di capitale**, più realistico per una startup, evitando di immobilizzare immediatamente l'intera liquidità. L'investimento totale (CapEx) copre i costi fissi del team di sviluppo (8 mesi) e include una **Contingency Reserve** di € 24.700.
 
-### **Budget (Fase MVP - 8 Mesi)**
+**BAC (Budget At Completion): € 271.700**
 
-| Categoria | Dettaglio | Costo Stimato |
-| :--- | :--- | :--- |
-| **Risorse Umane** | Team (PM, PO, Tech Lead, 4 Sviluppatori) | € 232.000 |
-| **Hardware & Test** | Smartwatch (Series 6+), sensori e location per prove | € 7.000 |
-| **Software & Legal** | Licenze API, Cloud, Compliance normativa dati medici | € 8.000 |
-| **Riserva (Contingency)**| Fondo di riserva (copertura Spike Tecnico/Piano B) | € 24.700 |
-| **TOTALE (BAC)** | **Baseline Costi per EVA** | **€ 271.700** |
+Il dettaglio completo dei calcoli finanziari, interamente basato su formule dinamiche (Budget Breakdown, Breakeven Point, Payback Period, ROI e Cash Flow Mensile), è consultabile nel foglio di calcolo dedicato:
+
+*   **[📊 Analisi Finanziaria — Google Sheets](https://docs.google.com/spreadsheets/d/19XTu6Voxyw5odQnj9YQEwUTFoXNlemCNNYU7TFtA7fo/edit?gid=1792359099#gid=1792359099)**
