@@ -14,11 +14,13 @@ Utilizza la barra di navigazione in alto o il menu laterale per esplorare le div
 
 ### 🔗 Risorse Esterne
 
-Le mappe visuali e le analisi approfondite prodotte durante le fasi del progetto sono centralizzate sulla nostra board di lavoro Miro. In particolare, puoi trovare qui l'analisi **Wants vs Needs (Conditions of Satisfaction)** e la **Resource Breakdown Structure (RBS)**:
+Le mappe visuali, la pianificazione agile e le analisi approfondite prodotte durante le fasi del progetto sono disponibili sui seguenti canali esterni:
 
-*   **[Miro Board - Hyrox Project (CoS)](https://miro.com/app/board/uXjVHFNQqIY=/)**
+*   **[Jira Project Board & Backlog](https://hyrox-training.atlassian.net/jira/software/projects/HTPO/boards/1/backlog)**: per il tracciamento in tempo reale degli Sprint, delle User Stories e della velocity del team.
 
-*   **[Miro Board - Hyrox Project (RBS)](https://miro.com/app/board/uXjVHGXupJA=/)**
+*   **[Miro Board - Hyrox Project (CoS)](https://miro.com/app/board/uXjVHFNQqIY=/)**: Wants vs Needs / Conditions of Satisfaction.
+
+*   **[Miro Board - Hyrox Project (RBS)](https://miro.com/app/board/uXjVHGXupJA=/)**: Resource Breakdown Structure.
 
 ---
 *Usa la barra di ricerca in alto a destra per trovare rapidamente qualsiasi termine all'interno dei documenti.*
