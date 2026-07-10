@@ -7,7 +7,7 @@ Questo documento sintetizza l'approccio metodologico **Ibrido (Agile/Tradizional
 ## **1. Scoping (Allineamento Strategico)**
 La fase di inizializzazione segue un approccio strutturato per garantire l'allineamento degli stakeholder e definire il perimetro del progetto:
 *   **Definizione del Valore:** Redazione del POS (Project Overview Statement) e delle CoS (Conditions of Satisfaction) per stabilire obiettivi chiari, criteri di successo misurabili e vincoli esecutivi.
-*   **Fattibilità e Rischio:** Valutazione della sostenibilità tramite Analisi Finanziaria e identificazione tempestiva delle criticità attraverso la RBS (Risk Breakdown Structure) e la conseguente Analisi dei Rischi.
+*   **Fattibilità e Rischio:** Valutazione della sostenibilità tramite Analisi Finanziaria e identificazione tempestiva delle criticità attraverso l'Analisi dei Rischi.
 
 ## **2. Planning (Organizzazione Agile)**
 La pianificazione rifugge la rigidità della WBS tradizionale in favore di artefatti flessibili orientati al valore:

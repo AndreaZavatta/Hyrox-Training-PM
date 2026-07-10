@@ -39,9 +39,6 @@ nav:
     - Product Backlog: 2-Planning/2-product_backlog.md
     - Release Roadmap: 2-Planning/3-release_roadmap.md
     - Governance & Communication: 2-Planning/4-governance_and_communication.md
-  - 3. Launching:
-    - Launching Phase: 3-Launching/1-launching.md
-  - 4. Monitoring & Controlling:
-    - Monitoring & Controlling Phase: 4-Monitoring_Controlling/1-monitoring_and_controlling.md
-  - 5. Closing:
-    - Closing Phase: 5-Closing/1-closing.md
+  - 3. Launching: 3-Launching/1-launching.md
+  - 4. Monitoring & Controlling: 4-Monitoring_Controlling/1-monitoring_and_controlling.md
+  - 5. Closing: 5-Closing/1-closing.md
