@@ -8,7 +8,7 @@ Il progetto "Hyrox Team Performance Optimizer" si è concluso al termine dello S
 
 *   **Scope & Obiettivi:** Completati al 100% (128/128 Story Points). L'ecosistema (WatchOS + Web Dashboard) è in produzione.
 *   **Schedula:** Perfettamente rispettata. Progetto consegnato in 8 mesi esatti (16 Sprint). `SPI Finale = 1.00`.
-*   **Budget:** Progetto chiuso **sotto budget del 7%** (€257.700 su €277.100), grazie a un'ottima gestione dei rischi e del *refinement* che ha reso superfluo l'utilizzo della Contingency Reserve.
+*   **Budget:** Progetto chiuso **sotto budget del 7%** (€252.700 su €271.700), grazie a un'ottima gestione dei rischi e del *refinement* che ha reso pressoché superfluo l'utilizzo della Contingency Reserve.
 *   **Qualità (Success Criteria):** 
     *   Accuratezza dell'algoritmo Core: **94%** (Target: >90%).
     *   Usabilità (SUS Score): **83/100** (Target: >80). 

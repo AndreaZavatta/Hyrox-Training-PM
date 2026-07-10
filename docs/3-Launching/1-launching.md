@@ -14,7 +14,7 @@ L'esecuzione del lavoro è stata divisa in **Sprints di 2 settimane**. Le regole
 ## 2. Gestione Risorse e Saturazione (Focus Factor)
 
 Il team (5 sviluppatori + SM + PO) è cross-funzionale e auto-organizzato. Per evitare il tipico errore di *over-allocation* (pianificare risorse al 100%), il progetto adotta un **Focus Factor del 75%**:
-*   **6 ore/giorno** dedicate allo sviluppo effettivo (WBS/Sprint Backlog).
+*   **4 ore/giorno** dedicate allo sviluppo effettivo (Sprint Backlog).
 *   **2 ore/giorno** (25%) riservate all'overhead organizzativo e alle cerimonie (Daily, Review, Code Review).
 
 In caso di colli di bottiglia o problemi su task critici, il team non utilizza tecniche tradizionali di *Resource Leveling*, ma applica lo **Swarming** (collaborazione simultanea di più sviluppatori sulla stessa storia critica) e sfrutta le competenze a "T" per il supporto incrociato. Lo straordinario è un'estrema ratio limitata al max 10%.

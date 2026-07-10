@@ -10,7 +10,7 @@ La fase di inizializzazione segue un approccio strutturato per garantire l'allin
 *   **Fattibilità e Rischio:** Valutazione della sostenibilità tramite Analisi Finanziaria e identificazione tempestiva delle criticità attraverso l'Analisi dei Rischi.
 
 ## **2. Planning (Organizzazione Agile)**
-La pianificazione rifugge la rigidità della WBS tradizionale in favore di artefatti flessibili orientati al valore:
+La pianificazione adotta artefatti flessibili orientati al valore:
 *   **Gestione dei Requisiti:** I bisogni del cliente sono tradotti in un **Product Backlog** dinamico, stimato in Story Points (SP).
 *   **Orizzonte Temporale e Regole:** Viene definita una **Release Roadmap** per tracciare la direzione strategica, mentre i **Working Agreements** e il piano di **Governance e Comunicazione** stabiliscono le regole operative del team.
 
