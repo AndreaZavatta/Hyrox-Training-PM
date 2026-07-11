@@ -45,12 +45,12 @@ Di seguito un estratto delle **4 User Story più critiche** (dal punto di vista 
 
 ### **US-TEC-03: Spike Tecnologico - Fattibilità Algoritmo** (Abilitatore Tecnico)
 *   **Rif. WBS:** WBS 1.2 (Priorità: **MUST**)
-*   **Descrizione:** Attività di ricerca "Time-boxed" (Spike) per l'acquisizione di tracciati accelerometrici grezzi su atleti in palestra e validazione iniziale del classificatore per abbattere il rischio tecnologico di US-W-04.
+*   **Descrizione:** Spike tecnico per l'acquisizione di tracciati accelerometrici grezzi su atleti in palestra e validazione iniziale del classificatore per abbattere il rischio tecnologico di US-W-04.
 *   **Criteri di Accettazione:**
     *   Almeno 10 sessioni di allenamento registrate con dati accelerometro/giroscopio grezzi.
     *   Algoritmo preliminare testato in locale (Python) con accuratezza minima del 70%.
     *   Documento di sintesi tecnica che definisce la fattibilità e i vincoli per l'implementazione sul watch.
-*   **Stima:** `5 Story Points` (Time-boxed: massimo sforzo dedicato pari a 5 punti, indipendentemente dal risultato).
+*   **Stima:** `5 Story Points` (Time-boxed: massimo sforzo dedicato pari a 5 story points, indipendentemente dal risultato).
 
 ---
 > **Nota metodologica:** Tutte le altre User Story (Sincronizzazione Bluetooth, Autenticazione, Report offline, ecc.) sono tracciate e regolarmente stimate all'interno di **Jira**.

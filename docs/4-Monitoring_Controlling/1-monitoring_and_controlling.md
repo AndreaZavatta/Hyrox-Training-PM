@@ -7,9 +7,11 @@ Il monitoraggio del progetto "Hyrox Team Performance Optimizer" segue un approcc
 ## 1. Ritmo dei Meeting (Cerimonie)
 
 Il controllo avviene tramite cicli di feedback rapidi e pre-strutturati:
-*   **Daily Scrum (15 min):** Sincronizzazione giornaliera del Dev Team. Aggiorna il Burndown Chart e fa emergere i blocchi. Nessun *problem solving* ammesso durante la riunione.
-*   **Problem Resolution Meeting (Ad-hoc):** Invocato dallo Scrum Master solo quando emergono impedimenti bloccanti. Partecipano solo i membri coinvolti per isolare il problema.
-*   **Sprint Review (90 min):** A fine Sprint. Si analizzano il Burndown, la Velocity, si dimostra l'incremento di software funzionante agli stakeholder e si concorda l'eventuale aggiornamento dello Scope (Agile Swap).
+*   **Sprint Planning (max 2 ore - Inizio Sprint):** Controllo "preventivo" a inizio ciclo. Allinea il team sugli obiettivi dello Sprint e definisce il carico di lavoro sostenibile in base alla Velocity storica.
+*   **Daily Scrum (15 min - Giornaliero):** Sincronizzazione del Dev Team. Aggiorna il Burndown Chart e fa emergere tempestivamente i blocchi. Nessun *problem solving* ammesso durante la riunione.
+*   **Problem Resolution Meeting (Ad-hoc):** Invocato dallo Scrum Master solo per risolvere gli impedimenti bloccanti emersi durante il Daily.
+*   **Sprint Review (max 1 ora - Fine Sprint):** Controllo sul *Prodotto*. Si analizzano le metriche (Burndown, Velocity), si dimostra l'incremento agli stakeholder e si concorda l'eventuale aggiornamento dello Scope (Agile Swap).
+*   **Sprint Retrospective (max 1 ora - Fine Sprint):** Controllo sul *Processo*. Genera action items concreti per migliorare l'efficienza e le dinamiche del team nel ciclo successivo.
 
 ---
 

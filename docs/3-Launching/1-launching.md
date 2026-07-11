@@ -1,6 +1,6 @@
 # FASE: LAUNCHING (Esecuzione e Gestione Risorse)
 
-Il progetto "Hyrox Team Performance Optimizer" adotta una fase di Launching (Esecuzione) interamente basata su Scrum, eliminando la rigidità dei tradizionali "Work Packages" a favore di un approccio dinamico gestito tramite Sprint Backlog.
+Il progetto "Hyrox Team Performance Optimizer" adotta una fase di Launching interamente basata su Scrum, adottando un approccio dinamico gestito tramite Sprint Backlog.
 
 ---
 
@@ -17,7 +17,7 @@ Il team (5 sviluppatori + SM + PO) è cross-funzionale e auto-organizzato. Per e
 *   **4 ore/giorno** dedicate allo sviluppo effettivo (Sprint Backlog).
 *   **2 ore/giorno** (25%) riservate all'overhead organizzativo e alle cerimonie (Daily, Review, Code Review).
 
-In caso di colli di bottiglia o problemi su task critici, il team non utilizza tecniche tradizionali di *Resource Leveling*, ma applica lo **Swarming** (collaborazione simultanea di più sviluppatori sulla stessa storia critica) e sfrutta le competenze a "T" per il supporto incrociato. Lo straordinario è un'estrema ratio limitata al max 10%.
+In caso di colli di bottiglia o problemi su task critici, il team applica lo **Swarming** (collaborazione simultanea di più sviluppatori sulla stessa storia critica) e sfrutta le competenze a "T" per il supporto incrociato. Lo straordinario è un'estrema ratio limitata al max 10%.
 
 ---
 
