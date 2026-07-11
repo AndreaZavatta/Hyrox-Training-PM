@@ -1,4 +1,4 @@
-# FASE: CLOSING (Chiusura del Progetto)
+# CLOSING
 
 Il progetto "Hyrox Team Performance Optimizer" si è concluso al termine dello Sprint 16 con esito pienamente positivo, raggiungendo tutti gli obiettivi operativi, di business e tecnologici prefissati.
 

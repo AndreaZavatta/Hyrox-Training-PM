@@ -1,5 +1,4 @@
-# FASE: LAUNCHING (Esecuzione e Gestione Risorse)
-
+# LAUNCHING
 Il progetto "Hyrox Team Performance Optimizer" adotta una fase di Launching interamente basata su Scrum, adottando un approccio dinamico gestito tramite Sprint Backlog.
 
 ---

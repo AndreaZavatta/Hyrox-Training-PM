@@ -1,4 +1,4 @@
-# FASE: MONITORING & CONTROLLING
+# MONITORING & CONTROLLING
 
 Il monitoraggio del progetto "Hyrox Team Performance Optimizer" segue un approccio Agile snello, mirato a minimizzare l'overhead amministrativo pur mantenendo visibilità su costi, tempi e qualità.
 
