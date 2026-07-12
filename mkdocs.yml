@@ -1,5 +1,6 @@
 site_name: Hyrox Team Performance Optimizer
 site_description: Documentazione di Project Management
+site_url: https://andreazavatta.github.io/Hyrox-Training-PM/
 theme:
   name: material
   language: it
