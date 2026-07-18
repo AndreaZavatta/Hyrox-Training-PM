@@ -5,12 +5,13 @@ theme:
   name: material
   language: it
   features:
-    - navigation.tabs
     - navigation.sections
+    - navigation.expand
     - navigation.top
     - search.suggest
     - search.highlight
     - content.code.copy
+    - toc.integrate
   palette:
     - scheme: default
       primary: indigo
@@ -32,17 +33,21 @@ nav:
   - Home: index.md
   - 0. Contesto: 0-Contesto/0-contesto.md
   - 1. Scoping:
-    - Project Overview Statement (POS): 1-Scoping/1-pos.md
-    - Conditions of Satisfaction (CoS): 1-Scoping/2-cos.md
-    - Approccio Metodologico: 1-Scoping/3-Descrizione_dellapproccio.md
-    - Requirements Breakdown Structure (RBS): 1-Scoping/4-rbs.md
-    - Analisi dei Rischi: 1-Scoping/5-analisi_rischi.md
-    - Analisi Finanziaria: 1-Scoping/6-analisi_finanziaria.md
+    - Panoramica: 1-Scoping/scoping.md
+    - Allegati:
+      - Project Overview Statement (POS): allegati/1-pos.md
+      - Conditions of Satisfaction (CoS): allegati/2-cos.md
+      - Approccio Metodologico: allegati/3-Descrizione_dellapproccio.md
+      - Requirements Breakdown Structure (RBS): allegati/4-rbs.md
+      - Analisi dei Rischi: allegati/5-analisi_rischi.md
+      - Analisi Finanziaria: allegati/6-analisi_finanziaria.md
   - 2. Planning:
-    - Working Agreements: 2-Planning/1-working_agreements.md
-    - Product Backlog: 2-Planning/2-product_backlog.md
-    - Release Roadmap: 2-Planning/3-release_roadmap.md
-    - Governance & Communication: 2-Planning/4-governance_and_communication.md
-  - 3. Launching: 3-Launching/1-launching.md
-  - 4. Monitoring & Controlling: 4-Monitoring_Controlling/1-monitoring_and_controlling.md
-  - 5. Closing: 5-Closing/1-closing.md
+    - Panoramica: 2-Planning/planning.md
+    - Allegati:
+      - Working Agreements: allegati/1-working_agreements.md
+      - Product Backlog: allegati/2-product_backlog.md
+      - Release Roadmap: allegati/3-release_roadmap.md
+      - Governance & Communication: allegati/4-governance_and_communication.md
+  - 3. Launching: 3-Launching/launching.md
+  - 4. Monitoring & Controlling: 4-Monitoring_Controlling/monitoring_and_controlling.md
+  - 5. Closing: 5-Closing/closing.md
