@@ -12,8 +12,8 @@ Strutturare e organizzare i requisiti raccolti in una gerarchia chiara e complet
 |----------------------|-------|-------------------|
 | **Chiara Bertocchi** | Product Owner | Validazione requisiti e priorità business |
 | **Andrea Zavatta** | Project Manager | Facilitazione e coordinamento |
-| **Elena Montesi** | Lead Developer | Analisi fattibilità tecnica requisiti |
-| **Giorgio Cavalli** | UI/UX Designer | Validazione requisiti di usabilità |
+| **Giovanni Manca** | Technical Leader & ML Specialist | Analisi fattibilità tecnica requisiti |
+| **Francesca Gaeta** | Senior Frontend Developer | Validazione requisiti di usabilità |
 
 ## Agenda
 

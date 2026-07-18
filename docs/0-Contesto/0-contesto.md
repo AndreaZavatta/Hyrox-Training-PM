@@ -15,12 +15,12 @@ Il progetto, denominato **Hyrox Team Performance Optimizer**, sarà affidato al 
 
 | Nome | Ruolo |
 | :--- | :--- |
-| **Giovanni Bravaccini** | CEO |
+| **Giacomo Sirri** | CEO |
 | **Andrea Zavatta** | Project Manager, Scrum Master |
 | **Chiara Bertocchi** | Product Owner |
 | **Giovanni Manca** | Technical Leader & ML Specialist |
-| **Luca Rossi** | Senior Wearable Developer |
-| **Elena Bianchi** | Senior Frontend Developer |
-| **Matteo Neri** | Backend & Database Developer |
-| **Sara Viola** | Mobile Integration Specialist / QA |
+| **Luca Pasini** | Senior Wearable Developer |
+| **Francesca Gaeta** | Senior Frontend Developer |
+| **Marco Antolini** | Backend & Database Developer |
+| **Giulia Fabbri** | Mobile Integration Specialist / QA |
 

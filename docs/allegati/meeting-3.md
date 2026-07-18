@@ -15,11 +15,10 @@ Formalizzare il POS del progetto, includendo:
 
 | Nome                 | Ruolo | Ruolo nel meeting |
 |----------------------|-------|-------------------|
-| **Chiara Bertocchi** | CEO HTPO Solutions, Committente | Approvazione POS e validazione business case |
+| **Giacomo Sirri** | CEO Hybrid Solutions S.r.l., Committente | Approvazione POS e validazione business case |
 | **Andrea Zavatta** | Project Manager | Redazione POS e facilitazione |
-| **Elena Montesi** | Lead Developer | Validazione fattibilità tecnica e stime effort |
-| **Marco Albertini** | CFO HTPO Solutions | Analisi finanziaria e budget |
-| **Giorgio Cavalli** | UI/UX Designer | Validazione user experience goals |
+| **Giovanni Manca** | Technical Leader & ML Specialist | Validazione fattibilità tecnica e stime effort |
+| **Francesca Gaeta** | Senior Frontend Developer | Validazione user experience goals |
 
 ## Agenda
 

@@ -1,6 +1,6 @@
 # Hyrox Team Performance Optimizer - Project Report
 
-Relazione finale del progetto di Project Management per **HTPO Solutions S.r.l.**
+Relazione finale del progetto di Project Management per **Hybrid Solutions S.r.l.**
 
 Di seguito sono presenti tutte le fasi (simulate) dello sviluppo del progetto.
 
