@@ -1,8 +1,8 @@
 # Scoping
 
-Durante questa fase il team svolgerà una serie di meeting con stakeholder chiave (atleti professionisti, coach e committente) al fine di definire al meglio il progetto, analizzarne le opportunità, i rischi, le debolezze e le potenzialità.
+Durante questa fase il team svolgerà diversi meeting.
 
-Ogni meeting avrà uno scopo preciso e in base ad esso i partecipanti saranno diversi. Il **Project Manager** Andrea Zavatta e la **committente**, nonché CEO dell'azienda, Chiara Bertocchi saranno presenti ad ogni meeting, in quanto il primo soggetto si occupa di gestire la buona riuscita del progetto, mentre il secondo lo affiancherà sia per definire i requisiti e prendere decisioni, sia per verificare il corretto svolgimento delle varie fasi del progetto.
+Ogni meeting avrà uno scopo preciso e in base ad esso i partecipanti saranno diversi. Il **Project Manager** Andrea Zavatta e la **Product Owner**  Chiara Bertocchi saranno presenti ad ogni meeting, in quanto il primo soggetto si occupa di gestire la buona riuscita del progetto, mentre il secondo lo affiancherà sia per definire i requisiti.
 
 I meeting realizzati sono tre:
 

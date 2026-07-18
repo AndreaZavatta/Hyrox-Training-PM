@@ -15,10 +15,9 @@ Formalizzare il POS del progetto, includendo:
 
 | Nome                 | Ruolo | Ruolo nel meeting |
 |----------------------|-------|-------------------|
-| **Giacomo Sirri** | CEO Hybrid Solutions S.r.l., Committente | Approvazione POS e validazione business case |
+| **Chiara Bertocchi** | Product Owner | Validazione business case |
 | **Andrea Zavatta** | Project Manager | Redazione POS e facilitazione |
 | **Giovanni Manca** | Technical Leader & ML Specialist | Validazione fattibilità tecnica e stime effort |
-| **Francesca Gaeta** | Senior Frontend Developer | Validazione user experience goals |
 
 ## Agenda
 
