@@ -5,13 +5,10 @@ theme:
   name: material
   language: it
   features:
-    - navigation.sections
-    - navigation.expand
     - navigation.top
     - search.suggest
     - search.highlight
     - content.code.copy
-    - toc.integrate
   palette:
     - scheme: default
       primary: indigo
