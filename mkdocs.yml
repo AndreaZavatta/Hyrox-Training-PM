@@ -31,23 +31,9 @@ site_dir: site
 
 nav:
   - Home: index.md
-  - 0. Contesto: 0-Contesto/0-contesto.md
-  - 1. Scoping:
-    - Panoramica: 1-Scoping/scoping.md
-    - Allegati:
-      - Project Overview Statement (POS): allegati/1-pos.md
-      - Conditions of Satisfaction (CoS): allegati/2-cos.md
-      - Approccio Metodologico: allegati/3-Descrizione_dellapproccio.md
-      - Requirements Breakdown Structure (RBS): allegati/4-rbs.md
-      - Analisi dei Rischi: allegati/5-analisi_rischi.md
-      - Analisi Finanziaria: allegati/6-analisi_finanziaria.md
-  - 2. Planning:
-    - Panoramica: 2-Planning/planning.md
-    - Allegati:
-      - Working Agreements: allegati/1-working_agreements.md
-      - Product Backlog: allegati/2-product_backlog.md
-      - Release Roadmap: allegati/3-release_roadmap.md
-      - Governance & Communication: allegati/4-governance_and_communication.md
-  - 3. Launching: 3-Launching/launching.md
-  - 4. Monitoring & Controlling: 4-Monitoring_Controlling/monitoring_and_controlling.md
-  - 5. Closing: 5-Closing/closing.md
+  - Contesto: 0-Contesto/0-contesto.md
+  - Scoping: 1-Scoping/scoping.md
+  - Planning: 2-Planning/planning.md
+  - Launching: 3-Launching/launching.md
+  - Monitoring & Controlling: 4-Monitoring_Controlling/monitoring_and_controlling.md
+  - Closing: 5-Closing/closing.md
