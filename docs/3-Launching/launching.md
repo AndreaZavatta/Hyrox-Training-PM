@@ -6,7 +6,7 @@ Il progetto "Hyrox Team Performance Optimizer" adotta una fase di Launching inte
 ## 1. Kick-Off & Regole Operative
 
 Il progetto è stato avviato con un Kick-Off Meeting formale per allineare l'intero Scrum Team (PO, SM, Tech Lead, Dev Team) sulla Product Vision. 
-L'esecuzione del lavoro è stata divisa in **Sprints di 2 settimane**. Le regole del team impongono un focus assoluto sulla consegna di software funzionante e sulla risoluzione empirica dei problemi.
+L'esecuzione del lavoro è stata divisa in **Sprints di 2 settimane**.
 
 ---
 
