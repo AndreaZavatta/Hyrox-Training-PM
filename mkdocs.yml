@@ -9,6 +9,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - toc.integrate
   palette:
     - scheme: default
       primary: indigo
@@ -25,6 +26,13 @@ theme:
 
 docs_dir: docs
 site_dir: site
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      toc_depth: 0
 
 nav:
   - Home: index.md
