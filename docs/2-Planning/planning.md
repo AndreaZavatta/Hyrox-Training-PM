@@ -12,5 +12,5 @@ I meeting realizzati sono tre:
 
 - [Working Agreements](../allegati/1-working_agreements.md): Regole operative e accordi del team
 - [Governance & Communication](../allegati/4-governance_and_communication.md): Struttura decisionale e piano di comunicazione
-- [Product Backlog](../allegati/2-product_backlog.md): Backlog prioritizzato delle user stories
+- [Product Backlog](https://hyrox-training.atlassian.net/jira/software/projects/HTPO/boards/1/backlog): Backlog prioritizzato delle user stories
 - [Release Roadmap](../allegati/3-release_roadmap.md): Pianificazione delle release
