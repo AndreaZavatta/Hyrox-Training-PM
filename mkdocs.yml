@@ -34,6 +34,7 @@ markdown_extensions:
       toc_depth: 0
 
 nav:
+  - Home: index.md
   - Contesto: 0-Contesto/0-contesto.md
   - Scoping: 1-Scoping/scoping.md
   - Planning: 2-Planning/planning.md
