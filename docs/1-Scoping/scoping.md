@@ -1,6 +1,6 @@
 # Scoping
 
-La fase di **Scoping** definisce il perimetro strategico del progetto: raccoglie i bisogni degli stakeholder, li struttura in requisiti verificabili e stabilisce obiettivi, vincoli e criteri di successo condivisi. Questa fase segue un approccio predittivo (parte "Water" del modello Water-Scrum-Fall) per garantire baseline chiare e approvazione formale prima dell'esecuzione iterativa.
+La fase di **Scoping** definisce il perimetro strategico del progetto: raccoglie i bisogni degli stakeholder, li struttura in requisiti verificabili e stabilisce obiettivi, vincoli e criteri di successo condivisi.
 
 I meeting realizzati sono tre:
 

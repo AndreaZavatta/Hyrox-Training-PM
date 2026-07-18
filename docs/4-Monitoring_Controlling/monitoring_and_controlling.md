@@ -35,9 +35,3 @@ La risoluzione degli imprevisti segue una gerarchia rigida a tre livelli per non
 * **Livello 1 (Scrum Master & Team):** Risoluzione autonoma (es. *swarming* delle risorse). Ha risolto autonomamente il 75% delle issue del progetto.
 * **Livello 2 (Negoziazione con PO):** Overtime controllato (max 10%) o *Agile Swap* (sostituzione paritetica dello scope).
 * **Livello 3 (Board e Sponsor):** Richiesta di extra-budget o estensione deadline. **Mai attivato** grazie all'efficacia dei Livelli 1 e 2.
-
-### Top 2 Issues Critiche Affrontate (dal Log)
-| ID | Sprint | Descrizione del Problema | Azione Risolutiva (Esito) |
-| :--- | :---: | :--- | :--- |
-| **ISS-003** | S5 | Interferenza hardware tra input fisico dei tasti e i dati dell'accelerometro (rischio ritardo MVP). | **Swarming** rapido di 2 dev nello Sprint 6 per isolare i thread hardware. (*Risolto - Livello 1*) |
-| **ISS-007** | S12 | Accuratezza dell'algoritmo ferma all'88% (Target minimo: >90%) nei test di validazione in palestra. | Aggiunta di un **vincolo di sequenza predittiva** nel codice. L'accuratezza è salita al 94%. (*Risolto - Livello 1*) |

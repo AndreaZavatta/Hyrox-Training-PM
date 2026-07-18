@@ -20,17 +20,17 @@ Strutturare e organizzare i requisiti raccolti in una gerarchia chiara e complet
     - Riepilogo Condition of Satisfaction dal Meeting I
     - Chiarimenti e validazione
 
-2. **Approccio metodologico** (25 min)
-    - Selezione metodologia di gestione progetto
-    - Definizione ruoli e responsabilità del team
-    - Pianificazione iterazioni e milestone principali
-
-3. **Definizione macro-aree** (30 min)
+2. **Definizione macro-aree** (30 min)
     - Identificazione categorie principali RBS
     - Struttura gerarchica
 
-4. **Decomposizione macro aree** (1 h e 15 min)
+3. **Decomposizione macro aree** (1 h e 15 min)
     - Decomposizione in singole attività di alto livello
+
+4. **Approccio metodologico** (25 min)
+    - Selezione metodologia di gestione progetto
+    - Definizione ruoli e responsabilità del team
+    - Pianificazione iterazioni e milestone principali
 
 ## Allegati prodotti
 
