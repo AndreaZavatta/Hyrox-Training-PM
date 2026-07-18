@@ -6,7 +6,7 @@ Questo documento sintetizza l'approccio metodologico **Ibrido (Agile/Tradizional
 
 ## **1. Scoping**
 La fase di inizializzazione segue un approccio strutturato per garantire l'allineamento degli stakeholder e definire il perimetro del progetto:
-*   **Definizione del Valore e Risorse:** Definizione delle **CoS** (Conditions of Satisfaction) per catturare i bisogni del cliente, seguita dalla mappatura delle risorse necessarie tramite la **RBS (Resource Breakdown Structure)**, per culminare infine nella redazione del **POS** (Project Overview Statement) che stabilisce obiettivi chiari, criteri di successo e vincoli.
+*   **Definizione del Valore e Requisiti:** Definizione delle **CoS** (Conditions of Satisfaction) per catturare i bisogni del cliente, seguita dalla scomposizione dei requisiti tramite la **RBS (Requirements Breakdown Structure)**, per culminare infine nella redazione del **POS** (Project Overview Statement) che stabilisce obiettivi chiari, criteri di successo e vincoli.
 *   **Fattibilità e Rischio:** Valutazione della sostenibilità tramite Analisi Finanziaria e identificazione strutturata delle potenziali criticità attraverso l'Analisi dei Rischi.
 
 ## **2. Planning**

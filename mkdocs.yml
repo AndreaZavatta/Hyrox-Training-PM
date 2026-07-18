@@ -30,6 +30,7 @@ site_dir: site
 
 nav:
   - Home: index.md
+  - 0. Contesto: 0-contesto.md
   - 1. Scoping:
     - Project Overview Statement (POS): 1-Scoping/1-pos.md
     - Conditions of Satisfaction (CoS): 1-Scoping/2-cos.md
