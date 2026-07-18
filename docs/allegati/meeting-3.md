@@ -10,9 +10,6 @@ Formalizzare il POS del progetto, includendo:
 - Success criteria
 - Assunzioni, rischi e ostacoli
 - Analisi finanziaria preliminare
-- Definizione approccio metodologico
-
-Il POS rappresenta il documento fondamentale che sintetizza il "perché" e il "cosa" del progetto, fornendo la base per le successive fasi di planning e execution.
 
 ## Partecipanti
 
@@ -50,16 +47,11 @@ Il POS rappresenta il documento fondamentale che sintetizza il "perché" e il "c
    - Proiezioni revenue
    - ROI atteso
 
-6. **Approccio metodologico** (20 min)
-   - Scelta metodologia (Agile/Scrum)
-   - Struttura team
-   - Milestone principali
-
-7. **Approvazione e next steps** (15 min)
+6. **Approvazione e next steps** (15 min)
 
 
 ## Allegati prodotti
 
-- [POS completo](1-pos.md)
+- [POS](1-pos.md)
 - [Analisi finanziaria](6-analisi_finanziaria.md)
 - [Analisi dei rischi](5-analisi_rischi.md)

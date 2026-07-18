@@ -6,23 +6,11 @@ Il primo meeting è stato svolto in data **08/07/2026**. Ogni partecipante ha pr
 
 L'obiettivo del meeting è stato definire chiaramente i desideri, i bisogni e i requisiti degli stakeholder (atleti professionisti e coach) per il progetto di digital training platform Hyrox.
 
-Si è discusso di:
-- Esigenze di personalizzazione dei piani di allenamento
-- Necessità di monitoraggio delle performance
-- Integrazione con dispositivi wearable
-- Funzionalità per la comunicazione coach-atleta
-- Aspettative degli atleti in termini di usabilità
-
-Al fine di avere una maggiore organizzazione del progetto e della documentazione si è deciso di creare i seguenti allegati:
-- Desideri e bisogni degli stakeholder
-- Stato attuale del mercato e delle soluzioni esistenti
-- Bozza delle Condition of Satisfaction (CoS)
-
 ## Partecipanti
 
 | Nome                 | Ruolo | Ruolo nel meeting |
 |----------------------|-------|-------------------|
-| **Chiara Bertocchi** | CEO Hybrid Solutions, Committente | Definizione vision e validazione requisiti business |
+| **Chiara Bertocchi** | Product Owner |validazione requisiti business |
 | **Andrea Zavatta** | Project Manager | Gestione del meeting e facilitazione |
 | **Marco Rossi** | Atleta professionista Hyrox | Espone requisiti da prospettiva atleta elite |
 | **Sara Bianchi** | Coach professionista | Espone requisiti da prospettiva coaching |
@@ -49,8 +37,6 @@ Al fine di avere una maggiore organizzazione del progetto e della documentazione
    - Integrazione tra esigenze
    - Prioritizzazione iniziale
 
-5. **Next steps** (10 min)
-
 ## Allegati prodotti
 
-- [Bozza CoS](2-cos.md)
+- [CoS](2-cos.md)

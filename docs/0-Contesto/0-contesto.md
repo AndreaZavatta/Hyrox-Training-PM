@@ -17,8 +17,9 @@ Il team adotta un modello organizzativo ibrido. Per garantire un allineamento ri
 
 | Nome | Ruolo |
 | :--- | :--- |
+| **Giovanni Bravaccini** | CEO |
 | **Andrea Zavatta** | Project Manager, Scrum Master |
-| **Chiara Bertocchi** | CEO, Committente, Product Owner |
+| **Chiara Bertocchi** | Product Owner |
 | **Giovanni Manca** | Technical Leader & ML Specialist |
 | **Luca Rossi** | Senior Wearable Developer |
 | **Elena Bianchi** | Senior Frontend Developer |
