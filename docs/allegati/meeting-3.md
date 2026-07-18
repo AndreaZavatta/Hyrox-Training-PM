@@ -47,8 +47,6 @@ Formalizzare il POS del progetto, includendo:
    - Proiezioni revenue
    - ROI atteso
 
-6. **Approvazione e next steps** (15 min)
-
 
 ## Allegati prodotti
 
