@@ -25,6 +25,3 @@ Il team adotta un modello organizzativo ibrido. Per garantire un allineamento ri
 | **Matteo Neri** | Backend & Database Developer |
 | **Sara Viola** | Mobile Integration Specialist / QA |
 
-## Scoping Meetings
-
-La fase di inizializzazione del progetto prevede una serie di **Scoping Meetings** (interviste e focus group) con atleti e coach professionisti per estrapolare i reali *Wants and Needs* (Conditions of Satisfaction). Questi incontri sono propedeutici all'analisi finanziaria, alla valutazione dei rischi tecnologici (es. limiti hardware dei device commerciali) e alla stesura formale del Project Overview Statement (POS) da presentare al Senior Management per l'approvazione del budget.

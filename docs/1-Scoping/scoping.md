@@ -6,9 +6,9 @@ Ogni meeting avrà uno scopo preciso e in base ad esso i partecipanti saranno di
 
 I meeting realizzati sono tre:
 
-1. **Meeting I**: Definire chiaramente i desideri, i bisogni e i requisiti degli stakeholder (atleti e coach)
-2. **Meeting II**: Generazione della RBS a partire dalle CoS
-3. **Meeting III**: Generazione del POS in base alle CoS e alla RBS
+1. [**Meeting I**](../allegati/meeting-1.md): Definire chiaramente i desideri, i bisogni e i requisiti degli stakeholder (atleti e coach)
+2. [**Meeting II**](../allegati/meeting-2.md): Generazione della RBS a partire dalle CoS
+3. [**Meeting III**](../allegati/meeting-3.md): Generazione del POS in base alle CoS e alla RBS
 
 ## Allegati finali prodotti
 
