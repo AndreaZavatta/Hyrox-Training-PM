@@ -20,12 +20,12 @@ Il team adotta un modello organizzativo ibrido. Per garantire un allineamento ri
 | Nome | Ruolo |
 | :--- | :--- |
 | **Andrea Zavatta** | Project Manager, Scrum Master |
-| **CEO Startup** | Committente, Product Owner |
-| **Marco (Nome Fittizio)** | Tech Lead, Sviluppatore |
-| **Luca (Nome Fittizio)** | Sviluppatore |
-| **Sofia (Nome Fittizio)** | UX/UI Designer |
-| **Mario Rossi (Coach)** | Allenatore Elite Hyrox, Stakeholder |
-| **Giulia Bianchi (Atleta)** | Atleta Professionista, Stakeholder |
+| **Chiara Bertocchi** | CEO, Committente, Product Owner |
+| **Giovanni Manca** | Technical Leader & ML Specialist |
+| **Luca Rossi** | Senior Wearable Developer |
+| **Elena Bianchi** | Senior Frontend Developer |
+| **Matteo Neri** | Backend & Database Developer |
+| **Sara Viola** | Mobile Integration Specialist / QA |
 
 ## Scoping Meetings
 
