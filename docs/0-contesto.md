@@ -5,13 +5,11 @@ nav_order: 1
 
 # Contesto
 
-HTPO Solutions S.r.l. è una startup innovativa focalizzata sulla digitalizzazione e rivoluzione del mondo del fitness ibrido. L'azienda si pone l'obiettivo di colmare un vuoto tecnologico evidente in discipline ad alta intensità come l'Hyrox, dove atleti e preparatori sono costretti a utilizzare strumenti generalisti non adatti alla specificità delle competizioni multi-stazione.
+HTPO Solutions S.r.l. è una startup innovativa focalizzata sulla digitalizzazione e rivoluzione del mondo del fitness ibrido. L'azienda si pone l'obiettivo di colmare un vuoto tecnologico evidente in discipline ad alta intensità come l'Hyrox, fornendo soluzioni dedicate ad atleti e preparatori atletici professionisti.
 
-L'ecosistema sportivo dell'Hyrox richiede precisione estrema nei tempi di transizione (Roxzone) e nell'esecuzione degli esercizi funzionali. Attualmente, l'assenza di strumenti dedicati costringe gli atleti a continue interazioni manuali con lo smartwatch durante sforzi massimali, distogliendoli dalla performance agonistica. Parallelamente, gli allenatori subiscono un grave collo di bottiglia operativo, sprecando in media 15 minuti per atleta solo per "ripulire" e analizzare file dati frammentati e pieni di incongruenze.
+L'esigenza attuale dell'azienda è quella di migliorare radicalmente l'esperienza agonistica e gestionale, sviluppando un ecosistema software (mobile e web) che permetta agli atleti di concentrarsi unicamente sulla performance, e ai coach di semplificare la pianificazione e abbattere drasticamente i tempi di analisi post-workout.
 
-L'esigenza attuale della startup è quella di sviluppare l'**Hyrox Team Performance Optimizer**, un ecosistema software integrato composto da una Web Dashboard (per la pianificazione lato coach) e un'App Wearable per Apple Watch (per l'esecuzione lato atleta). Questo sistema permetterà il riconoscimento automatico dei cambi stazione tramite algoritmi basati sui sensori inerziali, eliminando l'interazione manuale e abbattendo i tempi di analisi post-workout a meno di due minuti.
-
-Il progetto sarà gestito da un team IT interno altamente specializzato. Trattandosi di un'azienda prettamente software, è stata presa la decisione strategica di non sviluppare hardware proprietario, per ottimizzare il time-to-market e rispettare i vincoli di budget.
+Il progetto, denominato **Hyrox Team Performance Optimizer**, sarà affidato al team IT interno della startup. Trattandosi di un'azienda prettamente software, la strategia di base prevede l'utilizzo esclusivo di hardware commerciale esistente per ottimizzare il time-to-market e limitare i costi di R&D.
 
 ## Sviluppatori e collaboratori del progetto
 
