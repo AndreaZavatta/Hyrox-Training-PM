@@ -29,9 +29,9 @@ L'obiettivo del meeting è stato definire chiaramente i desideri, i bisogni e i 
     - Aspettative tecniche
 
 3. **Raccolta esigenze coach** (30 min)
-    - Strumenti per la programmazione
-    - Monitoraggio progressi atleti
-    - Comunicazione e feedback
+    - Pain points con soluzioni esistenti
+    - Funzionalità desiderate
+    - Aspettative tecniche
 
 4. **Discussione generale** (20 min)
     - Integrazione tra esigenze

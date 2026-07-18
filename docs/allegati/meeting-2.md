@@ -22,9 +22,9 @@ Strutturare e organizzare i requisiti raccolti in una gerarchia chiara e complet
     - Chiarimenti e validazione
 
 2. **Approccio metodologico** (25 min)
-    - Definizione metodologia Agile/Scrum
-    - Ruoli e responsabilità del team
-    - Struttura degli sprint e milestone principali
+    - Selezione metodologia di gestione progetto
+    - Definizione ruoli e responsabilità del team
+    - Pianificazione iterazioni e milestone principali
 
 3. **Definizione macro-aree** (30 min)
     - Identificazione categorie principali RBS
