@@ -39,4 +39,4 @@ L'obiettivo del meeting è stato definire chiaramente i desideri, i bisogni e i 
 
 ## Allegati prodotti
 
-- [CoS](2-cos.md)
+- [CoS](https://miro.com/app/board/uXjVHFNQqIY=/)

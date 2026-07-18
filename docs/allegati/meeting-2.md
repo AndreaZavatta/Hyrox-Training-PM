@@ -35,5 +35,5 @@ Strutturare e organizzare i requisiti raccolti in una gerarchia chiara e complet
 
 ## Allegati prodotti
 
-- [RBS](4-rbs.md)
+- [RBS](https://miro.com/app/board/uXjVHGXupJA=/)
 - [Descrizione dell'approccio metodologico](3-Descrizione_dellapproccio.md)

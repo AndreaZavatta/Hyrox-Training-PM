@@ -51,5 +51,5 @@ Formalizzare il POS del progetto, includendo:
 ## Allegati prodotti
 
 - [POS](1-pos.md)
-- [Analisi finanziaria](6-analisi_finanziaria.md)
+- [Analisi finanziaria](https://docs.google.com/spreadsheets/d/19XTu6Voxyw5odQnj9YQEwUTFoXNlemCNNYU7TFtA7fo/edit?gid=1792359099#gid=1792359099)
 - [Analisi dei rischi](5-analisi_rischi.md)
