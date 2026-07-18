@@ -18,20 +18,20 @@ Strutturare e organizzare i requisiti raccolti in una gerarchia chiara e complet
 ## Agenda
 
 1. **Review CoS** (15 min)
-   - Riepilogo Condition of Satisfaction dal Meeting I
-   - Chiarimenti e validazione
+    - Riepilogo Condition of Satisfaction dal Meeting I
+    - Chiarimenti e validazione
 
 2. **Approccio metodologico** (25 min)
-   - Definizione metodologia Agile/Scrum
-   - Ruoli e responsabilità del team
-   - Struttura degli sprint e milestone principali
+    - Definizione metodologia Agile/Scrum
+    - Ruoli e responsabilità del team
+    - Struttura degli sprint e milestone principali
 
 3. **Definizione macro-aree** (30 min)
-   - Identificazione categorie principali RBS
-   - Struttura gerarchica
+    - Identificazione categorie principali RBS
+    - Struttura gerarchica
 
 4. **Decomposizione macro aree** (1 h e 15 min)
-   - Decomposizione in singole attività di alto livello
+    - Decomposizione in singole attività di alto livello
 
 ## Allegati prodotti
 

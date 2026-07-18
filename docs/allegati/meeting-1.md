@@ -19,23 +19,23 @@ L'obiettivo del meeting è stato definire chiaramente i desideri, i bisogni e i 
 ## Agenda
 
 1. **Introduzione** (15 min)
-   - Presentazione partecipanti
-   - Obiettivi del meeting
-   - Panoramica sul progetto
+    - Presentazione partecipanti
+    - Obiettivi del meeting
+    - Panoramica sul progetto
 
 2. **Raccolta esigenze atleti** (45 min)
-   - Pain points con soluzioni esistenti
-   - Funzionalità desiderate
-   - Aspettative tecniche
+    - Pain points con soluzioni esistenti
+    - Funzionalità desiderate
+    - Aspettative tecniche
 
 3. **Raccolta esigenze coach** (30 min)
-   - Strumenti per la programmazione
-   - Monitoraggio progressi atleti
-   - Comunicazione e feedback
+    - Strumenti per la programmazione
+    - Monitoraggio progressi atleti
+    - Comunicazione e feedback
 
 4. **Discussione generale** (20 min)
-   - Integrazione tra esigenze
-   - Prioritizzazione iniziale
+    - Integrazione tra esigenze
+    - Prioritizzazione iniziale
 
 ## Allegati prodotti
 

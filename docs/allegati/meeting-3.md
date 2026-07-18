@@ -24,28 +24,28 @@ Formalizzare il POS del progetto, includendo:
 ## Agenda
 
 1. **Review RBS e CoS** (15 min)
-   - Riepilogo requisiti e priorità
-   - Allineamento su scope
+    - Riepilogo requisiti e priorità
+    - Allineamento su scope
 
 2. **Problem/Opportunity Definition** (30 min)
-   - Definizione problema da risolvere
-   - Opportunity statement
-   - Target market
+    - Definizione problema da risolvere
+    - Opportunity statement
+    - Target market
 
 3. **Obiettivi di progetto** (30 min)
-   - Business objectives
-   - Technical objectives
-   - Success criteria (SMART)
+    - Business objectives
+    - Technical objectives
+    - Success criteria (SMART)
 
 4. **Analisi rischi preliminare** (30 min)
-   - Identificazione rischi principali
-   - Probabilità e impatto
-   - Strategie di mitigazione
+    - Identificazione rischi principali
+    - Probabilità e impatto
+    - Strategie di mitigazione
 
 5. **Analisi finanziaria** (30 min)
-   - Stima costi sviluppo
-   - Proiezioni revenue
-   - ROI atteso
+    - Stima costi sviluppo
+    - Proiezioni revenue
+    - ROI atteso
 
 
 ## Allegati prodotti
