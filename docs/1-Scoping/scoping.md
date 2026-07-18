@@ -1,8 +1,6 @@
 # Scoping
 
-Durante questa fase il team svolgerà diversi meeting.
-
-Ogni meeting avrà uno scopo preciso e in base ad esso i partecipanti saranno diversi. Il **Project Manager** Andrea Zavatta e la **Product Owner**  Chiara Bertocchi saranno presenti ad ogni meeting, in quanto il primo soggetto si occupa di gestire la buona riuscita del progetto, mentre il secondo lo affiancherà sia per definire i requisiti.
+La fase di **Scoping** definisce il perimetro strategico del progetto: raccoglie i bisogni degli stakeholder, li struttura in requisiti verificabili e stabilisce obiettivi, vincoli e criteri di successo condivisi. Questa fase segue un approccio predittivo (parte "Water" del modello Water-Scrum-Fall) per garantire baseline chiare e approvazione formale prima dell'esecuzione iterativa.
 
 I meeting realizzati sono tre:
 
