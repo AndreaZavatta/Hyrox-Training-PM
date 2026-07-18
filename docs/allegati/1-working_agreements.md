@@ -59,15 +59,14 @@ Il progetto si sviluppa in cicli iterativi (**Sprint**) della durata fissa di **
 
 ## 3. Comunicazione e Gestione del Lavoro (Workbook Strategy)
 
-Al fine di minimizzare l'overhead di comunicazione (evitando la trappola del *Mythical Man-Month* in cui aggiungere persone rallenta il progetto), si adottano le seguenti regole per i canali:
+Al fine di minimizzare l'overhead di comunicazione, si adottano le seguenti regole per i canali:
 
 *   **Jira (Sprint Board):** È l'unica sorgente di verità per lo stato del lavoro. Nessun task può essere eseguito se non è presente sulla board. Le storie si spostano linearmente: *To Do -> In Progress -> Test Business -> Test Technical-> Done*.
-*   **Confluence (Project Workbook & Planning):** È lo strumento centrale per la documentazione tecnica, la pianificazione a lungo termine e la gestione della conoscenza. Ospita il *Workbook di Progetto*, i verbali delle cerimonie (es. retrospective), i piani di rilascio e la documentazione architetturale.
-*   **Slack:** Utilizzato per comunicazioni asincrone e veloci. Sono vietati i messaggi diretti per decisioni architetturali o di scope; queste discussioni devono avvenire nei canali pubblici per trasparenza:
-    *   `#dev-smartwatch`: Discussione tecnica su watchOS e algoritmi sensori.
-    *   `#dev-dashboard`: Discussione tecnica su web backend, frontend e grafici di pacing.
-    *   `#dev-sync`: Discussione tecnica sui flussi bluetooth e API di sincronizzazione.
-    *   `#general-announcements`: Notizie importanti, milestone e scadenze di Sprint.
+*   **Microsoft Teams:** Utilizzato per comunicazioni asincrone e veloci. Sono vietati i messaggi diretti per decisioni architetturali o di scope; queste discussioni devono avvenire nei gruppi per trasparenza:
+    *   `dev-smartwatch`: Discussione tecnica su watchOS e algoritmi sensori.
+    *   `dev-dashboard`: Discussione tecnica su web backend, frontend e grafici di pacing.
+    *   `dev-sync`: Discussione tecnica sui flussi bluetooth e API di sincronizzazione.
+    *   `general-announcements`: Notizie importanti, milestone e scadenze di Sprint.
 
 ---
 
@@ -79,7 +78,7 @@ I conflitti tecnici e organizzativi devono essere gestiti tempestivamente per ev
 *   **Consultivo:** Il Tech Lead prende le decisioni sull'infrastruttura ed il Product Owner sulle priorità di business, dopo aver ascoltato le proposte degli sviluppatori.
 *   **Direttivo (Escalation Protocol):** Se non si raggiunge il consenso entro 60 minuti, si attiva il protocollo di escalation in 3 livelli definito nella metodologia:
     1.  *Livello 1:* Il PM facilita una sessione di consensus focalizzata (max 60 min).
-    2.  *Livello 2 (Arbitrato):* Il Tech Lead ha l'ultima parola sui conflitti tecnologici/architetturali; il PO sui conflitti di business/priorità; il PM sui vincoli finanziari/temporali.
+    2.  *Livello 2:* Il Tech Lead ha l'ultima parola sui conflitti tecnologici/architetturali; il PO sui conflitti di business/priorità; il PM sui vincoli finanziari/temporali.
     3.  *Livello 3:* Conflitti che impattano > 15% del budget o > 20% della timeline sono revisionati formalmente dal CEO.
 
 ---
@@ -89,7 +88,7 @@ I conflitti tecnici e organizzativi devono essere gestiti tempestivamente per ev
 *   **Chiara Bertocchi** (Product Owner)
 *   **Andrea Zavatta** (Scrum Master / PM)
 *   **Giovanni Manca** (Technical Leader & ML Specialist)
-*   **Luca Rossi** (Senior Wearable Developer)
-*   **Elena Bianchi** (Senior Frontend Developer)
-*   **Matteo Neri** (Backend & Database Developer)
-*   **Sara Viola** (Mobile Integration Specialist / QA)
+*   **Luca Pasini** (Senior Wearable Developer)
+*   **Francesca Gaeta** (Senior Frontend Developer)
+*   **Marco Antolini** (Backend & Database Developer)
+*   **Giulia Fabbri** (Mobile Integration Specialist / QA)
