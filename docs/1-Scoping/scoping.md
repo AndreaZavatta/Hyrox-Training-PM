@@ -13,8 +13,8 @@ I meeting realizzati sono tre:
 ## Allegati finali prodotti
 
 - [CoS](../allegati/2-cos.md): Conditions of Satisfaction
-- [Descrizione dell'approccio](../allegati/3-Descrizione_dellapproccio.md)
+- [Descrizione dell'approccio](../allegati/3-Descrizione_dellapproccio.md): Approccio metodologico Agile/Scrum
 - [POS](../allegati/1-pos.md): Project Overview Statement
-  - [Analisi Finanziaria](../allegati/analisi_finanziaria.md)    
-  - [Analisi dei rischi](../allegati/analisi_rischi.md)
-- [RBS](../allegati/rbs.md): Requirement Breakdown Structure
+  * [Analisi Finanziaria](../allegati/6-analisi_finanziaria.md): Analisi costi e ROI
+  * [Analisi dei rischi](../allegati/5-analisi_rischi.md): Identificazione e mitigazione rischi
+- [RBS](../allegati/4-rbs.md): Requirements Breakdown Structure
