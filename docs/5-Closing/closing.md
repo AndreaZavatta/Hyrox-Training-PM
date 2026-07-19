@@ -26,8 +26,8 @@ Alla fine dello Sprint 16, lo Scrum Team ha condotto la retrospettiva finale per
 *   **Swarming al posto dell'Overtime:** Aver usato la collaborazione incrociata per risolvere i problemi (ISS-003, ISS-007) si è rivelato più rapido ed efficace del lavoro straordinario solitario.
 
 ### 2.2 Cosa migliorare (Ancore per i prossimi progetti)
-*   **Test di usabilità inseriti troppo tardi:** Aver aspettato lo Sprint 13 per i test SUS ha generato un po' di debito tecnico in extremis (font illeggibili sotto sforzo). Nel prossimo progetto si farà *guerrilla testing* leggero fin dalla Release 1.
-*   **Documentazione tecnica accumulata:** Aver rimandato la scrittura delle API Swagger agli ultimi Sprint ha creato un fastidioso collo di bottiglia finale. Dai prossimi progetti, l'aggiornamento documentale entrerà formalmente nella **Definition of Done** di ogni singola User Story.
+*   **Test di usabilità inseriti troppo tardi:** Aver aspettato lo Sprint 13 per i test SUS ha generato un po' di debito tecnico in extremis (font illeggibili sotto sforzo). Nel prossimo progetto si farà testing dalla Release 1.
+*   **Documentazione tecnica accumulata:** Aver rimandato la scrittura della documentazione come le API Swagger agli ultimi Sprint ha creato un fastidioso collo di bottiglia finale. Dai prossimi progetti, l'aggiornamento documentale entrerà formalmente nella **Definition of Done** di ogni singola User Story.
 
 ---
 *Firma del Product Owner per l'accettazione finale dei deliverable. Scrum Team ufficialmente rilasciato dalle allocazioni di progetto.*

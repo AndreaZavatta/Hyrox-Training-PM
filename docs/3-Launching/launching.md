@@ -10,18 +10,18 @@ L'esecuzione del lavoro è stata divisa in **Sprints di 2 settimane**.
 
 ---
 
-## 2. Gestione Risorse e Saturazione (Focus Factor)
+## 2. Gestione Risorse
 
 Il team (5 sviluppatori + SM + PO) è cross-funzionale e auto-organizzato. Per evitare il tipico errore di *over-allocation* (pianificare risorse al 100%), il progetto adotta un **Focus Factor del 75%**:
 
-* **4 ore/giorno** dedicate allo sviluppo effettivo (Sprint Backlog).
+* **6 ore/giorno** dedicate allo sviluppo effettivo (Sprint Backlog).
 * **2 ore/giorno** (25%) riservate all'overhead organizzativo e alle cerimonie (Daily, Review, Code Review).
 
 In caso di colli di bottiglia o problemi su task critici, il team applica lo **Swarming** (collaborazione simultanea di più sviluppatori sulla stessa storia critica).
 
 ---
 
-## 3. Adattamento dello Scope (The Agile Swap)
+## 3. Adattamento dello Scope
 
 Il cambiamento dei requisiti durante l'esecuzione è accolto come opportunità, ma gestito tramite regole ferree per proteggere la schedula di 8 mesi:
 
