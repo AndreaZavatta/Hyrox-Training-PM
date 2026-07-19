@@ -28,9 +28,8 @@ Strutturare e organizzare i requisiti raccolti in una gerarchia chiara e complet
     - Decomposizione in singole attività di alto livello
 
 4. **Approccio metodologico** (25 min)
-    - Selezione metodologia di gestione progetto
-    - Definizione ruoli e responsabilità del team
-    - Pianificazione iterazioni e milestone principali
+    - Selezione framework di gestione progetto.
+    - Descrizione di alto livello di ciascuna fase.
 
 ## Allegati prodotti
 
