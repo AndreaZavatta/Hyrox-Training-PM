@@ -30,8 +30,8 @@ Per evitare inutili documenti testuali lunghi decine di pagine, il progetto si a
 
 ## 3. Gestione Problemi ed Escalation (Issues Log)
 
-La risoluzione degli imprevisti segue una gerarchia rigida a tre livelli per non fare *micromanagement*:
+La risoluzione degli imprevisti segue il protocollo di escalation a 3 livelli definito nei Working Agreements:
 
-* **Livello 1 (Scrum Master & Team):** Risoluzione autonoma (es. *swarming* delle risorse). Ha risolto autonomamente il 75% delle issue del progetto.
-* **Livello 2 (Negoziazione con PO):** Overtime controllato (max 10%) o *Agile Swap* (sostituzione paritetica dello scope).
-* **Livello 3 (Board e Sponsor):** Richiesta di extra-budget o estensione deadline. **Mai attivato** grazie all'efficacia dei Livelli 1 e 2.
+* **Livello 1 - Team Autonomo:** Lo Scrum Master facilita la risoluzione con il team (es. *swarming* delle risorse, sessioni di consensus focalizzate). Ha risolto autonomamente il **75%** delle issue del progetto.
+* **Livello 2 - Decisione Direttiva:** I ruoli competenti decidono autonomamente: PO per *Agile Swap* (sostituzione paritetica dello scope); PM per overtime controllato (max 10%); Tech Lead per decisioni tecniche bloccanti.
+* **Livello 3 - Escalation Esecutiva:** Richiesta di extra-budget o estensione deadline al CEO (impatti > 15% budget o > 20% timeline). **Mai attivato** grazie all'efficacia dei Livelli 1 e 2.

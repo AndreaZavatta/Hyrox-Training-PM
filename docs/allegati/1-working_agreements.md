@@ -76,9 +76,10 @@ I conflitti tecnici e organizzativi devono essere gestiti tempestivamente per ev
 
 *   **Collaborativo (Consensus):** Utilizzato per decisioni di architettura software e design dei dati di sistema. Il team raggiunge il consenso attraverso la discussione aperta.
 *   **Consultivo:** Il decisore raccoglie input da tutti i membri coinvolti prima di decidere. Utilizzato per decisioni tecniche complesse (Tech Lead consulta il team) o di priorità (PO consulta stakeholder e team).
-*   **Direttivo (Escalation Protocol):** Se non si raggiunge il consenso entro 60 minuti, si attiva il protocollo di escalation in 2 livelli:
-    1.  *Livello 1:* Il ruolo competente decide autonomamente in base alla sfera di autorità: Tech Lead per conflitti tecnologici/architetturali; PO per conflitti di business/priorità; PM per vincoli finanziari/temporali.
-    2.  *Livello 2:* Conflitti che impattano > 15% del budget o > 20% della timeline sono escalati formalmente al CEO con raccomandazione del PM.
+*   **Direttivo (Escalation Protocol):** Se non si raggiunge il consenso entro 60 minuti, si attiva il protocollo di escalation a 3 livelli:
+    1.  *Livello 1 - Team Autonomo:* Lo Scrum Master facilita una sessione di consensus focalizzata (max 60 min). In caso di problemi operativi, il team applica swarming delle risorse.
+    2.  *Livello 2 - Decisione Direttiva:* Il ruolo competente decide autonomamente: Tech Lead per conflitti tecnologici/architetturali; PO per conflitti di business/priorità e Agile Swap; PM per vincoli finanziari/temporali e overtime controllato (max 10%).
+    3.  *Livello 3 - Escalation Esecutiva:* Conflitti che impattano > 15% del budget o > 20% della timeline sono escalati formalmente al CEO con raccomandazione del PM.
 
 ---
 
