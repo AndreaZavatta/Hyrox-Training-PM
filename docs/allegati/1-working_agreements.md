@@ -74,12 +74,11 @@ Al fine di minimizzare l'overhead di comunicazione, si adottano le seguenti rego
 
 I conflitti tecnici e organizzativi devono essere gestiti tempestivamente per evitare di rallentare lo Sprint. Il team adotta i seguenti stili decisionali:
 
-*   **Collaborativo (Consensus):** Utilizzato per decisioni di architettura software e design dei dati di sistema.
-*   **Consultivo:** Il Tech Lead prende le decisioni sull'infrastruttura ed il Product Owner sulle priorità di business, dopo aver ascoltato le proposte degli sviluppatori.
-*   **Direttivo (Escalation Protocol):** Se non si raggiunge il consenso entro 60 minuti, si attiva il protocollo di escalation in 3 livelli definito nella metodologia:
-    1.  *Livello 1:* Il PM facilita una sessione di consensus focalizzata (max 60 min).
-    2.  *Livello 2:* Il Tech Lead ha l'ultima parola sui conflitti tecnologici/architetturali; il PO sui conflitti di business/priorità; il PM sui vincoli finanziari/temporali.
-    3.  *Livello 3:* Conflitti che impattano > 15% del budget o > 20% della timeline sono revisionati formalmente dal CEO.
+*   **Collaborativo (Consensus):** Utilizzato per decisioni di architettura software e design dei dati di sistema. Il team raggiunge il consenso attraverso la discussione aperta.
+*   **Consultivo:** Il decisore raccoglie input da tutti i membri coinvolti prima di decidere. Utilizzato per decisioni tecniche complesse (Tech Lead consulta il team) o di priorità (PO consulta stakeholder e team).
+*   **Direttivo (Escalation Protocol):** Se non si raggiunge il consenso entro 60 minuti, si attiva il protocollo di escalation in 2 livelli:
+    1.  *Livello 1:* Il ruolo competente decide autonomamente in base alla sfera di autorità: Tech Lead per conflitti tecnologici/architetturali; PO per conflitti di business/priorità; PM per vincoli finanziari/temporali.
+    2.  *Livello 2:* Conflitti che impattano > 15% del budget o > 20% della timeline sono escalati formalmente al CEO con raccomandazione del PM.
 
 ---
 

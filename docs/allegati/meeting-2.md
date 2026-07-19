@@ -26,6 +26,7 @@ Strutturare e organizzare i requisiti raccolti in una gerarchia chiara e complet
 
 3. **Decomposizione macro aree** (1 h e 15 min)
     - Decomposizione in singole attività di alto livello
+    - Assegnazione ad ogni attività della CoS associata per evitare scope creep
 
 4. **Approccio metodologico** (25 min)
     - Selezione framework di gestione progetto.
