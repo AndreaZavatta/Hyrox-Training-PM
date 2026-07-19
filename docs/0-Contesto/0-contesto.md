@@ -5,7 +5,9 @@ nav_order: 1
 
 # Contesto
 
-Hybrid Solutions S.r.l. è una startup innovativa focalizzata sulla digitalizzazione e rivoluzione del mondo del fitness ibrido. L'azienda si pone l'obiettivo di colmare un vuoto tecnologico evidente in discipline ibride ad alta intensità come l'Hyrox, fornendo soluzioni dedicate ad atleti e preparatori atletici professionisti.
+Hybrid Solutions S.r.l. è una startup innovativa focalizzata sulla digitalizzazione e rivoluzione del mondo del fitness ibrido. L'azienda si pone l'obiettivo di colmare un vuoto tecnologico evidente in discipline ibride ad alta intensità, fornendo soluzioni dedicate ad atleti e preparatori atletici professionisti.
+
+L'Hyrox è una disciplina sportiva globale di fitness ibrido che unisce la corsa ad esercizi funzionali ad alta intensità. La competizione standard prevede 8 chilometri di corsa alternati a 8 diverse stazioni di allenamento funzionale (tra cui sled push/pull, burpees, rowing e wall balls). Essendo uno sport standardizzato e in forte crescita, richiede agli atleti un bilanciamento ottimale tra forza muscolare, resistenza cardiovascolare e precisione atletica.
 
 L'esigenza attuale dell'azienda è quella di migliorare radicalmente l'esperienza agonistica e gestionale, sviluppando un ecosistema software (mobile e web) che permetta agli atleti di concentrarsi unicamente sulla performance, e ai coach di semplificare la pianificazione e abbattere drasticamente i tempi di analisi post-workout.
 

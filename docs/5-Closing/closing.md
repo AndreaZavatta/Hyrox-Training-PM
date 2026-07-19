@@ -23,7 +23,7 @@ Alla fine dello Sprint 16, lo Scrum Team ha condotto la retrospettiva finale per
 ### 2.1 Cosa ha funzionato (Best Practices da replicare)
 *   **Lo Spike Tecnologico:** Aver investito l'intero Sprint 4 nell'hardware testing per ridurre l'incertezza (acquisizione dati sensori) è stata la decisione tecnica migliore del progetto.
 *   **Agile Swap & Scope Bank:** Aver gestito la Scope Bank con la regola della *Fixed Capacity* ha permesso di cambiare i requisiti in corso d'opera (es. anticipando la feature *Skip & Riordina*) salvaguardando tempi e costi.
-*   **Swarming al posto dell'Overtime:** Aver usato la collaborazione incrociata per risolvere i problemi (ISS-003, ISS-007) si è rivelato più rapido ed efficace del lavoro straordinario solitario.
+*   **Swarming al posto dell'Overtime:** Aver usato la collaborazione incrociata per risolvere i problemi si è rivelato più rapido ed efficace del lavoro straordinario solitario.
 
 ### 2.2 Cosa migliorare (Ancore per i prossimi progetti)
 *   **Test di usabilità inseriti troppo tardi:** Aver aspettato lo Sprint 13 per i test SUS ha generato un po' di debito tecnico in extremis (font illeggibili sotto sforzo). Nel prossimo progetto si farà testing dalla Release 1.

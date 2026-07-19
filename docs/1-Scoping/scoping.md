@@ -13,6 +13,6 @@ I meeting realizzati sono tre:
 - [CoS](https://miro.com/app/board/uXjVHFNQqIY=/): Conditions of Satisfaction
 - [Descrizione dell'approccio](../allegati/3-Descrizione_dellapproccio.md): Approccio metodologico
 - [POS](../allegati/1-pos.md): Project Overview Statement
-  * [Analisi Finanziaria](https://docs.google.com/spreadsheets/d/19XTu6Voxyw5odQnj9YQEwUTFoXNlemCNNYU7TFtA7fo/edit?gid=1792359099#gid=1792359099): Cashflow 12 mesi
+  * [Analisi Finanziaria](https://docs.google.com/spreadsheets/d/19XTu6Voxyw5odQnj9YQEwUTFoXNlemCNNYU7TFtA7fo/edit?gid=1792359099#gid=1792359099): Cashflow 12 mesi, Payback & ROI
   * [Analisi dei rischi](../allegati/5-analisi_rischi.md): Identificazione e mitigazione rischi
 - [RBS](https://miro.com/app/board/uXjVHGXupJA=/): Requirements Breakdown Structure
