@@ -4,7 +4,7 @@ La governance del progetto garantisce la qualità e l'allineamento con gli stake
 
 ## 1. Coinvolgimento degli Stakeholder
 
-Il successo del sistema dipende da una stretta collaborazione con gli utenti finali (Coach e Atleti). Il ciclo di feedback avviene esclusivamente alla fine di ogni Sprint durante la **Sprint Review**, dove viene mostrato software funzionante, o tramite sessioni di co-design asincrone su Miro.
+Il successo del sistema dipende da una stretta collaborazione con gli utenti finali (Coach e Atleti). Il ciclo di feedback avviene esclusivamente alla fine di ogni Sprint durante la **Sprint Review**, dove viene mostrato software funzionante.
 
 
 ---
@@ -15,7 +15,12 @@ La qualità del software e il controllo dello Scope sono garantiti a livello di 
 
 ### Definition of Ready (DoR) - *Criteri per iniziare lo sviluppo*
 Una User Story entra in uno Sprint solo se rispetta il formato **INVEST**:
-*   Indipendente, Negoziabile, di Valore per il business, Stimabile (in Story Points), Piccola (<= 8 SP) e Testabile.
+1. Indipendente
+2. Negoziabile
+3. di Valore per il business
+4. Stimabile (in Story Points)
+5. Piccola (<= 8 SP)
+6. Testabile.
 
 ### Definition of Done (DoD) - *Criteri per considerare il lavoro concluso*
 L'incremento viene mostrato agli stakeholder nella Review solo se rispetta questi standard tecnici (Engineering Practices):

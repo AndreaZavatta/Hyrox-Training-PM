@@ -1,6 +1,6 @@
 # Working Agreements
 
-Il presente documento definisce gli **Accordi di Lavoro (Working Agreements)** adottati dallo Scrum Team per la gestione del progetto "Hyrox Team Performance Optimizer". Questo accordo stabilisce le regole di comportamento, i protocolli di comunicazione, le cerimonie e gli standard tecnici per garantire l'efficienza del team, preservare la *Conceptual Integrity* del prodotto e facilitare il miglioramento continuo (*Kaizen*).
+Il presente documento definisce gli **Accordi di Lavoro (Working Agreements)** adottati dallo Scrum Team per la gestione del progetto "Hyrox Team Performance Optimizer". Questo accordo stabilisce le regole di comportamento, i protocolli di comunicazione, le cerimonie e gli standard tecnici.
 
 ---
 
