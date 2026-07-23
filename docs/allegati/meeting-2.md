@@ -30,7 +30,6 @@ Strutturare e organizzare i requisiti raccolti in una gerarchia chiara e complet
 
 4. **Approccio metodologico** (25 min)
     - Selezione framework di gestione progetto.
-    - Descrizione di alto livello di ciascuna fase.
 
 ## Allegati prodotti
 
