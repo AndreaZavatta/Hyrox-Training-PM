@@ -28,7 +28,7 @@ Per evitare inutili documenti testuali lunghi decine di pagine, il progetto si a
 
 ---
 
-## 3. Gestione Problemi ed Escalation (Issues Log)
+## 3. Gestione Problemi ed Escalation
 
 La risoluzione degli imprevisti segue il protocollo di escalation a 3 livelli definito nei Working Agreements:
 
