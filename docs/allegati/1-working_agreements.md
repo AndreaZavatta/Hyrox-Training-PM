@@ -52,7 +52,7 @@ Il progetto si sviluppa in cicli iterativi (**Sprint**) della durata fissa di **
 *   **Partecipanti:** Dev Team, TL, SM, PO.
 *   **Obiettivo:** Analizzare come ha funzionato il team durante lo Sprint in termini di persone, relazioni, processi e strumenti, identificando azioni concrete di miglioramento (*Kaizen*).
 *   **Regole Operative:**
-    1.  **Ambiente Protetto:** La discussione deve basarsi sul rispetto reciproco e sull'onestà, senza cercare colpevoli ma analizzando le cause alla radice (approccio *5 Whys*).
+    1.  **Onestà e Rispetto:** La discussione deve basarsi sul rispetto reciproco e sull'onestà, senza cercare colpevoli ma analizzando le cause alla radice (approccio *5 Whys*).
     2.  **Output Azionabile:** La retrospective si conclude con la selezione di massimo **2-3 azioni concrete di miglioramento** da inserire nel backlog dello Sprint successivo, assegnandovi un responsabile.
 
 ---

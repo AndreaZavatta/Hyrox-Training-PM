@@ -42,7 +42,6 @@ Formalizzare il POS del progetto, includendo:
 
 5. **Analisi finanziaria** (30 min)
     - Stima costi sviluppo
-    - Proiezioni revenue
     - ROI atteso
 
 
