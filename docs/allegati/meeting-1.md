@@ -37,6 +37,9 @@ L'obiettivo del meeting è stato definire chiaramente i desideri, i bisogni e i 
     - Integrazione tra esigenze
     - Prioritizzazione iniziale
 
+## Sintesi dello Svolgimento
+Durante il meeting, gli atleti hanno espresso la difficoltà di interagire manualmente con i dispositivi wearable sotto sforzo estremo, mentre la coach Sara Bianchi ha evidenziato l'onere di dover ricostruire e analizzare manualmente i dati post-allenamento (circa 15 minuti per atleta). Il meeting si è concluso con la definizione e validazione condivisa delle Conditions of Satisfaction (CoS).
+
 ## Allegati prodotti
 
 - [CoS](https://miro.com/app/board/uXjVHFNQqIY=/)

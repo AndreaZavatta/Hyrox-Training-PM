@@ -45,6 +45,9 @@ Formalizzare il POS del progetto, includendo:
     - ROI atteso
 
 
+## Sintesi dello Svolgimento
+Durante il meeting è stato formalizzato il POS. Il team ha discusso i criteri di successo, definendo una soglia di usabilità (SUS >= 80/100) e di accuratezza dell'algoritmo (>= 90%). L'analisi dei rischi si è concentrata sull'incertezza dell'algoritmo accelerometrico sotto sforzo intenso, deliberando la creazione di una Proof of Concept iniziale mitigata da una riserva di contingenza di €24.700 ricavata dall'analisi finanziaria (ROI stimato positivo ed entrate previste a partire dal lancio post-fiera a Las Vegas). Il POS è stato approvato per la sottomissione al CEO.
+
 ## Allegati prodotti
 
 - [POS](1-pos.md)

@@ -31,6 +31,9 @@ Strutturare e organizzare i requisiti raccolti in una gerarchia chiara e complet
 4. **Approccio metodologico** (25 min)
     - Selezione framework di gestione progetto.
 
+## Sintesi dello Svolgimento
+Il team ha ripercorso le CoS ed ha organizzato i requisiti in una struttura gerarchica (RBS) a tre livelli (funzionalità smartwatch, sincronizzazione, dashboard coach). Il Tech Lead Giovanni Manca ha sollevato dubbi sulla fattibilità del riconoscimento automatico su hardware di vecchie generazioni; si è concordato di limitare la compatibilità a dispositivi Apple Watch Series 6 o superiori. Infine, vista la scadenza rigida di 8 mesi per l'evento di Las Vegas e l'incertezza legata all'accuratezza dell'algoritmo di machine learning, il Project Manager Andrea Zavatta ha proposto di adottare l'approccio ibrido Water-Scrum-Fall.
+
 ## Allegati prodotti
 
 - [RBS](https://miro.com/app/board/uXjVHGXupJA=/)
