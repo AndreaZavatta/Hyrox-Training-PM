@@ -21,7 +21,7 @@ Il controllo avviene tramite cicli di feedback rapidi e pre-strutturati:
 Per evitare inutili documenti testuali lunghi decine di pagine, il progetto si affida a tre strumenti agili e visivi aggiornati dinamicamente su Jira:
 
 1. **Stoplight Report (Semaforo):** Un indicatore visivo (Verde/Giallo/Rosso) condiviso con il PO a fine Sprint, che fotografa istantaneamente la salute di Scope, Schedula, Budget e Qualità.
-2. **Velocity & Burndown Chart:** Tracciano il consumo settimanale degli Story Point. La velocity si è mantenuta stabile a una media di 10-13 SP per Sprint.
+2. **Velocity & Burndown Chart:** Tracciano il consumo degli Story Point per Sprint. La velocity si è mantenuta stabile a una media di 10-13 SP per Sprint.
 3. **Earned Value Management (EVM) Semplificato:** Calcolato a livello di Release per validare la salute finanziaria per gli stakeholder tradizionali.
     * **SPI (Schedule Performance Index):** Media progetto **~1.00**. La schedula è stata perfettamente rispettata. L'unico calo (0.98 nello Sprint 5) è stato recuperato immediatamente nello Sprint 6.
     * **CPI (Cost Performance Index):** Media progetto **~0.99**. Un leggerissimo scostamento dovuto a 12h di overtime per l'algoritmo di riconoscimento, ampiamente coperto dalla Contingency Reserve.
