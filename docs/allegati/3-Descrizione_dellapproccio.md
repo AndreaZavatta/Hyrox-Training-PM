@@ -13,3 +13,15 @@ Il progetto adotterà il pattern **Water-Scrum-Fall**, un modello ibrido che com
 * **Fall (Waterfall) - Chiusura Controllata:** La fase di **Closing** ritornerà a un approccio strutturato per la validazione formale dei Success Criteria (es. SUS e precisione dell'algoritmo), il post-mortem, il sign-off esecutivo e il passaggio formale del software pronto al marketing.
 
 Questo modello consente di **bilanciare prevedibilità e flessibilità**, offrendo al CEO il controllo assoluto sulla data di rilascio strategica (8 mesi) e al Dev Team l'autonomia operativa necessaria per mitigare i rischi tecnici e massimizzare la qualità del codice.
+
+---
+
+## **Le 5 Fasi del PMLC (Project Management Life Cycle)**
+
+Di seguito viene sintetizzato come ciascuna delle 5 fasi del ciclo di vita del progetto sia declinata all'interno dell'approccio ibrido:
+
+* **Scoping:** Definizione del perimetro di progetto e allineamento sulle Conditions of Satisfaction (CoS) tramite la redazione del Project Overview Statement (POS).
+* **Planning:** Definizione del Product Backlog prioritizzato in Jira, pianificazione della Release Roadmap (16 Sprint in 8 mesi) e sottoscrizione dei Working Agreements.
+* **Launching:** Avvio dello sviluppo operativo in Scrum con un Focus Factor del 75% per prevenire l'over-allocation e gestione dei cambi di perimetro tramite la procedura di Agile Swap.
+* **Monitoring & Controlling:** Monitoraggio dell'avanzamento tramite Velocity e Burndown Chart e controllo finanziario e temporale basato su indici EVM (SPI e CPI) riparametrati su Story Points.
+* **Closing:** Conduzione del collaudo finale rispetto ai Success Criteria, bilancio finanziario finale e stesura delle Lessons Learned.
