@@ -28,6 +28,7 @@ Il progetto si sviluppa in cicli iterativi (**Sprint**) della durata fissa di **
     1.  **Capacity Check:** Prima di selezionare le storie, il team calcola la capacità reale dello Sprint (giorni di presenza effettivi degli sviluppatori, escludendo ferie o impegni aziendali esterni).
     2.  **Velocity Focus:** Il team si basa sulla velocity degli Sprint precedenti per determinare quanti Story Points impegnare, senza superare la media mobile delle ultime 3 iterazioni.
     3.  **Task Breakdown:** Le User Story selezionate vengono scomposte in task tecnici di durata non superiore a 1 giorno-uomo per facilitarne il tracciamento giornaliero.
+    4.  **Story Point Estimation (Planning Poker):** La stima dello sforzo e della complessità delle User Story viene eseguita in modo collaborativo dal Dev Team utilizzando la tecnica del **Planning Poker** basata sulla sequenza di Fibonacci. Storie con una stima superiore a 8 Story Points vengono considerate non pronte per lo sviluppo (violando la DoR) e devono essere suddivise in storie più piccole.
 
 ### 2.2 Daily Standup (Durata: 15 minuti rigidi - Giornaliero, ore 09:00)
 *   **Partecipanti:** Dev Team, TL, SM. Il PO è invitato ma non obbligatorio.
