@@ -5,12 +5,12 @@ Durante questa fase il team definisce le modalità operative, la governance del 
 I meeting realizzati sono tre:
 
 1. **Meeting IV**: Definizione dei Working Agreements del team
-2. **Meeting V**: Definizione della Governance e della strategia di comunicazione
+2. **Meeting V**: Definizione della Governance del progetto
 3. **Meeting VI**: Traduzione della RBS in Product Backlog e definizione della Release Roadmap
 
 ## Allegati finali prodotti
 
 - [Working Agreements](../allegati/1-working_agreements.md): Regole operative e accordi del team
-- [Governance & Communication](../allegati/4-governance_and_communication.md): Struttura decisionale e piano di comunicazione
+- [Governance](../allegati/4-governance.md): Struttura decisionale e standard di qualità
 - [Product Backlog](https://hyrox-training.atlassian.net/jira/software/projects/HTPO/boards/1/backlog): Backlog prioritizzato delle user stories
 - [Release Roadmap](../allegati/3-release_roadmap.md): Pianificazione delle release

@@ -1,4 +1,4 @@
-# Governance & Communication
+# Governance
 
 La governance del progetto garantisce la qualità e l'allineamento con gli stakeholder, evitando la burocrazia inutile.
 

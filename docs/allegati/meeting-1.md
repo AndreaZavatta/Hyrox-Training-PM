@@ -4,7 +4,7 @@ Il primo meeting è stato svolto in data **08/07/2026**. Ogni partecipante ha pr
 
 ## Scopo del meeting
 
-L'obiettivo del meeting è stato definire chiaramente i desideri, i bisogni e i requisiti degli stakeholder (atleti professionisti e coach) per il progetto di digital training platform Hyrox.
+L'obiettivo del meeting è stato definire chiaramente i desideri, i bisogni e i requisiti degli stakeholder (atleti professionisti e coach) per il progetto.
 
 ## Partecipanti
 
