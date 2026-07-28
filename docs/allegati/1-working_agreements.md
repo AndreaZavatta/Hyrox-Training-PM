@@ -80,15 +80,3 @@ protocollo di escalation a 3 livelli:
     1.  *Livello 1 - Team Autonomo:* Lo Scrum Master facilita una sessione di consensus focalizzata (max 60 min). In caso di problemi operativi, il team applica swarming delle risorse.
     2.  *Livello 2 - Decisione Direttiva:* Il ruolo competente decide autonomamente: Tech Lead per conflitti tecnologici/architetturali; PO per conflitti di business/priorità e Agile Swap; PM per vincoli finanziari/temporali e overtime controllato (max 10%).
     3.  *Livello 3 - Escalation Esecutiva:* Conflitti che impattano > 15% del budget o > 20% della timeline sono escalati formalmente al CEO con raccomandazione del PM.
-
----
-
-*Accordo approvato e sottoscritto dallo Scrum Team in data 20 gennaio 2026:*
-
-*   **Chiara Bertocchi** (Product Owner)
-*   **Andrea Zavatta** (Scrum Master / PM)
-*   **Giovanni Manca** (Technical Leader & ML Specialist)
-*   **Luca Pasini** (Senior Wearable Developer)
-*   **Francesca Gaeta** (Senior Frontend Developer)
-*   **Marco Antolini** (Backend & Database Developer)
-*   **Giulia Fabbri** (Mobile Integration Specialist / QA)
